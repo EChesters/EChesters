@@ -1,16 +1,44 @@
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* Styles */
+body {
+  background-color: #2A363B;
+  font-family: 'Oxygen', sans-serif;
 }
-/* Smartphones (landscape) ----------- */
-@media only screen and (min-width: 321px) {
-  /* Styles */
+
+.nav-bar {
+  background-color: #99B898;
+  width: 100%;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
 }
-/* Smartphones (portrait) ----------- */
-@media only screen and (max-width: 320px) {
-  /* Styles */
+.nav-bar a.home-logo {
+  text-align: left;
+  display: inline-block;
+  float: left;
+  vertical-align: middle;
+  text-decoration: none;
+  padding: 10px;
+  color: #111111;
 }
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  /* Styles */
+.nav-bar a.home-logo:link, .nav-bar a.home-logo:visited {
+  text-decoration: none;
+}
+.nav-bar ul {
+  display: block;
+  text-align: right;
+}
+.nav-bar ul li {
+  display: inline-block;
+}
+.nav-bar ul li a {
+  display: block;
+  padding: 10px;
+  color: #2A363B;
+}
+.nav-bar ul li a:hover {
+  background-color: #E84A5F;
+  -moz-box-shadow: inset 0 0 3px #676767;
+  -webkit-box-shadow: inset 0 0 3px #676767;
+  box-shadow: inset 0 0 3px #676767;
+}
+.nav-bar ul li a:link, .nav-bar ul li a:visited {
+  text-decoration: none;
 }

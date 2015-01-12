@@ -1,19 +1,55 @@
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-/* Styles */
+$dark-grey: #2A363B;
+$shadow-grey: #676767;
+
+body {
+	background-color: $dark-grey;
+	// color: #E84A5F;
+	font-family: 'Oxygen', sans-serif;
 }
 
-/* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) {
-/* Styles */
-}
+.nav-bar {
+	background-color: #99B898;
+	width: 100%;
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
 
-/* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
-/* Styles */
-}
+	a.home-logo {
+		text-align: left;
+		display: inline-block;
+		float: left;
+		vertical-align: middle;
+		text-decoration: none;
+		padding: 10px;
+		color: #111111;
 
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-/* Styles */
+		&:link, &:visited {
+			text-decoration: none;
+		}
+	}
+
+	ul {
+		display: block;
+		text-align: right;
+
+		li {
+			display: inline-block;
+
+			a {
+				display: block;
+				padding: 10px;
+				color: $dark-grey;
+
+				&:hover {
+					background-color: #E84A5F;
+					-moz-box-shadow:    inset 0 0 3px $shadow-grey;
+	   				-webkit-box-shadow: inset 0 0 3px $shadow-grey;
+	   				box-shadow:         inset 0 0 3px $shadow-grey;
+				}
+
+				&:link, &:visited {
+					text-decoration: none;
+				}
+			}
+		}
+	}
 }
