@@ -2,7 +2,7 @@
 *.sassc
 *.scssc
 .sass-cache/
-compass/.sass-cache/
+/public/compass/.sass-cache/
 capybara-*.html
 .rspec
 .rvmrc

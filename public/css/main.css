@@ -9,8 +9,7 @@ body {
   font-family: 'Indie Flower', cursive;
   font-size: 20px;
 }
-.nav-bar a.home-logo {
-  text-align: left;
+.nav-bar .home-logo {
   display: inline-block;
   float: left;
   vertical-align: middle;
@@ -18,7 +17,7 @@ body {
   padding: 10px;
   color: #111111;
 }
-.nav-bar a.home-logo:link, .nav-bar a.home-logo:visited {
+.nav-bar .home-logo:link, .nav-bar .home-logo:visited {
   text-decoration: none;
 }
 .nav-bar ul {
