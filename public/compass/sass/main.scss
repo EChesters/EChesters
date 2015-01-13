@@ -1,16 +1,20 @@
-$dark-grey: #2A363B;
+$background: #2A363B;
+// $background: #eee;
 $shadow-grey: #676767;
+$ribbon-colour: #E84A5F;
+$nav-bar: #99B898;
+
+$indie-cursive: 'Indie Flower', cursive;
 
 body {
-	background-color: $dark-grey;
-	// color: #E84A5F;
-	font-family: 'Oxygen', sans-serif;
+	background-color: $background;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .nav-bar {
-	background-color: #99B898;
+	background-color: $nav-bar;
 	width: 100%;
-	font-family: 'Indie Flower', cursive;
+	font-family: $indie-cursive;
 	font-size: 20px;
 
 	.home-logo {
@@ -18,8 +22,8 @@ body {
 		float: left;
 		vertical-align: middle;
 		text-decoration: none;
-		padding: 10px;
-		color: #111111;
+		padding: 10px 10px 0 10px;
+		color: $background;
 
 		&:link, &:visited {
 			text-decoration: none;
@@ -36,7 +40,7 @@ body {
 			a {
 				display: block;
 				padding: 10px;
-				color: $dark-grey;
+				color: $background;
 
 				&:hover {
 					background-color: #E84A5F;
@@ -51,4 +55,36 @@ body {
 			}
 		}
 	}
+}
+
+.rectangle {
+	background-color: $ribbon-colour;
+	border-radius: 5px;
+	width: 90%;
+	min-height: 60px;
+	margin: 10px auto;
+	text-align: center;
+	vertical-align: middle;
+	padding: 10px;
+
+	.sewing {
+		border: dashed 1px #952B3A;
+		width: 99%;
+		border-radius: 5px;
+		margin: 0 auto;
+		min-height: 58px;
+	}
+}
+
+.heading {
+	margin: 10px 5px;
+	font-family: $indie-cursive;
+	font-size: 37px;
+	vertical-align: middle;
+	font-variant: small-caps;
+}
+
+/* TEMP for testing divs */
+.border {
+	border: solid 1px black;
 }
