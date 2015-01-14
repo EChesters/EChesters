@@ -9,8 +9,9 @@ html locale="en"
   	link href="css/main.css" rel="stylesheet" type="text/css"
 
   body
-    == slim :'components/_nav-bar'
-  		
-    .rectangle
-      .sewing
-        h1.heading Welcome to my blog!
+    #navigation
+      == slim :'components/_nav-bar'
+  	
+    #header
+      ==slim :'components/_header'
+
