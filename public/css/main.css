@@ -1,6 +1,5 @@
 body {
   background-color: #2A363B;
-  font-family: "Open Sans", sans-serif;
 }
 
 .nav-bar {
@@ -41,30 +40,27 @@ body {
   text-decoration: none;
 }
 
-.rectangle {
-  background-color: #E84A5F;
-  border-radius: 5px;
-  width: 90%;
-  min-height: 60px;
-  margin: 10px auto;
-  text-align: center;
-  vertical-align: middle;
-  padding: 10px;
-}
-.rectangle .sewing {
-  border: dashed 1px #952B3A;
-  width: 99%;
-  border-radius: 5px;
-  margin: 0 auto;
-  min-height: 58px;
-}
-
 .heading {
+  text-align: center;
+  color: #eee;
   margin: 10px 5px;
   font-family: "Indie Flower", cursive;
   font-size: 37px;
-  vertical-align: middle;
   font-variant: small-caps;
+}
+
+.section {
+  border: solid 1px black;
+  min-height: 200px;
+  text-align: center;
+  background-color: #E84A5F;
+}
+.section a {
+  color: #eee;
+  text-decoration: none;
+}
+.section a:hover, .section a:visited {
+  text-decoration: none;
 }
 
 #postdate {

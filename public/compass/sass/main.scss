@@ -1,15 +1,15 @@
-$background: #2A363B;
+$bg-top: #E84A5F;
+$bg-bottom: #2A363B;
 // $background: #eee;
 $shadow-grey: #676767;
-$ribbon-colour: #E84A5F;
+// $ribbon-colour: #;
 $nav-bar: #99B898;
 
 $indie-cursive: 'Indie Flower', cursive;
 $open-sans: 'Open Sans', sans-serif;
 
 body { 
-	background-color: $background;
-	font-family: $open-sans;
+	background-color: $bg-bottom;
 }
 
 .nav-bar {
@@ -23,7 +23,7 @@ body {
 		vertical-align: middle;
 		text-decoration: none;
 		padding: 10px 10px 0 10px;
-		color: $background;
+		color: $bg-bottom;
 
 		&:link, &:visited {
 			text-decoration: none;
@@ -40,7 +40,7 @@ body {
 			a {
 				display: block;
 				padding: 10px;
-				color: $background;
+				color: $bg-bottom;
 
 				&:hover {
 					background-color: #E84A5F;
@@ -57,31 +57,29 @@ body {
 	}
 }
 
-.rectangle {
-	background-color: $ribbon-colour;
-	border-radius: 5px;
-	width: 90%;
-	min-height: 60px;
-	margin: 10px auto;
-	text-align: center;
-	vertical-align: middle;
-	padding: 10px;
-
-	.sewing {
-		border: dashed 1px #952B3A;
-		width: 99%;
-		border-radius: 5px;
-		margin: 0 auto;
-		min-height: 58px;
-	}
-}
-
 .heading {
+	text-align: center;
+	color: #eee;
 	margin: 10px 5px;
 	font-family: $indie-cursive;
 	font-size: 37px;
-	vertical-align: middle;
 	font-variant: small-caps;
+}
+
+.section {
+	border: solid 1px black;
+	min-height: 200px;
+	text-align: center;
+	background-color: $bg-top;
+
+	a {
+		color: #eee;
+		text-decoration: none;
+
+		&:hover, &:visited {
+			text-decoration: none;
+		}
+	}
 }
 
 #postdate {
@@ -115,8 +113,7 @@ body {
 	}
 
 	*:first-child+html #postdate .year { right: -28px; } /* IE7 positions element differently to IE6 & 8 */
-	.postdate span:nth-child(3)
-	{
+	.postdate span:nth-child(3) {
 		right: -16px;
 		bottom: 24px;
 		writing-mode: lr-tb; 

@@ -4,7 +4,7 @@ require 'slim'
 
 class App < Sinatra::Application
 	get '/' do
-		slim :'pages/index'
+		slim :'pages/index', layout: false;
 	end
 
 	get '/blog' do
