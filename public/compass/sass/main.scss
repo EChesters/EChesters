@@ -70,7 +70,12 @@ body {
 	min-height: 200px;
 	text-align: center;
 	background-color: $bg-top;
-	margin: 15px;
+
+	/* iPads (portrait and landscape) ----------- */
+	@media only screen 
+				and (min-device-width : 768px) {
+		margin: 15px;	
+	}
 
 	a {
 		color: #eee;
@@ -80,6 +85,34 @@ body {
 			text-decoration: none;
 		}
 	}
+}
+
+p {
+	color: #eee;
+	font-family: $open-sans;
+	line-height: 1.2em;
+    margin-left: 10%;
+}
+
+.divider {
+    color:#ccc;
+    width:80%;
+    margin:20px auto;
+    overflow:hidden;
+    line-height:1.2em;
+}
+
+.divider:before, .divider:after {
+    content:"";
+    vertical-align:top;
+    display:inline-block;
+    width:54%;
+    height:0.65em;
+    border-bottom:1px solid #ccc;
+    margin:0 2% 0 -55%;
+}
+.divider:after {
+    margin:0 -55% 0 2%;
 }
 
 #postdate {
