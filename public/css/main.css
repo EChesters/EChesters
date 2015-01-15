@@ -1,6 +1,6 @@
 body {
   background-color: #2A363B;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .nav-bar {
@@ -65,6 +65,43 @@ body {
   font-size: 37px;
   vertical-align: middle;
   font-variant: small-caps;
+}
+
+#postdate {
+  float: left;
+  color: #DDBAAF;
+  position: relative;
+  text-align: center;
+  /* IE7 positions element differently to IE6 & 8 */
+}
+#postdate .month {
+  text-align: center;
+  font-size: 25px;
+  padding: 2px 5px;
+  text-transform: uppercase;
+}
+#postdate .day {
+  text-align: center;
+}
+#postdate .year {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  position: absolute;
+  right: -33px;
+  bottom: 0;
+  font-size: 15px;
+  opacity: 0.4;
+}
+#postdate *:first-child + html #postdate .year {
+  right: -28px;
+}
+#postdate .postdate span:nth-child(3) {
+  right: -16px;
+  bottom: 24px;
+  writing-mode: lr-tb;
 }
 
 /* TEMP for testing divs */
