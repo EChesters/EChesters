@@ -70,11 +70,12 @@ body {
 	min-height: 200px;
 	text-align: center;
 	background-color: $bg-top;
+	margin: 15px;
 
-	/* iPads (portrait and landscape) ----------- */
 	@media only screen 
-				and (min-device-width : 768px) {
-		margin: 15px;	
+				// and (min-device-width : 320px) 
+				and (max-width : 499px) {
+		margin: 0;	
 	}
 
 	a {

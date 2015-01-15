@@ -54,11 +54,11 @@ body {
   min-height: 200px;
   text-align: center;
   background-color: #E84A5F;
-  /* iPads (portrait and landscape) ----------- */
+  margin: 15px;
 }
-@media only screen and (min-device-width: 768px) {
+@media only screen and (max-width: 499px) {
   .section {
-    margin: 15px;
+    margin: 0;
   }
 }
 .section a {
