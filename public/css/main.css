@@ -54,6 +54,7 @@ body {
   min-height: 200px;
   text-align: center;
   background-color: #E84A5F;
+  margin: 15px;
 }
 .section a {
   color: #eee;
