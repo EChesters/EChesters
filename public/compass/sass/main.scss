@@ -5,7 +5,6 @@ $shadow-grey: #676767;
 // $ribbon-colour: #;
 $nav-bar: #99B898;
 
-$indie-cursive: 'Indie Flower', cursive;
 $open-sans: 'Open Sans', sans-serif;
 
 body { 
@@ -14,7 +13,7 @@ body {
 
 .nav-bar {
 	background-color: $nav-bar;
-	font-family: $indie-cursive;
+	font-family: $open-sans;
 	font-size: 20px;
 
 	.home-logo {
@@ -60,8 +59,8 @@ body {
 .heading {
 	text-align: center;
 	color: #eee;
-	margin: 10px 5px;
-	font-family: $indie-cursive;
+	margin: 50px 0;
+	font-family: $open-sans;
 	font-size: 37px;
 	font-variant: small-caps;
 }
@@ -118,6 +117,15 @@ body {
 		bottom: 24px;
 		writing-mode: lr-tb; 
 	}
+}
+
+h2 {
+	font-family: $open-sans;
+	font-weight: 100;
+	color: #eee;
+	margin-top: 30px;
+	font-size: 20px;
+	text-transform: uppercase;
 }
 
 /* TEMP for testing divs */

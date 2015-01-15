@@ -4,7 +4,7 @@ body {
 
 .nav-bar {
   background-color: #99B898;
-  font-family: "Indie Flower", cursive;
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
 }
 .nav-bar .home-logo {
@@ -43,8 +43,8 @@ body {
 .heading {
   text-align: center;
   color: #eee;
-  margin: 10px 5px;
-  font-family: "Indie Flower", cursive;
+  margin: 50px 0;
+  font-family: "Open Sans", sans-serif;
   font-size: 37px;
   font-variant: small-caps;
 }
@@ -98,6 +98,15 @@ body {
   right: -16px;
   bottom: 24px;
   writing-mode: lr-tb;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  color: #eee;
+  margin-top: 30px;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 /* TEMP for testing divs */
