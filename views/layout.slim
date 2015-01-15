@@ -1,17 +1,16 @@
 doctype html
 html locale="en"
   head
-  	title Elizabeth Chesters
-  	link href="css/reset.css" rel="stylesheet" type="text/css"
+    title Elizabeth Chesters
+    link href="css/reset.css" rel="stylesheet" type="text/css"
     link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"
     link href='http://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans:400,800' rel='stylesheet' type='text/css'
     link href="css/transitions.css" rel="stylesheet" type="text/css"
     link href="css/grid.css" rel="stylesheet" type="text/css"
-  	link href="css/main.css" rel="stylesheet" type="text/css"
+    link href="css/main.css" rel="stylesheet" type="text/css"
 
-  body  	
-    #header
-      == slim :'components/_header'
+  body
+    #navigation
+        == slim :'components/_nav-bar'
 
-    #posts
-      == slim :'components/_date-sprite'
+    == yield
