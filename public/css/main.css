@@ -1,161 +1,60 @@
-body {
-  background-color: #eeeeee;
-  color: #111;
-}
+/*
+Error: File to import not found or unreadable: susy.
+       Load paths:
+         Compass::SpriteImporter
+         /Users/echester/Programming/Ruby/echesters/public/compass/sass
+         /Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets
+         /Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/compass-griddle-0.3.0/stylesheets
+        on line 1 of /Users/echester/Programming/Ruby/echesters/public/compass/sass/main.scss
 
-.nav-bar {
-  background-color: #99B898;
-  font-family: "Open Sans", sans-serif;
-  font-size: 20px;
-}
-.nav-bar .home-logo {
-  display: inline-block;
-  float: left;
-  vertical-align: middle;
-  text-decoration: none;
-  padding: 10px 10px 0 10px;
-  color: #eeeeee;
-}
-.nav-bar .home-logo:link, .nav-bar .home-logo:visited {
-  text-decoration: none;
-}
-.nav-bar ul {
-  display: block;
-  text-align: right;
-}
-.nav-bar ul li {
-  display: inline-block;
-}
-.nav-bar ul li a {
-  display: block;
-  padding: 10px;
-  color: #eeeeee;
-}
-.nav-bar ul li a:hover {
-  background-color: #E84A5F;
-  -moz-box-shadow: inset 0 0 3px #676767;
-  -webkit-box-shadow: inset 0 0 3px #676767;
-  box-shadow: inset 0 0 3px #676767;
-}
-.nav-bar ul li a:link, .nav-bar ul li a:visited {
-  text-decoration: none;
-}
+1: @import "susy";
+2: 
+3: $background: #eeeeee;
+4: $shadow-grey: #676767;
+5: $nav-bar: #99B898;
+6: $text-colour: #111;
 
-.heading {
-  text-align: center;
-  font-family: "Open Sans", sans-serif;
-  font-size: 37px;
-  font-variant: small-caps;
-}
-@media only screen and (max-width: 499px) {
-  .heading {
-    font-size: 25px;
-  }
-}
-
-.section {
-  border: solid 1px black;
-  height: 200px;
-  text-align: center;
-  margin: 15px;
-  background-color: #97CCFF;
-}
-@media only screen and (max-width: 499px) {
-  .section {
-    margin: 5px;
-    max-height: 150px;
-  }
-}
-.section a {
-  color: #111;
-  text-decoration: none;
-}
-.section a:hover, .section a:visited {
-  text-decoration: none;
-}
-
-#about p {
-  font-family: "Open Sans", sans-serif;
-  line-height: 1.2em;
-  margin-left: 10%;
-}
-@media only screen and (max-width: 499px) {
-  #about p {
-    margin-left: 5%;
-  }
-}
-
-.divider {
-  width: 80%;
-  margin: 20px auto;
-  overflow: hidden;
-  line-height: 1.2em;
-}
-@media only screen and (max-width: 499px) {
-  .divider {
-    width: 90%;
-    margin: 30px auto;
-  }
-}
-.divider:before, .divider:after {
-  content: "";
-  vertical-align: top;
-  display: inline-block;
-  width: 54%;
-  height: 0.65em;
-  border-bottom: 1px solid #ccc;
-  margin: 0 2% 0 -55%;
-}
-.divider:after {
-  margin: 0 -55% 0 2%;
-}
-
-#postdate {
-  float: left;
-  color: #DDBAAF;
-  position: relative;
-  text-align: center;
-  /* IE7 positions element differently to IE6 & 8 */
-}
-#postdate .month {
-  text-align: center;
-  font-size: 25px;
-  padding: 2px 5px;
-  text-transform: uppercase;
-}
-#postdate .day {
-  text-align: center;
-}
-#postdate .year {
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
-  position: absolute;
-  right: -33px;
-  bottom: 0;
-  font-size: 15px;
-  opacity: 0.4;
-}
-#postdate *:first-child + html #postdate .year {
-  right: -28px;
-}
-#postdate .postdate span:nth-child(3) {
-  right: -16px;
-  bottom: 24px;
-  writing-mode: lr-tb;
-}
-
-h2 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 100;
-  margin-top: 30px;
-  font-size: 20px;
-  text-transform: uppercase;
-}
-
-/* TEMP for testing divs */
-.border {
-  border: solid 1px black;
-}
+Backtrace:
+/Users/echester/Programming/Ruby/echesters/public/compass/sass/main.scss:1
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/tree/import_node.rb:66:in `rescue in import'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/tree/import_node.rb:45:in `import'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:301:in `visit_import'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/tree/root_node.rb:20:in `render'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/engine.rb:268:in `render'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/listen-2.8.4/lib/listen/listener.rb:282:in `call'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/listen-2.8.4/lib/listen/listener.rb:282:in `_process_changes'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/listen-2.8.4/lib/listen/listener.rb:246:in `block in _wait_for_changes'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/listen-2.8.4/lib/listen/listener.rb:229:in `loop'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/listen-2.8.4/lib/listen/listener.rb:229:in `_wait_for_changes'
+/Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/listen-2.8.4/lib/listen/listener.rb:318:in `block in _start_wait_thread'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: susy.\A        Load paths:\A          Compass::SpriteImporter\A          /Users/echester/Programming/Ruby/echesters/public/compass/sass\A          /Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets\A          /Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/compass-griddle-0.3.0/stylesheets\A         on line 1 of /Users/echester/Programming/Ruby/echesters/public/compass/sass/main.scss\A \A 1: @import \"susy\";\A 2: \A 3: $background: #eeeeee;\A 4: $shadow-grey: #676767;\A 5: $nav-bar: #99B898;\A 6: $text-colour: #111;"; }

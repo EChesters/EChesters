@@ -7,16 +7,13 @@ GEM
       chunky_png (~> 1.2)
       fssm (>= 0.2.7)
       sass (~> 3.1)
-    compass-griddle (0.3.0)
-      compass (>= 0.11)
     font-awesome-sass (4.2.2)
       sass (~> 3.2)
     fssm (0.2.10)
-    griddle (0.1.3)
-    rack (1.5.2)
+    rack (1.6.0)
     rack-protection (1.5.3)
       rack
-    rack-test (0.6.2)
+    rack-test (0.6.3)
       rack (>= 1.0)
     ripl (0.7.1)
       bond (~> 0.5.1)
@@ -33,10 +30,13 @@ GEM
       rack (~> 1.4)
       rack-protection (~> 1.4)
       tilt (~> 1.3, >= 1.3.4)
-    slim (3.0.0)
+    slim (3.0.1)
       temple (~> 0.7.3)
       tilt (>= 1.3.3, < 2.1)
-    temple (0.7.3)
+    susy (1.0.9)
+      compass (>= 0.12.2)
+      sass (>= 3.2.0)
+    temple (0.7.5)
     tilt (1.4.1)
     tux (0.3.0)
       ripl (>= 0.3.5)
@@ -49,11 +49,10 @@ PLATFORMS
 
 DEPENDENCIES
   compass (= 0.12.2)
-  compass-griddle
   font-awesome-sass
-  griddle
   sass (= 3.2.7)
   shotgun
   sinatra
   slim
+  susy
   tux
