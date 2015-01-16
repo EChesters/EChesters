@@ -63,6 +63,10 @@ body {
 	font-family: $open-sans;
 	font-size: 37px;
 	font-variant: small-caps;
+
+	@media only screen and (max-width : 499px) {
+		font-size: 25px;	
+	}
 }
 
 .section {
@@ -72,9 +76,7 @@ body {
 	background-color: $bg-top;
 	margin: 15px;
 
-	@media only screen 
-				// and (min-device-width : 320px) 
-				and (max-width : 499px) {
+	@media only screen and (max-width : 499px) {
 		margin: 0;	
 	}
 
@@ -101,19 +103,24 @@ p {
     margin:20px auto;
     overflow:hidden;
     line-height:1.2em;
-}
 
-.divider:before, .divider:after {
-    content:"";
-    vertical-align:top;
-    display:inline-block;
-    width:54%;
-    height:0.65em;
-    border-bottom:1px solid #ccc;
-    margin:0 2% 0 -55%;
-}
-.divider:after {
-    margin:0 -55% 0 2%;
+    @media only screen and (max-width : 499px) {
+		width: 90%;	
+	}
+
+	&:before, &:after {
+	    content:"";
+	    vertical-align:top;
+	    display:inline-block;
+	    width:54%;
+	    height:0.65em;
+	    border-bottom:1px solid #ccc;
+	    margin:0 2% 0 -55%;
+	}
+
+	&:after {
+ 	   margin:0 -55% 0 2%;
+	}
 }
 
 #postdate {

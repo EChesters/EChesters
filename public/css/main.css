@@ -48,6 +48,11 @@ body {
   font-size: 37px;
   font-variant: small-caps;
 }
+@media only screen and (max-width: 499px) {
+  .heading {
+    font-size: 25px;
+  }
+}
 
 .section {
   border: solid 1px black;
@@ -83,7 +88,11 @@ p {
   overflow: hidden;
   line-height: 1.2em;
 }
-
+@media only screen and (max-width: 499px) {
+  .divider {
+    width: 90%;
+  }
+}
 .divider:before, .divider:after {
   content: "";
   vertical-align: top;
@@ -93,7 +102,6 @@ p {
   border-bottom: 1px solid #ccc;
   margin: 0 2% 0 -55%;
 }
-
 .divider:after {
   margin: 0 -55% 0 2%;
 }
