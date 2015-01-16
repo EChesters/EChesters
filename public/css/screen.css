@@ -1,7 +1,7 @@
 /*
 Error: Invalid CSS after "@include span( ": expected ")", was "<width> [<wide ..."
         on line 21 of /Users/echester/Programming/Ruby/echesters/public/compass/sass/_base.scss
-        from line 2 of /Users/echester/Programming/Ruby/echesters/public/compass/sass/main.scss
+        from line 4 of /Users/echester/Programming/Ruby/echesters/public/compass/sass/screen.scss
 
 16: 
 17: .container {
@@ -12,7 +12,7 @@ Error: Invalid CSS after "@include span( ": expected ")", was "<width> [<wide ..
 
 Backtrace:
 /Users/echester/Programming/Ruby/echesters/public/compass/sass/_base.scss:21
-/Users/echester/Programming/Ruby/echesters/public/compass/sass/main.scss:2
+/Users/echester/Programming/Ruby/echesters/public/compass/sass/screen.scss:4
 /Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:1165:in `expected'
 /Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/script/lexer.rb:220:in `expected!'
 /Users/echester/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/script/parser.rb:580:in `assert_tok'
@@ -71,4 +71,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"@include span( \": expected \")\", was \"<width> [<wide ...\"\A         on line 21 of /Users/echester/Programming/Ruby/echesters/public/compass/sass/_base.scss\A         from line 2 of /Users/echester/Programming/Ruby/echesters/public/compass/sass/main.scss\A \A 16: \A 17: .container {\A 18: 	@include container($total-columns);\A 19: }\A 20: \A 21: @include span( <width> [<wide / wider>] of <layout> [<last>] );"; }
+  content: "Error: Invalid CSS after \"@include span( \": expected \")\", was \"<width> [<wide ...\"\A         on line 21 of /Users/echester/Programming/Ruby/echesters/public/compass/sass/_base.scss\A         from line 4 of /Users/echester/Programming/Ruby/echesters/public/compass/sass/screen.scss\A \A 16: \A 17: .container {\A 18: 	@include container($total-columns);\A 19: }\A 20: \A 21: @include span( <width> [<wide / wider>] of <layout> [<last>] );"; }

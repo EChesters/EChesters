@@ -1,4 +1,5 @@
-@import "susy";
+@import "compass";
+@import "_base";
 
 $background: #eeeeee;
 $shadow-grey: #676767;
@@ -62,6 +63,7 @@ body {
 	font-family: $open-sans;
 	font-size: 37px;
 	font-variant: small-caps;
+	width: span(5);
 
 	@media only screen and (max-width : 499px) {
 		font-size: 25px;
@@ -74,6 +76,7 @@ body {
 	text-align: center;
 	margin: 15px;
 	background-color: #97CCFF;
+	// columns: 2;
 
 	@media only screen and (max-width : 499px) {
 		margin: 5px;	
