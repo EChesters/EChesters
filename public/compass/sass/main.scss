@@ -1,14 +1,13 @@
-$bg-top: #E84A5F;
-$bg-bottom: #2A363B;
-// $background: #eee;
+$background: #eeeeee;
 $shadow-grey: #676767;
-// $ribbon-colour: #;
 $nav-bar: #99B898;
+$text-colour: #111;
 
 $open-sans: 'Open Sans', sans-serif;
 
 body { 
-	background-color: $bg-bottom;
+	background-color: $background;
+	color: $text-colour;
 }
 
 .nav-bar {
@@ -22,7 +21,7 @@ body {
 		vertical-align: middle;
 		text-decoration: none;
 		padding: 10px 10px 0 10px;
-		color: $bg-bottom;
+		color: $background;
 
 		&:link, &:visited {
 			text-decoration: none;
@@ -39,7 +38,7 @@ body {
 			a {
 				display: block;
 				padding: 10px;
-				color: $bg-bottom;
+				color: $background;
 
 				&:hover {
 					background-color: #E84A5F;
@@ -58,30 +57,29 @@ body {
 
 .heading {
 	text-align: center;
-	color: #eee;
-	margin: 50px 0;
 	font-family: $open-sans;
 	font-size: 37px;
 	font-variant: small-caps;
 
 	@media only screen and (max-width : 499px) {
-		font-size: 25px;	
+		font-size: 25px;
 	}
 }
 
 .section {
 	border: solid 1px black;
-	min-height: 200px;
+	height: 200px;
 	text-align: center;
-	background-color: $bg-top;
 	margin: 15px;
+	background-color: #97CCFF;
 
 	@media only screen and (max-width : 499px) {
-		margin: 0;	
+		margin: 5px;	
+		max-height: 150px;
 	}
 
 	a {
-		color: #eee;
+		color: $text-colour;
 		text-decoration: none;
 
 		&:hover, &:visited {
@@ -90,22 +88,25 @@ body {
 	}
 }
 
-p {
-	color: #eee;
+#about p {
 	font-family: $open-sans;
 	line-height: 1.2em;
     margin-left: 10%;
+
+    @media only screen and (max-width : 499px) {
+		margin-left: 5%;
+	}
 }
 
 .divider {
-    color:#ccc;
-    width:80%;
-    margin:20px auto;
-    overflow:hidden;
-    line-height:1.2em;
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    line-height: 1.2em;
 
     @media only screen and (max-width : 499px) {
-		width: 90%;	
+		width: 90%;
+		margin: 30px auto;	
 	}
 
 	&:before, &:after {
@@ -164,7 +165,6 @@ p {
 h2 {
 	font-family: $open-sans;
 	font-weight: 100;
-	color: #eee;
 	margin-top: 30px;
 	font-size: 20px;
 	text-transform: uppercase;

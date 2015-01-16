@@ -1,5 +1,6 @@
 body {
-  background-color: #2A363B;
+  background-color: #eeeeee;
+  color: #111;
 }
 
 .nav-bar {
@@ -13,7 +14,7 @@ body {
   vertical-align: middle;
   text-decoration: none;
   padding: 10px 10px 0 10px;
-  color: #2A363B;
+  color: #eeeeee;
 }
 .nav-bar .home-logo:link, .nav-bar .home-logo:visited {
   text-decoration: none;
@@ -28,7 +29,7 @@ body {
 .nav-bar ul li a {
   display: block;
   padding: 10px;
-  color: #2A363B;
+  color: #eeeeee;
 }
 .nav-bar ul li a:hover {
   background-color: #E84A5F;
@@ -42,8 +43,6 @@ body {
 
 .heading {
   text-align: center;
-  color: #eee;
-  margin: 50px 0;
   font-family: "Open Sans", sans-serif;
   font-size: 37px;
   font-variant: small-caps;
@@ -56,33 +55,37 @@ body {
 
 .section {
   border: solid 1px black;
-  min-height: 200px;
+  height: 200px;
   text-align: center;
-  background-color: #E84A5F;
   margin: 15px;
+  background-color: #97CCFF;
 }
 @media only screen and (max-width: 499px) {
   .section {
-    margin: 0;
+    margin: 5px;
+    max-height: 150px;
   }
 }
 .section a {
-  color: #eee;
+  color: #111;
   text-decoration: none;
 }
 .section a:hover, .section a:visited {
   text-decoration: none;
 }
 
-p {
-  color: #eee;
+#about p {
   font-family: "Open Sans", sans-serif;
   line-height: 1.2em;
   margin-left: 10%;
 }
+@media only screen and (max-width: 499px) {
+  #about p {
+    margin-left: 5%;
+  }
+}
 
 .divider {
-  color: #ccc;
   width: 80%;
   margin: 20px auto;
   overflow: hidden;
@@ -91,6 +94,7 @@ p {
 @media only screen and (max-width: 499px) {
   .divider {
     width: 90%;
+    margin: 30px auto;
   }
 }
 .divider:before, .divider:after {
@@ -146,7 +150,6 @@ p {
 h2 {
   font-family: "Open Sans", sans-serif;
   font-weight: 100;
-  color: #eee;
   margin-top: 30px;
   font-size: 20px;
   text-transform: uppercase;
