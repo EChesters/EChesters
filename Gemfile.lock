@@ -3,18 +3,33 @@ GEM
   specs:
     bond (0.5.1)
     chunky_png (1.3.3)
-    compass (0.12.2)
+    compass (1.0.3)
       chunky_png (~> 1.2)
-      fssm (>= 0.2.7)
-      sass (~> 3.1)
+      compass-core (~> 1.0.2)
+      compass-import-once (~> 1.0.5)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9)
+      sass (>= 3.3.13, < 3.5)
+    compass-core (1.0.3)
+      multi_json (~> 1.0)
+      sass (>= 3.3.0, < 3.5)
+    compass-griddle (0.3.0)
+      compass (>= 0.11)
+    compass-import-once (1.0.5)
+      sass (>= 3.2, < 3.5)
+    ffi (1.9.6)
     font-awesome-sass (4.2.2)
       sass (~> 3.2)
-    fssm (0.2.10)
+    griddle (0.1.3)
+    multi_json (1.10.1)
     rack (1.6.0)
     rack-protection (1.5.3)
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
+    rb-fsevent (0.9.4)
+    rb-inotify (0.9.5)
+      ffi (>= 0.5.0)
     ripl (0.7.1)
       bond (~> 0.5.1)
     ripl-multi_line (0.3.1)
@@ -23,7 +38,7 @@ GEM
       rack (>= 1.0)
       rack-test (~> 0.6.2)
       ripl (>= 0.7.0)
-    sass (3.2.7)
+    sass (3.4.10)
     shotgun (0.9)
       rack (>= 1.0)
     sinatra (1.4.5)
@@ -33,9 +48,6 @@ GEM
     slim (3.0.1)
       temple (~> 0.7.3)
       tilt (>= 1.3.3, < 2.1)
-    susy (1.0.9)
-      compass (>= 0.12.2)
-      sass (>= 3.2.0)
     temple (0.7.5)
     tilt (1.4.1)
     tux (0.3.0)
@@ -48,11 +60,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  compass (= 0.12.2)
+  compass
+  compass-griddle
   font-awesome-sass
-  sass (= 3.2.7)
+  griddle
+  sass
   shotgun
   sinatra
   slim
-  susy
   tux

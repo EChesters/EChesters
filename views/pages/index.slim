@@ -9,21 +9,26 @@ html locale="en"
     link href="css/grid.css" rel="stylesheet" type="text/css"
   	link href="css/main.css" rel="stylesheet" type="text/css"
 
-  body.container  	
+  body  	
     #header
       == slim :'components/_header'
 
     #content
-      .section
-        a href="/photography" Photography
-      .section  
-        a href="/portfolio" Technology
+      .grid.grid--center
+        .grid__cell.unit-1-3.section
+          a href="/photography" Photography
+        .grid__cell.unit-1-3.section  
+          a href="/portfolio" Technology
       
-      .section
+      .grid.grid--center  
+        .grid__cell.unit-1-3.section
           a href="/blog" My Blog
-      .section
+        .grid__cell.unit-1-3.section
           a href="/recipes" Recipes
 
     #about
-      h2.divider About Me
-      p I am Elizabeth Chesters, a developer, a UX-er in training at ThoughtWorks. This is my blog where I share my personal thoughts and my portfolio where I can show you cool people all the cool stuff I've done and what there is for you to get involved in. 
+      .grid.grid--center
+        .grid__cell.unit-3-4
+          h2.divider About Me
+        .grid__cell.unit-3-4
+          p I am Elizabeth Chesters, a developer, a UX-er in training at ThoughtWorks. This is my blog where I share my personal thoughts and my portfolio where I can show you cool people all the cool stuff I've done and what there is for you to get involved in. 
