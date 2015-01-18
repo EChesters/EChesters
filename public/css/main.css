@@ -1,6 +1,7 @@
 body {
   background-color: #eeeeee;
   color: #111111;
+  font-family: "Open Sans", sans-serif;
 }
 
 .nav-bar {
@@ -46,6 +47,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 37px;
   font-variant: small-caps;
+  padding-bottom: 50px;
 }
 @media only screen and (max-width: 499px) {
   .heading {
@@ -119,6 +121,17 @@ body {
   margin: 0 -55% 0 2%;
 }
 
+.page-divider {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  margin: 10px 0 25px 0;
+  opacity: 0.1;
+}
+
 #postdate {
   float: left;
   color: #DDBAAF;
@@ -131,6 +144,7 @@ body {
   font-size: 25px;
   padding: 2px 5px;
   text-transform: uppercase;
+  font-weight: 800;
 }
 #postdate .day {
   text-align: center;
@@ -141,9 +155,9 @@ body {
   -ms-transform: rotate(90deg);
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
-  position: absolute;
-  right: -33px;
-  bottom: 0;
+  position: relative;
+  right: -35px;
+  bottom: -21px;
   font-size: 15px;
   opacity: 0.4;
 }
@@ -162,6 +176,14 @@ h2 {
   margin-top: 30px;
   font-size: 20px;
   text-transform: uppercase;
+}
+
+h3 {
+  font-variant: small-caps;
+}
+
+.achievement {
+  min-height: 60px;
 }
 
 /* TEMP for testing divs */
