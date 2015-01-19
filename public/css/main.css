@@ -5,7 +5,7 @@ body {
 }
 
 .nav-bar {
-  background-color: #99b898;
+  background-color: #1C140D;
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
 }
@@ -15,7 +15,7 @@ body {
   vertical-align: middle;
   text-decoration: none;
   padding: 10px 10px 0 10px;
-  color: #eeeeee;
+  color: #CBE86B;
 }
 .nav-bar .home-logo:link, .nav-bar .home-logo:visited {
   text-decoration: none;
@@ -30,10 +30,11 @@ body {
 .nav-bar ul li a {
   display: block;
   padding: 10px;
-  color: #eeeeee;
+  color: #CBE86B;
 }
 .nav-bar ul li a:hover {
-  background-color: #E84A5F;
+  background-color: #F2E9E1;
+  color: #1C140D;
   -moz-box-shadow: inset 0 0 3px #676767;
   -webkit-box-shadow: inset 0 0 3px #676767;
   box-shadow: inset 0 0 3px #676767;
@@ -59,8 +60,7 @@ body {
   border: solid 1px black;
   height: 200px;
   text-align: center;
-  margin: 15px;
-  background-color: #97CCFF;
+  overflow: hidden;
 }
 @media only screen and (max-width: 499px) {
   .section {
@@ -76,14 +76,20 @@ body {
   text-decoration: none;
 }
 
+.section-img {
+  width: 100%;
+  display: block;
+}
+
 #about {
+  width: 50%;
+  margin: 0 auto;
   font-family: "Open Sans", sans-serif;
   line-height: 1.2em;
-  margin-left: 10%;
 }
 @media only screen and (max-width: 499px) {
   #about {
-    margin-left: 5%;
+    width: 90%;
   }
 }
 #about .selfie {
@@ -94,6 +100,8 @@ body {
   box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.35);
   max-height: 150px;
   margin-top: 10px;
+  float: right;
+  text-align: top;
 }
 
 .divider {
@@ -114,7 +122,7 @@ body {
   display: inline-block;
   width: 54%;
   height: 0.65em;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #FA6900;
   margin: 0 2% 0 -55%;
 }
 .divider:after {
@@ -124,11 +132,11 @@ body {
 .page-divider {
   border: 0;
   height: 1px;
-  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
-  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
-  background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
-  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
-  margin: 10px 0 25px 0;
+  background-image: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, 0.5), transparent);
+  background-image: -moz-linear-gradient(left, transparent, rgba(0, 0, 0, 0.5), transparent);
+  background-image: -ms-linear-gradient(left, transparent, rgba(0, 0, 0, 0.5), transparent);
+  background-image: -o-linear-gradient(left, transparent, rgba(0, 0, 0, 0.5), transparent);
+  margin: 30px 0 30px 0;
   opacity: 0.1;
 }
 
@@ -173,9 +181,9 @@ body {
 h2 {
   font-family: "Open Sans", sans-serif;
   font-weight: 100;
-  margin-top: 30px;
   font-size: 20px;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 h3 {
@@ -184,9 +192,4 @@ h3 {
 
 .achievement {
   min-height: 60px;
-}
-
-/* TEMP for testing divs */
-.border {
-  border: solid 1px black;
 }

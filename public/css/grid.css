@@ -80,7 +80,6 @@
   display: inline-block;
   /* 1 */
   margin: 0;
-  padding: 0 10px;
   /* 2 */
   vertical-align: middle;
   /* 3 */
@@ -117,6 +116,11 @@
  */
 .grid--right {
   text-align: right;
+}
+
+.grid__cell--wrapper {
+  /*padding: 10px 0;*/
+  margin: 15px;
 }
 
 /* Grid cell modifiers
