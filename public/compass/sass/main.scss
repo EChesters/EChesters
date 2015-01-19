@@ -213,4 +213,19 @@ h3 {
 
 .achievement {
 	min-height: 60px;
+
+	h3 {
+		font-size: 30px;
+	}
+
+	.date {
+		text-align: center;
+		vertical-align: middle;
+	}
+
+	@media only screen and (max-width : 499px) {
+		h3, p {
+			font-size: 14px;
+		}
+	}
 }
