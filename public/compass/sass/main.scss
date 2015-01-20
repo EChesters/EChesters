@@ -3,6 +3,7 @@ $shadow-grey: 	#676767;
 $nav-bar: 		#1C140D;
 $nav-bar-text:  #CBE86B;
 $text-colour: 	#111111;
+$orange:		#FA6900;
 
 $open-sans: 'Open Sans', sans-serif;
 
@@ -140,7 +141,7 @@ body {
 	    display:inline-block;
 	    width:54%;
 	    height:0.65em;
-	    border-bottom:1px solid #FA6900;
+	    border-bottom:1px solid $orange;
 	    margin:0 2% 0 -55%;
 	}
 
@@ -194,15 +195,19 @@ h3 {
 
 /* BLOG POSTS ----------------------------------------- */
 .blog-posts {
-	width: 75%;
+	width: 55%;
 	margin: 0 auto;
 	list-style: none;
+
+	@media only screen and (max-width : 499px) {
+		width: 75%;
+	}
 
 	li {
 		margin-left: 10px;
 		.date {
 			font-size: 14px;
-			color: $nav-bar-text;
+			color: $orange;
 			display: block;
 			width: 100%;
 		}
@@ -212,10 +217,10 @@ h3 {
 			font-size: 17px;
 			display: block;
 			margin-top: 10px;
+			font-family: $open-sans;
 
 			&:link, &:visited {
 				color: $text-colour;
-				text-decoration: none;
 			}
 		}
 	}

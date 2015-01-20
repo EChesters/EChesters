@@ -175,16 +175,21 @@ h3 {
 
 /* BLOG POSTS ----------------------------------------- */
 .blog-posts {
-  width: 75%;
+  width: 55%;
   margin: 0 auto;
   list-style: none;
+}
+@media only screen and (max-width: 499px) {
+  .blog-posts {
+    width: 75%;
+  }
 }
 .blog-posts li {
   margin-left: 10px;
 }
 .blog-posts li .date {
   font-size: 14px;
-  color: #CBE86B;
+  color: #FA6900;
   display: block;
   width: 100%;
 }
@@ -193,8 +198,8 @@ h3 {
   font-size: 17px;
   display: block;
   margin-top: 10px;
+  font-family: "Open Sans", sans-serif;
 }
 .blog-posts li a:link, .blog-posts li a:visited {
   color: #111111;
-  text-decoration: none;
 }
