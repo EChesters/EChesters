@@ -7,8 +7,10 @@ gem 'slim'
 gem 'compass'
 gem 'sass'
 gem 'compass-griddle'
-# gem 'font-awesome-compass'
 gem 'font-awesome-sass'
+
+gem 'jekyll'
+gem 'rdiscount'
 
 group :development do
 	gem 'shotgun'
