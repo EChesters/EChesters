@@ -1,14 +1,15 @@
 ---
 layout: layout
-title: Jekyll Base
+title: My Blog Posts
 ---
 
 <div class="content">
   <div class="related">
-    <ul>
+    <ul class="blog-posts">
       {% for post in site.posts %}
       <li>
-		<span>{{ post.date | date: "%B %e, %Y" }}</span><a href="{{ post.url }}">{{ post.title }}</a>
+		<span class="date">{{ post.date | date: "%B %e, %Y" }}</span><a href="{{ post.url }}">{{ post.title }} <i class="fa fa-chevron-right hvr-icon-wobble-horizontal"></i></a>
+		<div class="page-divider"></div>
       </li>
       {% endfor %}
     </ul>

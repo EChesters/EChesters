@@ -160,45 +160,6 @@ body {
 	opacity: 0.1;
 }
 
-#postdate {
-	float: left;
-	color: #DDBAAF;
-	position: relative;
-	text-align: center;
-
-	.month {
-		text-align: center;
-		font-size: 25px;
-		padding: 2px 5px;
-		text-transform: uppercase;
-		font-weight: 800;
-	}
-
-	.day {
-		text-align: center;
-	}
-	
-	.year {
-		-webkit-transform: rotate(90deg);	
-		-moz-transform: rotate(90deg);
-		-ms-transform: rotate(90deg);
-		-o-transform: rotate(90deg);
-		transform: rotate(90deg);
-		position: relative;
-		right: -35px;
-		bottom: -21px;
-		font-size: 15px;
-		opacity: 0.4;
-	}
-
-	*:first-child+html #postdate .year { right: -28px; } /* IE7 positions element differently to IE6 & 8 */
-	.postdate span:nth-child(3) {
-		right: -16px;
-		bottom: 24px;
-		writing-mode: lr-tb; 
-	}
-}
-
 h2 {
 	font-family: $open-sans;
 	font-weight: 100;
@@ -211,6 +172,7 @@ h3 {
 	font-variant: small-caps;
 }
 
+/* PORTFOLIO ------------------------------------------- */
 .achievement {
 	min-height: 60px;
 
@@ -226,6 +188,35 @@ h3 {
 	@media only screen and (max-width : 499px) {
 		h3, p {
 			font-size: 14px;
+		}
+	}
+}
+
+/* BLOG POSTS ----------------------------------------- */
+.blog-posts {
+	width: 75%;
+	margin: 0 auto;
+	list-style: none;
+
+	li {
+		margin-left: 10px;
+		.date {
+			font-size: 14px;
+			color: $nav-bar-text;
+			display: block;
+			width: 100%;
+		}
+
+		a {
+			color: $text-colour;
+			font-size: 17px;
+			display: block;
+			margin-top: 10px;
+
+			&:link, &:visited {
+				color: $text-colour;
+				text-decoration: none;
+			}
 		}
 	}
 }

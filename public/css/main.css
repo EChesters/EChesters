@@ -144,44 +144,6 @@ body {
   opacity: 0.1;
 }
 
-#postdate {
-  float: left;
-  color: #DDBAAF;
-  position: relative;
-  text-align: center;
-  /* IE7 positions element differently to IE6 & 8 */
-}
-#postdate .month {
-  text-align: center;
-  font-size: 25px;
-  padding: 2px 5px;
-  text-transform: uppercase;
-  font-weight: 800;
-}
-#postdate .day {
-  text-align: center;
-}
-#postdate .year {
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
-  position: relative;
-  right: -35px;
-  bottom: -21px;
-  font-size: 15px;
-  opacity: 0.4;
-}
-#postdate *:first-child + html #postdate .year {
-  right: -28px;
-}
-#postdate .postdate span:nth-child(3) {
-  right: -16px;
-  bottom: 24px;
-  writing-mode: lr-tb;
-}
-
 h2 {
   font-family: "Open Sans", sans-serif;
   font-weight: 100;
@@ -194,6 +156,7 @@ h3 {
   font-variant: small-caps;
 }
 
+/* PORTFOLIO ------------------------------------------- */
 .achievement {
   min-height: 60px;
 }
@@ -208,4 +171,30 @@ h3 {
   .achievement h3, .achievement p {
     font-size: 14px;
   }
+}
+
+/* BLOG POSTS ----------------------------------------- */
+.blog-posts {
+  width: 75%;
+  margin: 0 auto;
+  list-style: none;
+}
+.blog-posts li {
+  margin-left: 10px;
+}
+.blog-posts li .date {
+  font-size: 14px;
+  color: #CBE86B;
+  display: block;
+  width: 100%;
+}
+.blog-posts li a {
+  color: #111111;
+  font-size: 17px;
+  display: block;
+  margin-top: 10px;
+}
+.blog-posts li a:link, .blog-posts li a:visited {
+  color: #111111;
+  text-decoration: none;
 }
