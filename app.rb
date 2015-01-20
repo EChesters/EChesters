@@ -11,10 +11,6 @@ class App < Sinatra::Application
 		slim :'pages/portfolio'
 	end
 
-	# get '/blog' do
-	# 	slim :'pages/blog'
-	# end
-
 	get '/?*' do
 		jekyll_blog(request.path) {404}
 	end
