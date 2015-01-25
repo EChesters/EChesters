@@ -3,7 +3,7 @@ layout: post
 title: Why Be Accessible?
 ---
 
-Barriers Suck. Technology has evolved so much in terms of removing barriers for everyone, over borders, languages and disabilities. Yet even on the most popular of websites barriers still exist, and they continue to exclude those who need technology the most.
+Barriers suck. Technology has evolved so much in terms of removing barriers for everyone, over borders, languages and disabilities. Yet even on the most popular of websites barriers still exist, and they continue to exclude those who need technology the most.
 
 Society is making advances all the time, especially when it comes to technology. Look at the paralympics. Some could argue their legs are better than those who are abled. By using artificial limbs, those considered “disabled” are able to compete, thus a barrier has been lifted. The point here is that technology even more so should be uplifting these barriers more and more and instead I hear user feedback of big brands websites saying they suck.
 
@@ -16,17 +16,17 @@ Being accessible does not mean going through every disability known to man to do
 
 Here are a few tips I’ve recently found, which I think are reasonable, short and practical to help become accessible. But it should be said that accessibility is another design practice which should be monitored but alongside everything else you monitor in your site’s life cycle. It’s not a one time, enter a link into an online tool, fix the errors you can be arsed with and then BOOM, you’re magically accessible. You do need to understand how disabled users use their software, to use your software and what they think of it. Yes this is difficult but for a good user experience you should be user testing anyway.
 
-Alt Tags
+### Alt Tags
 
 This is definitely a HTML standard which is good practice. All images must have an alt tag, whether that be empty or not. The alt tag must fill in the information that is lost to a blind person, that otherwise would be provided to your users who can see it. This blog really explains it well with examples. If half the information of the image is explained in the surrounding text, then repeating the information in the alt tag is a bit redundant, so keep the description short and sweet but still relevant to what the image is showing. But why would you ever just stick an empty alt tag on there? Surely that’s redundant. Well no. Screen readers understand that websites use images in a purely decorative manner, and that’s fine. But someone using said screen reader does not need to be told that the image there is decorative. When no alt text has been set, screen readers will read the file name as an alternative, so that the site is accessible as possible. Yeah… not the best approach since we’ve all seen what file names can look like “gjhgyeygfqfrf21.jpg” or “2014-09-23.jpeg-large”; beautiful. An empty alt tag suggests the image is decorative and can be ignored.
 
-Sensory Characteristics
+### Sensory Characteristics
 
 Do not rely on one sensory characteristics for special information; especially links. For anyone, this can be a usability flaw when you can’t find necessary information quickly enough. For a lot of users using multiple websites at a time; especially during a search, being able to see the information they need quickly and obviously makes a huge difference. If Wikipedia decided to make their links one shade lighter than the text without another obvious tell-tale, their page bounce would increase tenfold, without a shadow of a doubt. This applies to the information that you have on your sites. If a user doesn’t see that your page is relevant they won’t sit there decoding if it is. I’ve got a bazillion other websites I could be on right now, that probably have this usability feature.
 
 Moving on from websites, and more into mobile accessibility, having the option to allow for haptic feedback when your app needs to notify its owner of a change, increases its usability immensely.  But be careful not to overuse this, as although the option is great if you remove the choice then this may just become annoying. Personally, I find the more feedback there is, in terms of audio, visual and touch; the more serious the notification – so choose your combinations wisely.
 
-Content
+### Content
 
 Firstly; I mean automatically playing content. Whether this be video or audio, this is just plain annoying. But from a health and safety point of view, if your content automatically plays, this can be overwhelming, irritating and distracting for those with ADHD or social issues. Not only is this difficult for disabled people to sometimes cope with, but even in general if something is playing automatically and you have lots of tabs open or it’s below or above the fold where you are on the page; this breaks the user’s flow from completing their task which only makes the experience frustrating. Google Chrome’s little audio symbol on noisy tabs seems like a God send now, in comparison to what it was like before. Why is this a new thing though!? Anyway…
 
@@ -36,7 +36,7 @@ Secondly in terms of content; especially video content, always make sure you pro
 
 Swearing at your users is not advised, especially when they can’t know what is actually being said. The video was actually talking about Continuous Integration, so given this context no one would be expecting the word “shit” to be in there. I know it’s much more time consuming peeing about writing your own captioning; I for one have never had to mess around with captions but at the very least test the automatic ones! Captioning as well provides usability for those users who can’t listen to the video at the time, given no headphones and they don’t fancy annoying everyone else on a train. The actual benefit of captioning is quite high, despite its high cost in the first place.
 
-Personas
+### Personas
 
 So an easy approach to accessibility is to treat the subject like any other design process. So in the previously mentioned podcast, it talks about bringing in accessible features as you would with other functionality. Take the following persona scenario as an example:
 
