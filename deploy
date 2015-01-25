@@ -1,0 +1,38 @@
+#!/bin/bash
+
+set -e
+set -o pipefail
+
+echo "*** Pushing Changes Live ***"
+
+USER=$1
+HOST=$2
+
+rm -rf lib/jekyll_blog/_site
+bundle exec jekyll build --source lib/jekyll_blog --destination lib/jekyll_blog/_site
+
+scp -r . ${USER}@${HOST}:/var/www/new_version
+
+ssh ${USER}@${HOST} bash << EOF
+
+	cd /var/www/
+
+	pid_file='echesters/pids/unicorn.pid'
+	if [ -f "$pid_file" ]
+		then
+			cat pid_file | kill
+	fi
+	
+	rm -rf echesters
+	mv new_version echesters
+
+	cd echesters
+	mkdir -p pids logs
+
+	bundle install
+	bundle exec unicorn -c config/unicorn.rb -D
+	service nginx restart
+
+EOF
+
+exit 0
