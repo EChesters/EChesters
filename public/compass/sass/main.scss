@@ -193,6 +193,23 @@ h3 {
 	}
 }
 
+.blog-content {
+	width: 75%;
+	margin: 0 auto;
+
+	p {
+		margin-bottom: 20px;
+		line-height: 1.4em;
+	}
+
+	blockquote {
+		font-style: italic;
+		text-align: center;
+		font-size: 18px;
+		color: $shadow-grey;
+	}
+}
+
 /* BLOG POSTS ----------------------------------------- */
 .blog-posts {
 	width: 55%;

@@ -173,6 +173,21 @@ h3 {
   }
 }
 
+.blog-content {
+  width: 75%;
+  margin: 0 auto;
+}
+.blog-content p {
+  margin-bottom: 20px;
+  line-height: 1.4em;
+}
+.blog-content blockquote {
+  font-style: italic;
+  text-align: center;
+  font-size: 18px;
+  color: #676767;
+}
+
 /* BLOG POSTS ----------------------------------------- */
 .blog-posts {
   width: 55%;

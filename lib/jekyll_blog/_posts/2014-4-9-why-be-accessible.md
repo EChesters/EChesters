@@ -7,9 +7,10 @@ Barriers suck. Technology has evolved so much in terms of removing barriers for 
 
 Society is making advances all the time, especially when it comes to technology. Look at the paralympics. Some could argue their legs are better than those who are abled. By using artificial limbs, those considered “disabled” are able to compete, thus a barrier has been lifted. The point here is that technology even more so should be uplifting these barriers more and more and instead I hear user feedback of big brands websites saying they suck.
 
-Accessibility is important, but somewhere along the way it got an undeserved reputation for being ugly, costly, and driven only by technical-compliance requirements.
-- Derek Featherstone
-- Accessibility as a Design Tool
+> Accessibility is important, but somewhere along the way it got an undeserved reputation for being ugly, costly, and driven only by technical-compliance requirements.
+
+> Derek Featherstone, Accessibility as a Design Tool
+
 I could not agree more with this statement. I’ve only recently started looking into accessibility and early on in my research did I find out this statement and the whole attitude towards accessibility. But the more you look into this area the higher the benefit is at the end, and for more users than you might initially think. Accessibility = Usability. Not even just usability, but all it takes is good standards. For example, screen readers use your HTML structure to read what the page is about; so having a title tag in the middle of a paragraph logically/structurally makes no sense; never mind accessible.
 
 Being accessible does not mean going through every disability known to man to do endless amounts of research of who might struggle with your website. It does not mean that it is one person’s job to sit there and make sure everything on your site/software is accessible. It’s impossible to be accessible for absolutely everyone, but there are numerous things which everyone in the team can do to be more accessible, and to raise awareness of the good practices which increase accessibility. You know as well as I do that accessibility is usually an after thought (unless you’re providing a government service), but that does not mean it’s too late. You have to start somewhere!
@@ -32,7 +33,7 @@ Firstly; I mean automatically playing content. Whether this be video or audio, t
 
 Secondly in terms of content; especially video content, always make sure you provide your own captions or test automatic captioning. I recently tested a video on a site where the person speaking had a strong Indian accent. I could understand what was being said, but YouTube’s captioning, did not. The subtitle went a little like this:
 
-“he” .. “anxiety” .. “mother he did” .. “shit”
+> “he” .. “anxiety” .. “mother he did” .. “shit”
 
 Swearing at your users is not advised, especially when they can’t know what is actually being said. The video was actually talking about Continuous Integration, so given this context no one would be expecting the word “shit” to be in there. I know it’s much more time consuming peeing about writing your own captioning; I for one have never had to mess around with captions but at the very least test the automatic ones! Captioning as well provides usability for those users who can’t listen to the video at the time, given no headphones and they don’t fancy annoying everyone else on a train. The actual benefit of captioning is quite high, despite its high cost in the first place.
 
