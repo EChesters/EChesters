@@ -1,0 +1,76 @@
+@import '_partials/_mixins';
+@import '_partials/_vars';
+
+/* SECTIONS ------------------------ */
+body {
+	font-family: $open-sans;
+}
+
+#header {
+	background-color: $header-bg;
+	text-align: right;
+
+	.heading {
+		@include vertical-align(30%);
+  		margin-right: 30px;
+
+		h1 {
+			@include vertical-align(-50%);
+			color: $white;
+			text-transform: uppercase;
+			font-size: $font-title-size;
+		}
+
+		h2 {
+			@include vertical-align(-150%);
+			font-size: $font-subtitle-size;
+			font-weight: $font-weight-light;
+		}
+	}
+}
+
+#main {
+	background-color: $main-bg;
+}
+
+/* IMAGES -------------------------- */ 
+
+.avatar-container {
+    width: 150px;
+    height: 150px;
+	border: 3px $white solid;
+   	@include border-radius(100%);
+    overflow: hidden;
+    float: right;
+    margin-left: 10px;
+
+    img {
+    	width: 100%;
+    }
+}
+
+/* TITLES & TEXT ------------------- */
+
+/* COMPONENTS ---------------------- */
+.button,
+a.button {
+	@include border-radius(5px);
+	text-decoration: none;
+	color: $black;
+	display: inline-block;
+	margin: 15px 10px;
+	padding: 15px 40px;
+	font-size: $font-button;
+	text-align: center;
+	vertical-align: middle;
+
+	&.primary {
+		background-color: $primary-orange;
+		border: solid 3px $primary-orange-darker;
+	}
+
+	&.secondary {
+		background-color: $secondary-blue;
+		border: solid 3px $primary-orange-darker;
+	}
+}

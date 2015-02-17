@@ -1,0 +1,88 @@
+/* COLOURS ----------- */
+/* FONTS ------------- */
+/* SIZE ------------- */
+/* SECTIONS ------------------------ */
+body {
+  font-family: "Open Sans";
+}
+
+#header {
+  background-color: #43535e;
+  text-align: right;
+}
+#header .heading {
+  position: relative;
+  top: 30%;
+  -webkit-transform: translateY(-30%);
+  -ms-transform: translateY(-30%);
+  transform: translateY(-30%);
+  margin-right: 30px;
+}
+#header .heading h1 {
+  position: relative;
+  top: -50%;
+  -webkit-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+  color: #eee;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+#header .heading h2 {
+  position: relative;
+  top: -150%;
+  -webkit-transform: translateY(150%);
+  -ms-transform: translateY(150%);
+  transform: translateY(150%);
+  font-size: 1.8em;
+  font-weight: 100;
+}
+
+#main {
+  background-color: #E0E4CC;
+}
+
+/* IMAGES -------------------------- */
+.avatar-container {
+  width: 150px;
+  height: 150px;
+  border: 3px #eee solid;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  border-radius: 100%;
+  overflow: hidden;
+  float: right;
+  margin-left: 10px;
+}
+.avatar-container img {
+  width: 100%;
+}
+
+/* TITLES & TEXT ------------------- */
+/* COMPONENTS ---------------------- */
+.button,
+a.button {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #111;
+  display: inline-block;
+  margin: 15px 10px;
+  padding: 15px 40px;
+  font-size: 1em;
+  text-align: center;
+  vertical-align: middle;
+}
+.button.primary,
+a.button.primary {
+  background-color: #FA6900;
+  border: solid 3px #EE6200;
+}
+.button.secondary,
+a.button.secondary {
+  background-color: #2e9adb;
+  border: solid 3px #EE6200;
+}

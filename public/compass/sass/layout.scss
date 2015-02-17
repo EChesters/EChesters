@@ -1,0 +1,35 @@
+@import '_partials/_mixins';
+@import '_partials/_vars';
+
+/* iPad and smaller---- */
+@media only screen 
+				and (min-width : 320px)
+				and (max-width : 1024px) {
+	header#header {
+		width: $size-full-width;
+		height: 300px;
+	}
+
+	#main {
+		width: $size-full-width;
+	}
+}
+
+@media only screen and (min-width : 1025px) {
+	header#header {
+		float: left;
+		width: $size-1-3;
+		height: $size-full-height;
+	}
+
+	#main {
+		float: right;
+		width: $size-2-3;
+		overflow-y: scroll;
+		height: 100vh;
+	}
+}
+
+section {
+	display: block;
+}

@@ -3,39 +3,21 @@ html locale="en"
   head
   	title Elizabeth Chesters
   	link href="css/reset.css" rel="stylesheet" type="text/css"
-    link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"
-    link href='http://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans:100,400,800' rel='stylesheet' type='text/css'
-    link href="css/transitions.css" rel="stylesheet" type="text/css"
-    link href="css/grid.css" rel="stylesheet" type="text/css"
-  	link href="css/main.css" rel="stylesheet" type="text/css"
+    link rel="stylesheet" href="css/reset.css"
+    link rel="stylesheet" href="css/layout.css"
+    link rel="stylesheet" href="css/styles.css"
 
-  body  	
-    #header
-      == slim :'components/_header'
+  body
+    header#header
+      .heading
+        .avatar-container
+          img.image src="/images/graduation.jpg" alt="Elizabeth at her university graduation ceremony"
+        h1 Elizabeth Chesters
+        h2 UX-er in training
 
-    #content
-      .grid.grid--center
-        .grid__cell.unit-1-3.grid__cell--wrapper.section.hvr-grow-rotate
-          a href="/blog"
-            / img.section-img src="images/blog.jpg"
-            h2.section Blog
-        / .grid__cell.unit-1-3.section
-        /   a href="/photography" Photography
-        .grid__cell.unit-1-3.grid__cell--wrapper.section.hvr-grow-rotate
-          a href="/portfolio"
-            / img.section-img src="images/portfolio.jpg"
-            h2.section Experience
-      
-      / .grid.grid--center  
+    #main
+      section#one
+        header.title
+        p Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.
 
-        / .grid__cell.unit-1-3.section
-        /   a href="/recipes" Recipes
-    .page-divider
-
-    #about
-      h2 About Me
-      
-      .grid__cell.unit-2-3
-        p I am Elizabeth Chesters, a developer, a UX-er in training at ThoughtWorks. This is my blog where I share my personal thoughts and my portfolio where I can show you cool people all the cool stuff I've done and what there is for you to get involved in.
-      .grid__cell.unit-1-3
-        img.selfie src="images/graduation.jpg"
+        a.button.primary href="/about" About Me
