@@ -87,7 +87,7 @@ section {
 .button, a.button {
 	@include border-radius(5px);
 	text-decoration: none;
-	color: $black;
+	color: $white;
 	display: inline-block;
 	margin: 20px 0;
 	padding: 15px 40px;
