@@ -36,8 +36,21 @@ body {
   overflow-y: scroll;
 }
 
-/* IMAGES -------------------------- */ 
+section {
+  color: $dark-grey;
 
+  .description {
+    line-height: 1.5em;
+  }
+
+  &#one {
+    .about-me {
+      text-align: center;
+    }
+  }
+}
+
+/* IMAGES -------------------------- */ 
 .avatar-container {
     width: 150px;
     height: 150px;
@@ -52,35 +65,21 @@ body {
     }
 }
 
-/* SECTIONS ------------------- */
-section {
-  padding: 30px 40px;
-  color: $dark-grey;
-
-  .description {
-    line-height: 1.5em;
+/* TEXT ------------------- */
+header {
+  h2.title {
+    text-transform: uppercase;
+    padding: 40px 0 50px 0; 
+    font-size: $font-title-size;
+    font-weight: $font-weight-medium;
   }
 
-	&#one {		
-    header.title {
-			text-transform: uppercase;
-			padding: 40px 0 50px 0; 
-			font-size: $font-title-size;
-		}
-
-    .about-me {
-      text-align: center;
-    }
-	}
-
-  &#two {
-    header.subtitle {
-      text-transform: uppercase;
-      font-size: $font-subtitle-size;
-      margin-bottom: 10px;
-    }
+  h3.subtitle {
+    font-size: $font-subtitle-size;
+    font-weight: $font-weight-light;
+    font-variant: small-caps;
+    margin-bottom: 10px;
   }
-
 }
 
 /* COMPONENTS ---------------------- */

@@ -46,13 +46,23 @@ body {
   -ms-transform: translateY(150%);
   transform: translateY(150%);
   font-size: 1.8em;
-  font-weight: 100;
+  font-weight: 200;
   color: #FA6900;
 }
 
 #main {
   background-color: #E0E4CC;
   overflow-y: scroll;
+}
+
+section {
+  color: #56575A;
+}
+section .description {
+  line-height: 1.5em;
+}
+section#one .about-me {
+  text-align: center;
 }
 
 /* IMAGES -------------------------- */
@@ -72,25 +82,17 @@ body {
   width: 100%;
 }
 
-/* SECTIONS ------------------- */
-section {
-  padding: 30px 40px;
-  color: #56575A;
-}
-section .description {
-  line-height: 1.5em;
-}
-section#one header.title {
+/* TEXT ------------------- */
+header h2.title {
   text-transform: uppercase;
   padding: 40px 0 50px 0;
   font-size: 2em;
+  font-weight: 600;
 }
-section#one .about-me {
-  text-align: center;
-}
-section#two header.subtitle {
-  text-transform: uppercase;
+header h3.subtitle {
   font-size: 1.8em;
+  font-weight: 200;
+  font-variant: small-caps;
   margin-bottom: 10px;
 }
 
