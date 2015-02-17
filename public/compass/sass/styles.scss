@@ -26,6 +26,7 @@ body {
 			@include vertical-align(-150%);
 			font-size: $font-subtitle-size;
 			font-weight: $font-weight-light;
+      color: $primary-orange;
 		}
 	}
 }
@@ -51,7 +52,7 @@ body {
     }
 }
 
-/* TITLES & TEXT ------------------- */
+/* SECTIONS ------------------- */
 section {
   padding: 30px 40px;
   color: $dark-grey;

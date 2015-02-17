@@ -47,6 +47,7 @@ body {
   transform: translateY(150%);
   font-size: 1.8em;
   font-weight: 100;
+  color: #FA6900;
 }
 
 #main {
@@ -71,7 +72,7 @@ body {
   width: 100%;
 }
 
-/* TITLES & TEXT ------------------- */
+/* SECTIONS ------------------- */
 section {
   padding: 30px 40px;
   color: #56575A;
