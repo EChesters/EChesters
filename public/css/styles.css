@@ -1,6 +1,17 @@
 /* COLOURS ----------- */
 /* FONTS ------------- */
 /* SIZE ------------- */
+.divider {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
+  background-image: -moz-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
+  background-image: -ms-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
+  background-image: -o-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
+  width: 85%;
+  margin: 0 auto;
+}
+
 /* SECTIONS ------------------------ */
 body {
   font-family: "Open Sans";
@@ -40,6 +51,7 @@ body {
 
 #main {
   background-color: #E0E4CC;
+  overflow-y: scroll;
 }
 
 /* IMAGES -------------------------- */
@@ -60,25 +72,25 @@ body {
 }
 
 /* TITLES & TEXT ------------------- */
-section#one {
-  position: relative;
-  top: 30%;
-  -webkit-transform: translateY(-30%);
-  -ms-transform: translateY(-30%);
-  transform: translateY(-30%);
+section {
+  padding: 30px 40px;
   color: #56575A;
+}
+section .description {
+  line-height: 1.5em;
 }
 section#one header.title {
   text-transform: uppercase;
-  padding: 40px 0 30px 20px;
+  padding: 40px 0 50px 0;
   font-size: 2em;
-}
-section#one p.bio {
-  padding-left: 20px;
-  line-height: 1.5em;
 }
 section#one .about-me {
   text-align: center;
+}
+section#two header.subtitle {
+  text-transform: uppercase;
+  font-size: 1.8em;
+  margin-bottom: 10px;
 }
 
 /* COMPONENTS ---------------------- */
@@ -90,6 +102,7 @@ section#one .about-me {
   text-decoration: none;
   color: #111;
   display: inline-block;
+  margin: 20px 0;
   padding: 15px 40px;
   font-size: 1em;
 }

@@ -1,5 +1,6 @@
 @import '_partials/_mixins';
 @import '_partials/_vars';
+@import '_partials/_components';
 
 /* SECTIONS ------------------------ */
 body {
@@ -31,6 +32,7 @@ body {
 
 #main {
 	background-color: $main-bg;
+  overflow-y: scroll;
 }
 
 /* IMAGES -------------------------- */ 
@@ -51,26 +53,33 @@ body {
 
 /* TITLES & TEXT ------------------- */
 section {
+  padding: 30px 40px;
+  color: $dark-grey;
 
-	&#one {
-    @include vertical-align(30%);
-    color: $dark-grey;
-		
+  .description {
+    line-height: 1.5em;
+  }
+
+	&#one {		
     header.title {
 			text-transform: uppercase;
-			padding: 40px 0 30px 20px; 
+			padding: 40px 0 50px 0; 
 			font-size: $font-title-size;
 		}
-
-    p.bio {
-      padding-left: 20px;
-      line-height: 1.5em;
-    }
 
     .about-me {
       text-align: center;
     }
 	}
+
+  &#two {
+    header.subtitle {
+      text-transform: uppercase;
+      font-size: $font-subtitle-size;
+      margin-bottom: 10px;
+    }
+  }
+
 }
 
 /* COMPONENTS ---------------------- */
@@ -79,7 +88,7 @@ section {
 	text-decoration: none;
 	color: $black;
 	display: inline-block;
-	// margin: 15px 10px;
+	margin: 20px 0;
 	padding: 15px 40px;
 	font-size: $font-button;
 
