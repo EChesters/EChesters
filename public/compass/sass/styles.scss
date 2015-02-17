@@ -38,7 +38,7 @@ body {
 .avatar-container {
     width: 150px;
     height: 150px;
-	border: 3px $white solid;
+	  border: 3px $white solid;
    	@include border-radius(100%);
     overflow: hidden;
     float: right;
@@ -50,19 +50,38 @@ body {
 }
 
 /* TITLES & TEXT ------------------- */
+section {
+
+	&#one {
+    @include vertical-align(30%);
+    color: $dark-grey;
+		
+    header.title {
+			text-transform: uppercase;
+			padding: 40px 0 30px 20px; 
+			font-size: $font-title-size;
+		}
+
+    p.bio {
+      padding-left: 20px;
+      line-height: 1.5em;
+    }
+
+    .about-me {
+      text-align: center;
+    }
+	}
+}
 
 /* COMPONENTS ---------------------- */
-.button,
-a.button {
+.button, a.button {
 	@include border-radius(5px);
 	text-decoration: none;
 	color: $black;
 	display: inline-block;
-	margin: 15px 10px;
+	// margin: 15px 10px;
 	padding: 15px 40px;
 	font-size: $font-button;
-	text-align: center;
-	vertical-align: middle;
 
 	&.primary {
 		background-color: $primary-orange;

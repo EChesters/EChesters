@@ -60,9 +60,29 @@ body {
 }
 
 /* TITLES & TEXT ------------------- */
+section#one {
+  position: relative;
+  top: 30%;
+  -webkit-transform: translateY(-30%);
+  -ms-transform: translateY(-30%);
+  transform: translateY(-30%);
+  color: #56575A;
+}
+section#one header.title {
+  text-transform: uppercase;
+  padding: 40px 0 30px 20px;
+  font-size: 2em;
+}
+section#one p.bio {
+  padding-left: 20px;
+  line-height: 1.5em;
+}
+section#one .about-me {
+  text-align: center;
+}
+
 /* COMPONENTS ---------------------- */
-.button,
-a.button {
+.button, a.button {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -70,19 +90,14 @@ a.button {
   text-decoration: none;
   color: #111;
   display: inline-block;
-  margin: 15px 10px;
   padding: 15px 40px;
   font-size: 1em;
-  text-align: center;
-  vertical-align: middle;
 }
-.button.primary,
-a.button.primary {
+.button.primary, a.button.primary {
   background-color: #FA6900;
   border: solid 3px #EE6200;
 }
-.button.secondary,
-a.button.secondary {
+.button.secondary, a.button.secondary {
   background-color: #2e9adb;
   border: solid 3px #EE6200;
 }
