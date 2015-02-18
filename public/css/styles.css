@@ -79,7 +79,10 @@ section#one .about-me {
   margin-left: 10px;
 }
 .avatar-container img {
-  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  max-height: 120%;
+  max-width: 120%;
 }
 
 .posts {

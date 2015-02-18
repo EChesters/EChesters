@@ -18,3 +18,10 @@
    -webkit-box-shadow:  0 0 10px #ABADB3;
    box-shadow:          0 0 10px #ABADB3;
 }
+
+@mixin dynamic-sizing() {
+  min-width: 100%;
+  min-height: 100%;
+  max-height: 120%;
+  max-width: 120%;
+}
