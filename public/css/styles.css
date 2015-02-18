@@ -109,6 +109,30 @@ section .description {
   height: auto;
   width: auto;
 }
+.posts .post .text-post {
+  width: 100%;
+  height: 100%;
+}
+.posts .post .text-post p {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 1.8em;
+}
+.posts .post .text-post.code-club {
+  background-color: #2d9632;
+  color: #eee;
+}
+.posts .post .text-post.codefirst-girls {
+  background-color: #eee;
+  color: #de2244;
+}
+.posts .post .text-post.accessibility {
+  color: #eee;
+  background-color: #004289;
+}
 
 /* TEXT ------------------- */
 header h2.title {

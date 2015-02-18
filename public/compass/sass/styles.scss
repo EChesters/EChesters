@@ -75,6 +75,30 @@ section {
     img {
       @include dynamic-sizing();
     }
+
+    .text-post {
+      @include fill-parent();
+
+      p {
+        @include vertical-align(50%);
+        font-size: $font-subtitle-size;
+      }
+
+      &.code-club {
+        background-color: $code-club-green;
+        color: $white;
+      }
+
+      &.codefirst-girls {
+        background-color: $white;
+        color: $codefirst-red;
+      }
+
+      &.accessibility {
+        color: $white;
+        background-color: $accessibility-blue;
+      }
+    }
   }
 }
 
