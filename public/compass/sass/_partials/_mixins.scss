@@ -12,3 +12,9 @@
   -ms-transform: 		translateY(-$percent);
   transform: 			translateY(-$percent);
 }
+
+@mixin box-shadow() {
+   -moz-box-shadow:     0 0 10px #ABADB3;
+   -webkit-box-shadow:  0 0 10px #ABADB3;
+   box-shadow:          0 0 10px #ABADB3;
+}
