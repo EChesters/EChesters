@@ -61,9 +61,6 @@ section {
 section .description {
   line-height: 1.5em;
 }
-section#one .about-me {
-  text-align: center;
-}
 
 /* IMAGES -------------------------- */
 .avatar-container {
@@ -79,10 +76,11 @@ section#one .about-me {
   margin-left: 10px;
 }
 .avatar-container img {
-  min-width: 100%;
-  min-height: 100%;
+  max-width: 180%;
   max-height: 120%;
-  max-width: 120%;
+  background-size: cover;
+  height: auto;
+  width: auto;
 }
 
 .posts {
@@ -105,10 +103,11 @@ section#one .about-me {
   display: inline-block;
 }
 .posts .post img {
-  min-width: 100%;
-  min-height: 100%;
+  max-width: 180%;
   max-height: 120%;
-  max-width: 120%;
+  background-size: cover;
+  height: auto;
+  width: auto;
 }
 
 /* TEXT ------------------- */
@@ -126,6 +125,10 @@ header h3.subtitle {
 }
 
 /* COMPONENTS ---------------------- */
+.button-container {
+  text-align: center;
+}
+
 .button, a.button {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -144,5 +147,5 @@ header h3.subtitle {
 }
 .button.secondary, a.button.secondary {
   background-color: #2e9adb;
-  border: solid 3px #EE6200;
+  border: solid 3px #2787C2;
 }

@@ -42,12 +42,6 @@ section {
   .description {
     line-height: 1.5em;
   }
-
-  &#one {
-    .about-me {
-      text-align: center;
-    }
-  }
 }
 
 /* IMAGES -------------------------- */ 
@@ -102,6 +96,10 @@ header {
 }
 
 /* COMPONENTS ---------------------- */
+.button-container {
+  text-align: center;
+}
+
 .button, a.button {
 	@include border-radius(5px);
 	text-decoration: none;
@@ -118,7 +116,7 @@ header {
 
 	&.secondary {
 		background-color: $secondary-blue;
-		border: solid 3px $primary-orange-darker;
+		border: solid 3px $secondary-blue-darker;
 	}
 }
 
