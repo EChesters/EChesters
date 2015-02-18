@@ -8,24 +8,27 @@ body {
 }
 
 #header {
-	background-color: $header-bg;
+  background-image: url("/images/mountains.jpg");
+  @include dynamic-sizing();
 	text-align: right;
 
 	.heading {
 		@include vertical-align(30%);
-  		margin-right: 30px;
+  	margin-right: 30px;
 
 		h1 {
 			@include vertical-align(-50%);
 			color: $white;
 			text-transform: uppercase;
 			font-size: $font-title-size;
+      // -webkit-text-stroke: 1px black;
+      font-weight: $weight-heavy;
 		}
 
 		h2 {
 			@include vertical-align(-150%);
 			font-size: $font-subtitle-size;
-			font-weight: $font-weight-light;
+			font-weight: $weight-medium;
       color: $primary-orange;
 		}
 	}
@@ -108,12 +111,12 @@ header {
     text-transform: uppercase;
     padding: 40px 0 50px 0; 
     font-size: $font-title-size;
-    font-weight: $font-weight-medium;
+    font-weight: $weight-medium;
   }
 
   h3.subtitle {
     font-size: $font-subtitle-size;
-    font-weight: $font-weight-light;
+    font-weight: $weight-light;
     font-variant: small-caps;
     margin-bottom: 10px;
   }

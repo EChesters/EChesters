@@ -4,10 +4,10 @@
 .divider {
   border: 0;
   height: 1px;
-  background-image: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
-  background-image: -moz-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
-  background-image: -ms-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
-  background-image: -o-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
   width: 85%;
   margin: 0 auto;
 }
@@ -18,7 +18,12 @@ body {
 }
 
 #header {
-  background-color: #43535e;
+  background-image: url("/images/mountains.jpg");
+  max-width: 180%;
+  max-height: 120%;
+  background-size: cover;
+  height: auto;
+  width: auto;
   text-align: right;
 }
 #header .heading {
@@ -35,9 +40,10 @@ body {
   -webkit-transform: translateY(50%);
   -ms-transform: translateY(50%);
   transform: translateY(50%);
-  color: #eee;
+  color: #eeeeee;
   text-transform: uppercase;
   font-size: 2em;
+  font-weight: 800;
 }
 #header .heading h2 {
   position: relative;
@@ -46,17 +52,17 @@ body {
   -ms-transform: translateY(150%);
   transform: translateY(150%);
   font-size: 1.8em;
-  font-weight: 200;
-  color: #FA6900;
+  font-weight: 500;
+  color: #fa6900;
 }
 
 #main {
-  background-color: #E0E4CC;
+  background-color: #e0e4cc;
   overflow-y: scroll;
 }
 
 section {
-  color: #56575A;
+  color: #56575a;
 }
 section .description {
   line-height: 1.5em;
@@ -66,7 +72,7 @@ section .description {
 .avatar-container {
   width: 150px;
   height: 150px;
-  border: 3px #eee solid;
+  border: 3px #eeeeee solid;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   -ms-border-radius: 100%;
@@ -96,7 +102,7 @@ section .description {
   -ms-border-radius: 5px;
   border-radius: 5px;
   margin: 10px 20px;
-  border: 3px #eee solid;
+  border: 3px #eeeeee solid;
   -moz-box-shadow: 0 0 10px #ABADB3;
   -webkit-box-shadow: 0 0 10px #ABADB3;
   box-shadow: 0 0 10px #ABADB3;
@@ -123,14 +129,14 @@ section .description {
 }
 .posts .post .text-post.code-club {
   background-color: #2d9632;
-  color: #eee;
+  color: #eeeeee;
 }
 .posts .post .text-post.codefirst-girls {
-  background-color: #eee;
+  background-color: #eeeeee;
   color: #de2244;
 }
 .posts .post .text-post.accessibility {
-  color: #eee;
+  color: #eeeeee;
   background-color: #004289;
 }
 
@@ -139,7 +145,7 @@ header h2.title {
   text-transform: uppercase;
   padding: 40px 0 50px 0;
   font-size: 2em;
-  font-weight: 600;
+  font-weight: 500;
 }
 header h3.subtitle {
   font-size: 1.8em;
@@ -159,17 +165,17 @@ header h3.subtitle {
   -ms-border-radius: 5px;
   border-radius: 5px;
   text-decoration: none;
-  color: #eee;
+  color: #eeeeee;
   display: inline-block;
   margin: 20px 0;
   padding: 15px 40px;
   font-size: 1em;
 }
 .button.primary, a.button.primary {
-  background-color: #FA6900;
-  border: solid 3px #EE6200;
+  background-color: #fa6900;
+  border: solid 3px #ee6200;
 }
 .button.secondary, a.button.secondary {
   background-color: #2e9adb;
-  border: solid 3px #2787C2;
+  border: solid 3px #2787c2;
 }
