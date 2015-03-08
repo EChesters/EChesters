@@ -17,6 +17,25 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.nav-bar {
+  width: 100%;
+  position: absolute;
+  background-color: #e0e4cc;
+}
+.nav-bar ul.options {
+  float: right;
+}
+.nav-bar ul.options li {
+  display: inline-block;
+}
+.nav-bar ul.options li a {
+  display: block;
+  padding: 10px 50px;
+}
+.nav-bar ul.options li a:link, .nav-bar ul.options li a:visited {
+  text-decoration: none;
+}
+
 #header {
   background-image: url("/images/mountains.jpg");
   max-width: 180%;
@@ -63,6 +82,8 @@ body {
 
 section {
   color: #56575a;
+  padding: 30px 40px;
+  display: block;
 }
 section .description {
   line-height: 1.5em;
@@ -136,8 +157,21 @@ section .description {
   color: #de2244;
 }
 .posts .post .text-post.accessibility {
-  color: #eeeeee;
   background-color: #004289;
+}
+.posts .post .text-post.accessibility a {
+  display: block;
+  color: #eeeeee;
+  text-decoration: none;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 1.8em;
+}
+.posts .post .text-post.accessibility a:visited, .posts .post .text-post.accessibility a:link {
+  text-decoration: none;
 }
 
 /* TEXT ------------------- */
@@ -152,6 +186,32 @@ header h3.subtitle {
   font-weight: 200;
   font-variant: small-caps;
   margin-bottom: 10px;
+}
+
+.section h2 {
+  font-size: 2em;
+  margin: 20px 0;
+  font-weight: 300;
+}
+.section ul li {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  margin: 10px;
+  border: 3px #56575a solid;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+.section ul li .achievement {
+  display: block;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 /* COMPONENTS ---------------------- */

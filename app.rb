@@ -3,6 +3,8 @@ require 'sinatra'
 require 'slim'
 
 class App < Sinatra::Application
+	@page_title = ""
+
 	get '/' do
 		slim :'pages/index', layout: false;
 	end

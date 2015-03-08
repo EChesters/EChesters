@@ -26,7 +26,8 @@
     height: 100vh;
   }
 }
-section {
-  padding: 30px 40px;
-  display: block;
+.section {
+  width: 100%;
+  text-align: center;
+  height: 500px;
 }
