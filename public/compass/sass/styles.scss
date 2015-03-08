@@ -5,6 +5,7 @@
 /* SECTIONS ------------------------ */
 body {
 	font-family: $open-sans;
+  background-color: $white;
 }
 
 .nav-bar {
@@ -161,19 +162,68 @@ header {
     margin: 20px 0;
     font-weight: 300;
   }
+
   ul {
-    li {
-      display: inline-block;
+    overflow: hidden;
+    list-style: none;
+    margin: 0 auto;
+    display: inline-flex;
+
+    li {        
       width: 200px;
       height: 200px;
       padding: 20px;
       margin: 10px;
-      border: 3px $dark-grey solid;
-      @include border-radius(5px);
+        border: 3px $actual-white solid;
+        @include border-radius(5px);
 
+  
       .achievement {
-        display: block;
         @include vertical-align(50%);
+        display: block;
+
+        h3 {
+          font-size: 1.1em;
+        }
+      }
+
+      &.cdl {
+        background-color: #004aa2;
+        color: $white;
+      }
+
+      &.thoughtworks {
+        background-color: #f158a1;
+        color: $white;
+      }
+
+      &.code-club {
+        background-color: $code-club-green;
+        color: $white;
+      }
+
+      &.code-first {
+        background-color: $actual-white;
+        color: $codefirst-red;       
+      }
+
+      &.teen-tech {
+        background-color: #965fab;
+      }
+
+      &.stemnets {
+        background-color: $actual-white;
+        color: #022261;
+      }
+
+      &.university {
+        color: #005391;
+        background-color: $actual-white;
+      }
+
+      &.talk-ux {
+        background-color: #49a692;
+        color: $white;
       }
     }
   }

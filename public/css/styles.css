@@ -15,6 +15,7 @@
 /* SECTIONS ------------------------ */
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: #eeeeee;
 }
 
 .nav-bar {
@@ -193,25 +194,64 @@ header h3.subtitle {
   margin: 20px 0;
   font-weight: 300;
 }
+.section ul {
+  overflow: hidden;
+  list-style: none;
+  margin: 0 auto;
+  display: inline-flex;
+}
 .section ul li {
-  display: inline-block;
   width: 200px;
   height: 200px;
   padding: 20px;
   margin: 10px;
-  border: 3px #56575a solid;
+  border: 3px white solid;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   border-radius: 5px;
 }
 .section ul li .achievement {
-  display: block;
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  display: block;
+}
+.section ul li .achievement h3 {
+  font-size: 1.1em;
+}
+.section ul li.cdl {
+  background-color: #004aa2;
+  color: #eeeeee;
+}
+.section ul li.thoughtworks {
+  background-color: #f158a1;
+  color: #eeeeee;
+}
+.section ul li.code-club {
+  background-color: #2d9632;
+  color: #eeeeee;
+}
+.section ul li.code-first {
+  background-color: white;
+  color: #de2244;
+}
+.section ul li.teen-tech {
+  background-color: #965fab;
+}
+.section ul li.stemnets {
+  background-color: white;
+  color: #022261;
+}
+.section ul li.university {
+  color: #005391;
+  background-color: white;
+}
+.section ul li.talk-ux {
+  background-color: #49a692;
+  color: #eeeeee;
 }
 
 /* COMPONENTS ---------------------- */

@@ -27,6 +27,14 @@ time, mark, audio, video {
     background:transparent;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
     line-height:1;
 }
