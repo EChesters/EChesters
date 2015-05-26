@@ -4,10 +4,11 @@ html locale="en"
     title Elizabeth Chesters
     link href="css/reset.css" rel="stylesheet" type="text/css"
     link href="css/layout.css" rel="stylesheet" type="text/css"
-    link href="css/styles.css" rel="stylesheet" type="text/css"    
+    link href="css/styles.css" rel="stylesheet" type="text/css" 
+    link href="css/jekyll.css" rel="stylesheet" type="text/css"   
 
   body
     nav
         == slim :'components/_nav-bar'
-
-    == yield
+    #content
+    	== yield

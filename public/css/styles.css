@@ -1,30 +1,36 @@
+@import url(http://fonts.googleapis.com/css?family=Lato|Oswald:400,700);
 /* COLOURS ----------- */
 /* FONTS ------------- */
 /* SIZE ------------- */
 .divider {
   border: 0;
   height: 1px;
-  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-  background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
+  background-image: -moz-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
+  background-image: -ms-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
+  background-image: -o-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
   width: 85%;
   margin: 0 auto;
 }
 
 /* SECTIONS ------------------------ */
 body {
-  font-family: "Open Sans", sans-serif;
-  background-color: #eeeeee;
+  font-family: "Lato", sans-serif;
+  background-color: #eee;
+}
+
+#content {
+  padding-top: 40px;
 }
 
 .nav-bar {
   width: 100%;
   position: absolute;
-  background-color: #e0e4cc;
+  background-color: #E0E4CC;
+  height: 40px;
 }
 .nav-bar ul.options {
-  float: right;
+  text-align: center;
 }
 .nav-bar ul.options li {
   display: inline-block;
@@ -60,7 +66,7 @@ body {
   -webkit-transform: translateY(50%);
   -ms-transform: translateY(50%);
   transform: translateY(50%);
-  color: #eeeeee;
+  color: #eee;
   text-transform: uppercase;
   font-size: 2em;
   font-weight: 800;
@@ -73,16 +79,16 @@ body {
   transform: translateY(150%);
   font-size: 1.8em;
   font-weight: 500;
-  color: #fa6900;
+  color: #FA6900;
 }
 
 #main {
-  background-color: #e0e4cc;
+  background-color: #E0E4CC;
   overflow-y: scroll;
 }
 
 section {
-  color: #56575a;
+  color: #56575A;
   padding: 30px 40px;
   display: block;
 }
@@ -90,11 +96,16 @@ section .description {
   line-height: 1.5em;
 }
 
+h1.page-title {
+  text-align: center;
+  font-size: 2em;
+}
+
 /* IMAGES -------------------------- */
 .avatar-container {
   width: 150px;
   height: 150px;
-  border: 3px #eeeeee solid;
+  border: 3px #eee solid;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   -ms-border-radius: 100%;
@@ -124,7 +135,7 @@ section .description {
   -ms-border-radius: 5px;
   border-radius: 5px;
   margin: 10px 20px;
-  border: 3px #eeeeee solid;
+  border: 3px #eee solid;
   -moz-box-shadow: 0 0 10px #ABADB3;
   -webkit-box-shadow: 0 0 10px #ABADB3;
   box-shadow: 0 0 10px #ABADB3;
@@ -151,10 +162,10 @@ section .description {
 }
 .posts .post .text-post.code-club {
   background-color: #2d9632;
-  color: #eeeeee;
+  color: #eee;
 }
 .posts .post .text-post.codefirst-girls {
-  background-color: #eeeeee;
+  background-color: #eee;
   color: #de2244;
 }
 .posts .post .text-post.accessibility {
@@ -162,7 +173,7 @@ section .description {
 }
 .posts .post .text-post.accessibility a {
   display: block;
-  color: #eeeeee;
+  color: #eee;
   text-decoration: none;
   position: relative;
   top: 50%;
@@ -205,7 +216,7 @@ header h3.subtitle {
   height: 200px;
   padding: 20px;
   margin: 10px;
-  border: 3px white solid;
+  border: 3px #fff solid;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -224,34 +235,34 @@ header h3.subtitle {
 }
 .section ul li.cdl {
   background-color: #004aa2;
-  color: #eeeeee;
+  color: #eee;
 }
 .section ul li.thoughtworks {
   background-color: #f158a1;
-  color: #eeeeee;
+  color: #eee;
 }
 .section ul li.code-club {
   background-color: #2d9632;
-  color: #eeeeee;
+  color: #eee;
 }
 .section ul li.code-first {
-  background-color: white;
+  background-color: #fff;
   color: #de2244;
 }
 .section ul li.teen-tech {
   background-color: #965fab;
 }
 .section ul li.stemnets {
-  background-color: white;
+  background-color: #fff;
   color: #022261;
 }
 .section ul li.university {
   color: #005391;
-  background-color: white;
+  background-color: #fff;
 }
 .section ul li.talk-ux {
   background-color: #49a692;
-  color: #eeeeee;
+  color: #eee;
 }
 
 /* COMPONENTS ---------------------- */
@@ -265,17 +276,17 @@ header h3.subtitle {
   -ms-border-radius: 5px;
   border-radius: 5px;
   text-decoration: none;
-  color: #eeeeee;
+  color: #eee;
   display: inline-block;
   margin: 20px 0;
   padding: 15px 40px;
   font-size: 1em;
 }
 .button.primary, a.button.primary {
-  background-color: #fa6900;
-  border: solid 3px #ee6200;
+  background-color: #FA6900;
+  border: solid 3px #EE6200;
 }
 .button.secondary, a.button.secondary {
   background-color: #2e9adb;
-  border: solid 3px #2787c2;
+  border: solid 3px #2787C2;
 }

@@ -4,17 +4,22 @@
 
 /* SECTIONS ------------------------ */
 body {
-	font-family: $open-sans;
+	font-family: $content-font;
   background-color: $white;
+}
+
+#content {
+  padding-top: $nav-bar-height;
 }
 
 .nav-bar {
   width: 100%;
   position: absolute;
   background-color: $main-bg;
+  height: $nav-bar-height;
 
   ul.options {
-    float: right;
+    text-align: center;
     li {
       display: inline-block;
 
@@ -69,6 +74,11 @@ section {
   .description {
     line-height: 1.5em;
   }
+}
+
+h1.page-title {
+  text-align: center;
+  font-size: $font-title-size;
 }
 
 /* IMAGES -------------------------- */ 

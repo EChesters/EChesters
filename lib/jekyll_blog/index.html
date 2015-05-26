@@ -8,9 +8,12 @@ title: My Blog Posts
     <ul class="blog-posts">
       {% for post in site.posts %}
       <li>
-		<span class="date">{{ post.date | date: "%B %e, %Y" }}</span><a class="fa fa-chevron-right hvr-icon-wobble-horizontal" href="{{ post.url }}">{{ post.title }} </a>
-		<!-- <i class="fa fa-chevron-right"></i></a> -->
-		<div class="page-divider"></div>
+	    <span class="post-entry">
+		    <h3 class="post-title"><a href="{{  post.url }}">{{ post.title }}</a></h3>
+		    <div class="post-divider"></div>
+		    <p class="post-description">{{ post.description }}</p>
+		    <p class="post-time">{{ post.date | date: "%B %e, %Y" }}
+	    </span>
       </li>
       {% endfor %}
     </ul>

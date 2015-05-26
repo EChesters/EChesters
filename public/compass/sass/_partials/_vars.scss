@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Lato|Oswald:400,700);
+
 /* COLOURS ----------- */
 $white: 				#eee;
 $actual-white:			#fff;
@@ -16,7 +18,8 @@ $codefirst-red:			#de2244;
 $accessibility-blue:	#004289;
 
 /* FONTS ------------- */
-$open-sans: 			'Open Sans', sans-serif;
+$title-font:			'Oswald', sans-serif;
+$content-font:			'Lato', sans-serif;
 $font-button: 			1em;
 $font-title-size:		2em;
 $font-subtitle-size:	1.8em;
@@ -30,3 +33,4 @@ $size-1-3:				33%;
 $size-2-3:				67%;
 $size-full-width: 		100%;
 $size-full-height:		100vh;
+$nav-bar-height:		40px;
