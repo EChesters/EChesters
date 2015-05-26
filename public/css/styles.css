@@ -66,10 +66,12 @@ body {
   -webkit-transform: translateY(50%);
   -ms-transform: translateY(50%);
   transform: translateY(50%);
-  color: #eee;
+  color: #111;
   text-transform: uppercase;
   font-size: 2em;
   font-weight: 800;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1px;
 }
 #header .heading h2 {
   position: relative;
@@ -79,7 +81,7 @@ body {
   transform: translateY(150%);
   font-size: 1.8em;
   font-weight: 500;
-  color: #FA6900;
+  color: #fff;
 }
 
 #main {
@@ -192,9 +194,12 @@ header h2.title {
   padding: 40px 0 50px 0;
   font-size: 2em;
   font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  color: #EE6200;
 }
 header h3.subtitle {
   font-size: 1.8em;
+  font-family: "Oswald", sans-serif;
   font-weight: 200;
   font-variant: small-caps;
   margin-bottom: 10px;

@@ -18,20 +18,20 @@ html locale="en"
     #main
       section#one
         header 
-          h2.title My Blog & Portfolio
+          h2.title My Blog
 
-        p.description I am Elizabeth Chesters, a graduate developer. This is my blog where I share my personal thoughts and my portfolio where I can show you cool people all the cool stuff I've done and what there is for you to get involved in.
+        p.description I am Elizabeth Chesters. This is my blog where I share my personal thoughts and my portfolio where I can show you cool people all the cool stuff I've done and what there is for you to get involved in.
 
-        .button-container
-          a.button.primary href="/about" About Me
+        / .button-container
+        /   a.button.primary href="/about" About Me
 
-      .divider
+      / .divider
 
       section#two
-        header
-          h3.subtitle Blog
+        / header
+        /   h3.subtitle Blog
 
-        p.description Personal thoughts, shared with you.
+        / p.description Personal thoughts, shared with you.
 
         .posts
           .post
@@ -40,26 +40,31 @@ html locale="en"
             a href="/why-be-accessible": img src="/images/photography.jpg"
           .post
             a href="/": img src="/images/graduation.jpg"
-        .button-container
-          a.button.secondary href="/blog" Read More Blog Posts
 
-      .divider
-
-      section#three
-        header
-          h3.subtitle Portfolio
-        p.description Showcase of my work.
-
-        .posts
-          .post
-            .text-post.code-club
-              p Code Club
-          .post
-            .text-post.codefirst-girls
-              p CodeFirst:Girls
-          .post
-            .text-post.accessibility
-              a href="/portfolio#university" Accessibility
 
         .button-container
-          a.button.secondary href="/portfolio" View My Portfolio
+          a.button.secondary href="/blog" Read more blog posts
+
+      / .divider
+
+      / section#three     
+      /   .button-container
+      /     a.button.primary href="/about" About Me
+      /   header
+      /     h3.subtitle Portfolio
+      /   p.description Showcase of my work.
+
+      /   .posts
+      /     .post
+      /       .text-post.code-club
+      /         p Code Club
+      /     .post
+      /       .text-post.codefirst-girls
+      /         p CodeFirst:Girls
+      /     .post
+      /       .text-post.accessibility
+      /         a href="/portfolio#university" Accessibility
+
+      /   .button-container
+      /     a.button.secondary href="/portfolio" View My Portfolio
+
