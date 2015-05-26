@@ -47,7 +47,6 @@ body {
 		h1 {
 			@include vertical-align(-50%);
 			color: $black;
-			text-transform: uppercase;
 			font-size: $font-title-size;
       font-weight: $weight-heavy;
       font-family: $title-font;
@@ -154,7 +153,6 @@ h1.page-title {
 /* TEXT ------------------- */
 header {
   h2.title {
-    text-transform: uppercase;
     padding: 40px 0 50px 0; 
     font-size: $font-title-size;
     font-weight: $weight-medium;

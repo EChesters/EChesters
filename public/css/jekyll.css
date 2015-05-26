@@ -13,10 +13,24 @@
   margin: 0 auto;
 }
 
+/* SECTIONS */
 body {
   background-color: #eee;
 }
 
+.content, .post-content {
+  width: 65%;
+  margin: 0 auto;
+  background-color: #fff;
+  border: solid 1px #56575A;
+  padding: 20px;
+}
+
+.post-content {
+  padding: 100px;
+}
+
+/* TEXT */
 h1.page-title {
   font-family: "Oswald", sans-serif;
   letter-spacing: 1px;
@@ -42,10 +56,7 @@ h3.post-title {
   opacity: 0.6;
 }
 
-.content {
-  width: 65%;
-  margin: 0 auto;
-  background-color: #fff;
-  border: solid 1px #56575A;
-  padding: 20px;
+h2 {
+  font-size: 1.8em;
+  margin: 30px 0 5px 0;
 }

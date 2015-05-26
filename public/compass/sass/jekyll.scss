@@ -2,9 +2,25 @@
 @import '_partials/_vars';
 @import '_partials/_components';
 
+/* SECTIONS */
 body {
 	background-color: $white;
 }
+
+.content {
+	width: 65%;
+	margin: 0 auto;
+	background-color: $actual-white;
+	border: solid 1px $dark-grey;
+	padding: 20px;
+}
+
+	.post-content {
+		@extend .content;
+		padding: 100px;
+	}
+
+/* TEXT */
 
 h1.page-title {
 	font-family: $title-font;
@@ -31,10 +47,8 @@ h3.post-title {
 	opacity: 0.6;
 }
 
-.content {
-	width: 65%;
-	margin: 0 auto;
-	background-color: $actual-white;
-	border: solid 1px $dark-grey;
-	padding: 20px;
+h2 {
+	font-size: $font-subtitle-size;
+	margin: 30px 0 5px 0;
 }
+
