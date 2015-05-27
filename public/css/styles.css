@@ -125,7 +125,8 @@ h1.page-title {
 
 .posts {
   text-align: center;
-  margin-top: 20px;
+  margin: 20px auto;
+  width: 60%;
 }
 .posts .post {
   width: 200px;
