@@ -5,13 +5,13 @@ title: CodeFirst:Girls UX Workshop
 
 
 ## Who am I?
-I am Elizabeth Chesters, a P3 champion of education for Manchester. I have been teaching Ruby alongside Pablo Porto Veloso and Matt Chamberlain on behalf of CodeFirst:Girls, and alongside Darren Haken and Alina Balusescu in our day at Westholme High School. Last Sunday, myself, Daniel Yates and Ama Asare ran a workshop teaching 9 girls the basics of user experience and how to go about designing their app idea for an actual person. 
+I am Elizabeth Chesters from Thought Works, a Social and Economic (Pillar 3) champion of education for Manchester. I have been teaching Ruby alongside Pablo Porto Veloso and Matt Chamberlain on behalf of CodeFirst:Girls, and alongside Darren Haken and Alina Balusescu in our day at Westholme High School. Last Sunday, myself, Daniel Yates and Ama Asare ran a workshop teaching 9 girls the basics of user experience and how to go about designing their app idea for an actual person. 
  
 ## Who are CodeFirst:Girls?
-CodeFirst:Girls are an organisation aimed at getting women involved in technology; whether that's through teaching them how to code or putting them in touch with someone with the right skillset to build their entrepreneurial idea. They are a young organisation and we as ThoughtWorks have been working with them from both of our offices.
+CodeFirst:Girls are an organisation aimed at getting women involved in technology; whether that's through teaching them how to code or putting them in touch with someone with the right skillset to build their entrepreneurial idea. They are a young organisation and we as ThoughtWorks have been working with them from both of our London and Manchester offices.
 
 ## What did we do?
-What we did this time for CodeFirst:Girls is run a UX workshop.
+Three volunteers, including myself ran a full day workshop, offering an insight with hands-on exercises as to what UX involves. We explained why UX is needed, and not a "dreaded" buzz word
 
 ## What did we cover?
 Alongside Hannah Fitzgerald-Kearns, we designed a UX workshop structure that we could take anywhere as an absolute basic on how to approach the topic in your project.
@@ -42,3 +42,8 @@ Alongside Hannah Fitzgerald-Kearns, we designed a UX workshop structure that we 
 ## What did I learn from it?
 Every teaching situation has been so different so far and this workshop was no exception. We had a bit of friction on one team which left most of the facilitators wondering when and how to step in. Again, groups went at different speeds and it was sometimes hard to balance the pace of the room. From this workshop in particular I've learnt some much about I assume. The more I'm passionate about something, the more I find it easier - which in turn means I assume that everyone just magically gets what I'm trying to say. I learnt that the cheatsheet I had put on everyone's desk made life a lot easier. It gave people something to scribble notes on, it meant if I had forgotten to say something out of nerves that I had already given someone the answer on a sheet. I didn't plan on relying on the sheets as much I did, but it was nice even at the beginning that people got stuck in while we were waiting for people to arrive and started to read my sheets!
 I also learnt that as part of this structure people needed time to actually plan an app idea. This made the day so much more productive because it then became an idea that was feasible to take forward. Either way despite a few mishaps and it being a first time workshop for a dev, it went really well! Twitter was full of feedback, we got the work done, and we even have a mini-competition, courtesy of Carla Parr. Project permitted of being sent to London, we have been asked to run the course again for CodeFirst:Girls!
+
+<div class="images">
+     <img src="/images/posts/ux_1.jpg">
+     <img src="/images/posts/ux_2.jpg">
+</div>

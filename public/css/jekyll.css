@@ -81,3 +81,18 @@ ol ul {
   padding-left: 60px;
   padding-bottom: 20px;
 }
+
+/* IMAGES */
+.images {
+  margin: 0 auto;
+  width: 80%;
+  padding: 20px 0;
+}
+
+img {
+  max-height: 240px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
