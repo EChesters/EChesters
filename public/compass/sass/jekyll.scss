@@ -21,16 +21,20 @@ body {
 		padding: 50px 100px;
 	}
 
-/* TEXT */
+.blog-posts {
+	list-style: none;
+	padding: 5% 10%;
 
+	li {
+		margin: 15px 0;
+	}
+}
+
+/* TEXT */
 h1.page-title {
 	font-family: $title-font;
 	letter-spacing: 1px;
 	margin: 50px 0 30px 0;
-}
-
-.blog-posts {
-	list-style: none;
 }
 
 .post-entry {
@@ -38,14 +42,18 @@ h1.page-title {
 }
 
 h3.post-title {
-	color: $secondary-blue-darker;
-	font-size: 20px;
-	letter-spacing: 1px;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
+
+	a {
+		color: $primary-orange-darker;
+		font-size: 20px;
+		letter-spacing: 1px;
+	}
 }
 
 .post-time {
-	opacity: 0.6;
+	opacity: 0.5;
+	float: right;
 }
 
 h2 {
@@ -70,6 +78,10 @@ ol {
 		padding-left: 60px;
 		padding-bottom: 20px;
 	}
+}
+
+.post-description {
+	opacity: 0.8;
 }
 
 /* IMAGES */

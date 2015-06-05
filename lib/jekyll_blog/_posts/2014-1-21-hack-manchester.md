@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Winning Hack Manchester
+description: My journey from a hackathon to an internship with ThoughtWorks.
 ---
 
 I’ve been to three hackathons now, with StudentHack being my fourth next month.

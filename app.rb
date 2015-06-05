@@ -29,8 +29,8 @@ class App < Sinatra::Application
 
 			if (file_path.include?('.xml') || file_path.include?('.css'))
                   erb contents, :content_type => 'text/xml'
-                else
-					erb contents, :layout_engine => :slim
+            else
+				erb contents, :layout_engine => :slim
 			end
 		else
 			slim :'pages/not-found'

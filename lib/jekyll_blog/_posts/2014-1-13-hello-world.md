@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hello world!
+description: The standard first blog entry with a cheeky take on the class Hello World!
 ---
 
 Welcome to my blog and portfolio. A showcase of my work as a developer, a ThoughtWorks intern and a STEMNet volunteer.

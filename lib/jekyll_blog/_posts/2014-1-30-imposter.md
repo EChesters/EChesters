@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Imposter
+title: Imposter!
+description: No one questions those who are "gobby" about what they are passionate about. By putting yourself out there it's a lot easier to refer to 'X', 'Y' and 'Z' in those moments where you feel like you don't know as much as you magically should.
 ---
 
 Leading on from Wednesday’s Sowing the Seed talk on imposter syndrome, I thought I would write about my own personal experiences of being an imposter. Karen Pudner talked about how to build your confidence as a developer; as a student coming into industry or when you’re just losing your mojo. During the talk I think it reached out to most of us, and realising there was a name for it made it even more comforting.

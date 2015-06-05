@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Why Be Accessible?
+description: Despite the technology we have today accessibility is still an issue and still a non-functional requirement that you have to sell to your stakeholders and clients. This post is a take on why that shouldn't be the case. 
 ---
 
 Barriers suck. Technology has evolved so much in terms of removing barriers for everyone, over borders, languages and disabilities. Yet even on the most popular of websites barriers still exist, and they continue to exclude those who need technology the most.
