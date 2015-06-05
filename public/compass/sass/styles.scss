@@ -2,6 +2,9 @@
 @import '_partials/_vars';
 @import '_partials/_components';
 
+@import 'font-awesome-compass';
+@import 'font-awesome';
+
 /* SECTIONS ------------------------ */
 body {
 	font-family: $content-font;
@@ -15,20 +18,25 @@ body {
 .nav-bar {
   width: 100%;
   position: absolute;
-  background-color: $main-bg;
+  background-color: $secondary-blue-darker;
   height: $nav-bar-height;
 
   ul.options {
-    text-align: center;
     li {
       display: inline-block;
 
       a {
         display: block;
         padding: 10px 50px;
+        color: $white;
 
         &:link, &:visited {
           text-decoration: none;
+        }
+
+        .left {
+          float: left;
+          margin: 4px 2px 0 0;
         }
       }
     }
@@ -100,7 +108,6 @@ h1.page-title {
 .posts {
   text-align: center;
   margin: 20px auto;
-  // width: 75%;
   width: 60%;
 
   .post {

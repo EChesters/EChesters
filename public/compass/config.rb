@@ -1,3 +1,5 @@
+require 'font-awesome-sass'
+
 relative_assets  = true
 css_dir          = "../css"
 sass_dir         = "sass"
