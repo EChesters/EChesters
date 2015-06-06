@@ -6,6 +6,7 @@ html locale="en"
     link rel="stylesheet" href="css/layout.css"
     link rel="stylesheet" href="css/styles.css"
     link rel="icon" type="image/ico" href="images/logo.ico"
+    link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" 
 
   body
     header#header
@@ -44,9 +45,13 @@ html locale="en"
             a href="/cultural-accessibility": img src="/images/posts/cultural-accessibility.jpg"
 
         .button-container
-          a.button.secondary href="/blog" Read more blog posts
+          a.button.secondary href="/blog" <i class="fa fa-newspaper-o"></i> Read more blog posts
 
-      / .divider
+      .divider
+
+      section#three
+        #news
+          == slim :'components/_news'
 
       / section#three     
       /   .button-container

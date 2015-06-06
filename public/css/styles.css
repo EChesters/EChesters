@@ -2268,11 +2268,12 @@ body {
 
 section {
   color: #56575A;
-  padding: 30px 40px;
+  padding: 20px 40px;
   display: block;
 }
 section .description {
   line-height: 1.5em;
+  margin-bottom: 5px;
 }
 
 h1.page-title {
@@ -2304,7 +2305,7 @@ h1.page-title {
 .posts {
   text-align: center;
   margin: 20px auto;
-  width: 60%;
+  width: 95%;
 }
 .posts .post {
   width: 200px;
