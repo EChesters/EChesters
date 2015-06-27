@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato|Oswald:400,700);
+@import url(http://fonts.googleapis.com/css?family=Alegreya+SC|Shadows+Into+Light+Two|Oxygen);
 /* COLOURS ----------- */
 /* FONTS ------------- */
 /* SIZE ------------- */
@@ -44,7 +44,7 @@ body {
 
 /* TEXT */
 h1.page-title {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oxygen", sans-serif;
   letter-spacing: 1px;
   margin: 35px 0 30px 0;
 }
@@ -55,6 +55,7 @@ h1.page-title {
 
 h3.post-title {
   margin-bottom: 10px;
+  font-family: "Oxygen", sans-serif;
 }
 h3.post-title a {
   color: #EE6200;

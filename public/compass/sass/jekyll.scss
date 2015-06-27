@@ -31,7 +31,7 @@ body {
 
 /* TEXT */
 h1.page-title {
-	font-family: $title-font;
+	font-family: $content-font;
 	letter-spacing: 1px;
 	margin: 35px 0 30px 0;
 }
@@ -42,6 +42,7 @@ h1.page-title {
 
 h3.post-title {
 	margin-bottom: 10px;
+	font-family: $content-font;
 
 	a {
 		color: $primary-orange-darker;
