@@ -23,16 +23,18 @@ body {
 
       a {
         display: block;
-        padding: 10px 15px;
+        padding: 12px 40px;
         color: $white;
-        border: 2px solid transparent;
+        border-bottom: 4px solid transparent;
 
         &:link, &:visited {
           text-decoration: none;
         }
 
         &:hover {
-          border: 2px solid $actual-white;
+          border-bottom: 4px solid $primary-orange-darker;
+          color: $nav-bar;
+          background-color: $actual-white;
         }
       }
     }

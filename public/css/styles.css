@@ -2206,15 +2206,17 @@ body {
 }
 .nav-bar ul.options li a {
   display: block;
-  padding: 10px 15px;
+  padding: 12px 40px;
   color: #eee;
-  border: 2px solid transparent;
+  border-bottom: 4px solid transparent;
 }
 .nav-bar ul.options li a:link, .nav-bar ul.options li a:visited {
   text-decoration: none;
 }
 .nav-bar ul.options li a:hover {
-  border: 2px solid #fff;
+  border-bottom: 4px solid #EE6200;
+  color: #23495d;
+  background-color: #fff;
 }
 
 #header {
