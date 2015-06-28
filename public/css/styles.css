@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(http://fonts.googleapis.com/css?family=Alegreya+SC|Shadows+Into+Light+Two|Oxygen);
+@import url(http://fonts.googleapis.com/css?family=Alegreya+SC|Oxygen);
 /* COLOURS ----------- */
 /* FONTS ------------- */
 /* SIZE ------------- */
@@ -2195,30 +2195,26 @@ body {
   background-color: #eee;
 }
 
-#content {
-  padding-top: 40px;
-}
-
 .nav-bar {
   width: 100%;
   position: absolute;
-  background-color: #2787C2;
-  height: 40px;
+  background-color: #23495d;
+  opacity: 0.6;
 }
 .nav-bar ul.options li {
   display: inline-block;
 }
 .nav-bar ul.options li a {
   display: block;
-  padding: 0.5em 15px;
+  padding: 10px 15px;
   color: #eee;
+  border: 2px solid transparent;
 }
 .nav-bar ul.options li a:link, .nav-bar ul.options li a:visited {
   text-decoration: none;
 }
-.nav-bar ul.options li a .left {
-  float: left;
-  margin: 4px 2px 0 0;
+.nav-bar ul.options li a:hover {
+  border: 2px solid #fff;
 }
 
 #header {
@@ -2279,7 +2275,7 @@ section .description {
 
 h1.page-title {
   text-align: center;
-  font-size: 2em;
+  font-size: 3em;
 }
 
 /* IMAGES -------------------------- */
@@ -2371,7 +2367,7 @@ h1.page-title {
 /* TEXT ------------------- */
 header h2.title {
   padding: 40px 0 50px 0;
-  font-size: 2em;
+  font-size: 3em;
   font-weight: 500;
   font-family: "Alegreya SC", serif;
   color: #EE6200;

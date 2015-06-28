@@ -7,13 +7,20 @@ body {
 	background-color: $white;
 }
 
+.blog-header {
+	background-image: url("/images/mountains-clipped.jpg");
+	// background-color: #23495d;
+	width: 100%;
+	text-align: center;
+	 @include dynamic-sizing();
+	 padding: 40px;
+	 @include box-shadow();
+}
+
 .content {
 	width: 65%;
 	margin: -1% auto;
-	background-color: $actual-white;
-	border: solid 1px $dark-grey;
 	padding: 20px;
-	@include border-radius(5px);
 }
 
 .post-content {
@@ -34,6 +41,8 @@ h1.page-title {
 	font-family: $content-font;
 	letter-spacing: 1px;
 	margin: 35px 0 30px 0;
+	color: $actual-white;
+	font-size: $font-title-size;
 }
 
 .post-entry {

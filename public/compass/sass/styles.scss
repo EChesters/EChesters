@@ -11,15 +11,11 @@ body {
   background-color: $white;
 }
 
-#content {
-  padding-top: $nav-bar-height;
-}
-
 .nav-bar {
   width: 100%;
   position: absolute;
-  background-color: $secondary-blue-darker;
-  height: $nav-bar-height;
+  background-color: $nav-bar;
+  opacity: 0.6;
 
   ul.options {
     li {
@@ -27,16 +23,16 @@ body {
 
       a {
         display: block;
-        padding: 0.5em 15px;
+        padding: 10px 15px;
         color: $white;
+        border: 2px solid transparent;
 
         &:link, &:visited {
           text-decoration: none;
         }
 
-        .left {
-          float: left;
-          margin: 4px 2px 0 0;
+        &:hover {
+          border: 2px solid $actual-white;
         }
       }
     }
@@ -55,7 +51,7 @@ body {
 		h1 {
 			@include vertical-align(-100%);
 			color: $black;
-			font-size: $font-title-size;
+			font-size: $index-title-size;
       font-weight: $weight-heavy;
       font-family: $title-font;
       letter-spacing: 5px;

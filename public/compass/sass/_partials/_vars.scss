@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Alegreya+SC|Shadows+Into+Light+Two|Oxygen);
+@import url(http://fonts.googleapis.com/css?family=Alegreya+SC|Oxygen);
 
 /* COLOURS ----------- */
 $white: 				#eee;
@@ -17,11 +17,14 @@ $code-club-green:		#2d9632;
 $codefirst-red:			#de2244;
 $accessibility-blue:	#004289;
 
+$nav-bar:				 #23495d;
+
 /* FONTS ------------- */
 $title-font:			'Alegreya SC', serif;
 $content-font:			'Oxygen', sans-serif;
 $font-button: 			1em;
-$font-title-size:		2em;
+$font-title-size:		3em;
+$index-title-size: 		2em;
 $font-subtitle-size:	1.8em;
 $weight-light:		    200;
 $weight-medium:	        500;
@@ -32,4 +35,4 @@ $size-1-3:				33%;
 $size-2-3:				67%;
 $size-full-width: 		100%;
 $size-full-height:		100vh;
-$nav-bar-height:		40px;
+$nav-bar-height:		10px;
