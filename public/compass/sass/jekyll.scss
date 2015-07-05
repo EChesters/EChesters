@@ -5,11 +5,11 @@
 /* SECTIONS */
 body {
 	background-color: $white;
+	color: $black;
 }
 
 .blog-header {
 	background-image: url("/images/mountains-clipped.jpg");
-	// background-color: #23495d;
 	width: 100%;
 	text-align: center;
 	 @include dynamic-sizing();
@@ -73,6 +73,25 @@ h2 {
 p {
 	line-height: 1.5em;
 }
+
+blockquote { 
+
+	p {
+		font-size: $font-quote-size;
+		margin-left: 8%;
+		color: $light-grey;
+		font-style: italic;
+	}
+}
+
+	.fa-quote-left {
+		color: $primary-orange-darker;
+		padding: 0 5px;
+		position: relative; 
+		top: 0.2em;
+		font-size: $font-subtitle-size;
+		opacity: 0.7;
+	}
 
 #post-content p {
 	margin-bottom: 1.2em;

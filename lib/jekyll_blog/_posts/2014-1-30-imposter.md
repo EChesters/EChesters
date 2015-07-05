@@ -10,17 +10,17 @@ During the event, when I was explaining why I had been asked to speak at the eve
 
 Last night, we were shown quotes from Alicia Lui’s blog, about overcoming imposter syndrome. One in particular really hit home;
 
-> “…And surely the nail in the coffin was that I had not watched a single episode of Star Trek.”
+> <i class="fa fa-quote-left"></i>…And surely the nail in the coffin was that I had not watched a single episode of Star Trek.
 
 Looking back at first year I was talking with a friend, and Patrick Stewart came up in conversation. After admitting I didn’t have a clue who he was, my friend then proceeded to tell everyone the upsetting news that I didn’t know who he was. One guy perked up over the computer screens and gasped in disbelief.
 
-> “If you don’t know who Patrick Stewart is, you shouldn’t even be on this course!”
+> <i class="fa fa-quote-left"></i> If you don’t know who Patrick Stewart is, you shouldn’t even be on this course!
 
 There is was again, but at least this time I knew why I was being told I shouldn’t be here. Even last night at the event someone made me feel like a last minute resort due to speaker cancellations.
 
-> “Oh are you here as a last minute speaker, are you?”
+> <i class="fa fa-quote-left"></i>Oh are you here as a last minute speaker, are you?
 
-Despite my picture and my biography being published in the event newsletter, in the same newsletter they had been a part of and received there was still a sense of doubt from someone who didn’t know me.
+Despite my picture and my biography being published in the event newsletter, in the same newsletter they had been a part of and received there was still a sense of doubt from someone who didn’t know me. Oh did I mention this came from a female tutor?
 
 Reading more about these imposter feelings, lead me to discover that this is more common amongst graduate students and academics. I realised this as soon as I started to look at my presentation for Sowing the Seed compared with the other speakers. I had created a whole of 5 slides, cramming everything I knew or had been involved in, in the last 2 years. Then I realised exactly what I was doing. I love my job, and I can talk about it for hours, days and weeks and at times it doesn’t even feel like a job. But since applying for ThoughtWorks and being given feedback that I didn’t fit the company because I wasn’t passionate, brought back every moment where I felt like an imposter. Someone had finally caught me out. So instead I seeked even more opportunities and from these I made my own. The Manchester Java Community, Manchester’s Android Community, StemNET Volunteering, Code Club, Manchester Girl Geeks, Wikipedia meetups, workshops for MMU’s Computing Society, Manchester Geek Nights and the countless books. I know even without imposter syndrome I would do all of these things and more within a heartbeat, but they still feel like my safety net. So when someone tells me I shouldn’t be doing my degree or if I don’t come across as passionate I have all of these “amazing” things that I have done to say “Noooo, but look! Look at all of this stuff that I do, I’m amazing! No imposter here!”
 
