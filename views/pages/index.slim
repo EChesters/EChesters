@@ -16,63 +16,10 @@ html locale="en"
         h1 Elizabeth Chesters
         h2 Developer & UX
 
-    #main
-      section#one
-        header 
-          h2.title My Blog
-
-        p.description I am Elizabeth Chesters. This is my blog where I share my personal thoughts and my portfolio where I can show you cool people all the cool stuff I've done and what there is for you to get involved in.
-
-        / .button-container
-        /   a.button.primary href="/about" About Me
-
-      / .divider
-
-      section#two
-        / header
-        /   h3.subtitle Blog
-
-        / p.description Personal thoughts, shared with you.
-
-        .posts
-          .post
-            a href="/imposter": img src="/images/posts/imposter.jpg"
-          .post
-            a href="/why-be-accessible": img src="/images/posts/accessible.jpg"
-          .post
-            a href="/ux-workshop": img src="/images/posts/ux_2.jpg"
-          .post
-            a href="/cultural-accessibility": img src="/images/posts/cultural-accessibility.jpg"
-
-        .button-container
-          a.button.secondary href="/blog" <i class="fa fa-newspaper-o"></i> Read more blog posts
-
-      .divider
-
-      section#three
-        #news
-          == slim :'components/_news'
+        .buttons
+          .button-container
+            a.button.primary href="/blog" <i class="fa fa-newspaper-o"></i> Read my blog
+          / .button-container
+          /   a.button.primary href="/portfolio" <i class="fa fa-briefcase"></i> View my portfolio
 
       script src="/js/analytics.js"
-
-      / section#three     
-      /   .button-container
-      /     a.button.primary href="/about" About Me
-      /   header
-      /     h3.subtitle Portfolio
-      /   p.description Showcase of my work.
-
-      /   .posts
-      /     .post
-      /       .text-post.code-club
-      /         p Code Club
-      /     .post
-      /       .text-post.codefirst-girls
-      /         p CodeFirst:Girls
-      /     .post
-      /       .text-post.accessibility
-      /         a href="/portfolio#university" Accessibility
-
-      /   .button-container
-      /     a.button.secondary href="/portfolio" View My Portfolio
-

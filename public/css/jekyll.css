@@ -16,6 +16,7 @@
 /* SECTIONS */
 body {
   background-color: #eee;
+  color: #111;
 }
 
 .blog-header {
@@ -86,6 +87,22 @@ h2 {
 
 p {
   line-height: 1.5em;
+}
+
+blockquote p {
+  font-size: 1.5em;
+  margin-left: 8%;
+  color: #D5D4DF;
+  font-style: italic;
+}
+
+.fa-quote-left {
+  color: #EE6200;
+  padding: 0 5px;
+  position: relative;
+  top: 0.2em;
+  font-size: 1.8em;
+  opacity: 0.7;
 }
 
 #post-content p {

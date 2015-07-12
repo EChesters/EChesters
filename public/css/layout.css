@@ -14,12 +14,6 @@
   }
 }
 @media only screen and (min-width: 1025px) {
-  header#header {
-    float: left;
-    width: 33%;
-    height: 100vh;
-  }
-
   #main {
     float: right;
     width: 67%;

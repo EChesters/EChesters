@@ -44,11 +44,13 @@ body {
 #header {
   background-image: url("/images/mountains.jpg");
   @include dynamic-sizing();
-	text-align: right;
+  height: 100vh;
 
 	.heading {
 		@include vertical-align(30%);
-  	margin-right: 30px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
 
 		h1 {
 			@include vertical-align(-100%);
@@ -97,8 +99,7 @@ h1.page-title {
 	  border: 3px $white solid;
    	@include border-radius(100%);
     overflow: hidden;
-    float: right;
-    margin-left: 10px;
+    margin: 0 auto;
 
     img {
     	@include dynamic-sizing();
@@ -255,6 +256,8 @@ header {
 /* COMPONENTS ---------------------- */
 .button-container {
   text-align: center;
+  margin: 0 auto;
+  display: inline-block;
 }
 
 .button, a.button {
@@ -262,17 +265,33 @@ header {
 	text-decoration: none;
 	color: $white;
 	display: inline-block;
-	margin: 20px 0;
-	padding: 15px 40px;
+	margin: 20px 10px;
+  padding: 15px 0;
+  width: 250px;
 	font-size: $font-button;
 
 	&.primary {
-		background-color: $primary-orange;
-		border: solid 3px $primary-orange-darker;
+		border: solid 3px $white;
+    background-color: rgba(213, 212, 223, 0.1);
+
+    &:hover {
+      background-color: $primary-orange;
+      border-color: $primary-orange-darker;
+    }
+
+    &:active {
+      border-color: $primary-orange;
+      @include inside-shadow();
+      background-color: $primary-orange-darker;
+    }
 	}
 
 	&.secondary {
 		background-color: $secondary-blue;
 		border: solid 3px $secondary-blue-darker;
 	}
+}
+
+.buttons {
+  margin: 100px 0 20px 0;
 }

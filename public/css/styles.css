@@ -2226,7 +2226,7 @@ body {
   background-size: cover;
   height: auto;
   width: auto;
-  text-align: right;
+  height: 100vh;
 }
 #header .heading {
   position: relative;
@@ -2234,7 +2234,9 @@ body {
   -webkit-transform: translateY(-30%);
   -ms-transform: translateY(-30%);
   transform: translateY(-30%);
-  margin-right: 30px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
 }
 #header .heading h1 {
   position: relative;
@@ -2290,8 +2292,7 @@ h1.page-title {
   -ms-border-radius: 100%;
   border-radius: 100%;
   overflow: hidden;
-  float: right;
-  margin-left: 10px;
+  margin: 0 auto;
 }
 .avatar-container img {
   max-width: 180%;
@@ -2450,6 +2451,8 @@ header h3.subtitle {
 /* COMPONENTS ---------------------- */
 .button-container {
   text-align: center;
+  margin: 0 auto;
+  display: inline-block;
 }
 
 .button, a.button {
@@ -2460,15 +2463,31 @@ header h3.subtitle {
   text-decoration: none;
   color: #eee;
   display: inline-block;
-  margin: 20px 0;
-  padding: 15px 40px;
+  margin: 20px 10px;
+  padding: 15px 0;
+  width: 250px;
   font-size: 1em;
 }
 .button.primary, a.button.primary {
+  border: solid 3px #eee;
+  background-color: rgba(213, 212, 223, 0.1);
+}
+.button.primary:hover, a.button.primary:hover {
   background-color: #FA6900;
-  border: solid 3px #EE6200;
+  border-color: #EE6200;
+}
+.button.primary:active, a.button.primary:active {
+  border-color: #FA6900;
+  -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  background-color: #EE6200;
 }
 .button.secondary, a.button.secondary {
   background-color: #2e9adb;
   border: solid 3px #2787C2;
+}
+
+.buttons {
+  margin: 100px 0 20px 0;
 }

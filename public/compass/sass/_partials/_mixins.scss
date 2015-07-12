@@ -11,6 +11,12 @@
             box-shadow:  0 0 10px #ABADB3;
 }
 
+@mixin inside-shadow() {
+  -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.3);
+  box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.3);
+}
+
 @mixin vertical-align($percent) {
   position: 			       relative;
   top: 					         $percent;
