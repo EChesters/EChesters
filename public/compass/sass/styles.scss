@@ -54,7 +54,7 @@ body {
 
 		h1 {
 			@include vertical-align(-100%);
-			color: $black;
+			color: $primary-orange-darker;
 			font-size: $index-title-size;
       font-weight: $weight-heavy;
       font-family: $title-font;
@@ -68,6 +68,16 @@ body {
       color: $actual-white;
       letter-spacing: 2px;
 		}
+
+    .description-container {
+      width: 90%;
+      margin: 80px auto;
+      color: $actual-white;
+
+      p {
+        margin-bottom: 10px;
+      }
+    }
 	}
 }
 
@@ -293,5 +303,5 @@ header {
 }
 
 .buttons {
-  margin: 100px 0 20px 0;
+  margin: 70px 0 20px 0;
 }

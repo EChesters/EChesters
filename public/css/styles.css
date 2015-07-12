@@ -2244,7 +2244,7 @@ body {
   -webkit-transform: translateY(100%);
   -ms-transform: translateY(100%);
   transform: translateY(100%);
-  color: #111;
+  color: #EE6200;
   font-size: 2em;
   font-weight: 800;
   font-family: "Alegreya SC", serif;
@@ -2260,6 +2260,14 @@ body {
   font-weight: 500;
   color: #fff;
   letter-spacing: 2px;
+}
+#header .heading .description-container {
+  width: 90%;
+  margin: 80px auto;
+  color: #fff;
+}
+#header .heading .description-container p {
+  margin-bottom: 10px;
 }
 
 #main {
@@ -2489,5 +2497,5 @@ header h3.subtitle {
 }
 
 .buttons {
-  margin: 100px 0 20px 0;
+  margin: 70px 0 20px 0;
 }

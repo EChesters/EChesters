@@ -6,19 +6,6 @@
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
   header#header {
     width: 100%;
-    height: 300px;
-  }
-
-  #main {
-    width: 100%;
-  }
-}
-@media only screen and (min-width: 1025px) {
-  #main {
-    float: right;
-    width: 67%;
-    overflow-y: scroll;
-    height: 100vh;
   }
 }
 .section {
