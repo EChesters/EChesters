@@ -298,10 +298,66 @@ header {
 
 	&.secondary {
 		background-color: $secondary-blue;
-		border: solid 3px $secondary-blue-darker;
+		border:           solid 3px $secondary-blue-darker;
 	}
 }
 
 .buttons {
   margin: 70px 0 20px 0;
+}
+
+/* FOOTER ---------------------- */
+#footer {
+  clear:            both;
+  width:            100%;
+  display:          block;
+  background-color: $footer-bg;
+  color:            $actual-white;
+  bottom:           0;
+  height:           150px;
+  position:         fixed;
+
+  .footer-sections {
+    padding:        1% 10%;
+    display:        block;
+    margin:         0 auto;
+    width:          70%;
+    height:         150px;
+
+    #about {
+      padding-right: 50px;
+    }
+  }
+
+  p, a {
+    opacity:        0.7;
+    font-size:      0.8em;
+    color:          $actual-white;
+  }
+
+  a {
+    font-size:      1em;
+
+    &:hover {
+      color:        $primary-orange;
+    }
+    i {
+      margin-right: 10px;
+    }
+  }
+
+  ul.contacts {
+    list-style:     none;
+
+    li {
+      margin:       10px 0;
+    }
+  }
+
+  h6 {
+    font-weight:        100;
+    color:              $secondary-blue;
+    letter-spacing:     2px;
+    margin:             5px 0;
+  }
 }

@@ -2499,3 +2499,51 @@ header h3.subtitle {
 .buttons {
   margin: 70px 0 20px 0;
 }
+
+/* FOOTER ---------------------- */
+#footer {
+  clear: both;
+  width: 100%;
+  display: block;
+  background-color: #183443;
+  color: #fff;
+  bottom: 0;
+  height: 150px;
+  position: fixed;
+}
+#footer .footer-sections {
+  padding: 1% 10%;
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  height: 150px;
+}
+#footer .footer-sections #about {
+  padding-right: 50px;
+}
+#footer p, #footer a {
+  opacity: 0.7;
+  font-size: 0.8em;
+  color: #fff;
+}
+#footer a {
+  font-size: 1em;
+}
+#footer a:hover {
+  color: #FA6900;
+}
+#footer a i {
+  margin-right: 10px;
+}
+#footer ul.contacts {
+  list-style: none;
+}
+#footer ul.contacts li {
+  margin: 10px 0;
+}
+#footer h6 {
+  font-weight: 100;
+  color: #2e9adb;
+  letter-spacing: 2px;
+  margin: 5px 0;
+}
