@@ -315,7 +315,7 @@ header {
   color:            $actual-white;
   bottom:           0;
   height:           150px;
-  position:         fixed;
+  position:         relative;
 
   .footer-sections {
     padding:        1% 10%;

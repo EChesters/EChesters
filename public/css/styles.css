@@ -2509,7 +2509,7 @@ header h3.subtitle {
   color: #fff;
   bottom: 0;
   height: 150px;
-  position: fixed;
+  position: relative;
 }
 #footer .footer-sections {
   padding: 1% 10%;

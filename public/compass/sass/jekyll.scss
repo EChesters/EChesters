@@ -65,9 +65,24 @@ h3.post-title {
 	float: right;
 }
 
-h2 {
-	font-size: $font-subtitle-size;
-	margin: 30px 0 10px 0;
+/* TYPOGRAPHY ---------------------- */
+#content {
+	h2 {
+		font-size: 			1.45em;
+		margin: 			30px 0 10px 0;
+		letter-spacing: 	1px;
+		color:				$primary-orange-darker;
+	}
+
+	h3 {
+		font-size: 			1.3em;
+		margin: 			15px 0 5px 0;
+	}
+
+	h4 {
+		font-size: 			1.2em;
+		margin:				10px 0;
+	}
 }
 
 p {
