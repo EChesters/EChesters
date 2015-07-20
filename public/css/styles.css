@@ -2270,6 +2270,18 @@ body {
   margin-bottom: 10px;
 }
 
+.content {
+  width: 65%;
+  margin: -1% auto;
+  padding: 20px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+  .content {
+    width: 100%;
+    padding: 0;
+  }
+}
 #main {
   background-color: #E0E4CC;
   overflow-y: scroll;
@@ -2310,71 +2322,6 @@ h1.page-title {
   width: auto;
 }
 
-.posts {
-  text-align: center;
-  margin: 20px auto;
-  width: 95%;
-}
-.posts .post {
-  width: 200px;
-  height: 200px;
-  overflow: hidden;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  border-radius: 5px;
-  margin: 10px 20px;
-  border: 3px #eee solid;
-  -moz-box-shadow: 0 0 10px #ABADB3;
-  -webkit-box-shadow: 0 0 10px #ABADB3;
-  box-shadow: 0 0 10px #ABADB3;
-  display: inline-block;
-}
-.posts .post img {
-  max-width: 180%;
-  max-height: 120%;
-  background-size: cover;
-  height: auto;
-  width: auto;
-}
-.posts .post .text-post {
-  width: 100%;
-  height: 100%;
-}
-.posts .post .text-post p {
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  font-size: 1.8em;
-}
-.posts .post .text-post.code-club {
-  background-color: #2d9632;
-  color: #eee;
-}
-.posts .post .text-post.codefirst-girls {
-  background-color: #eee;
-  color: #de2244;
-}
-.posts .post .text-post.accessibility {
-  background-color: #004289;
-}
-.posts .post .text-post.accessibility a {
-  display: block;
-  color: #eee;
-  text-decoration: none;
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  font-size: 1.8em;
-}
-.posts .post .text-post.accessibility a:visited, .posts .post .text-post.accessibility a:link {
-  text-decoration: none;
-}
-
 /* TEXT ------------------- */
 header h2.title {
   padding: 40px 0 50px 0;
@@ -2389,71 +2336,6 @@ header h3.subtitle {
   font-weight: 200;
   font-variant: small-caps;
   margin-bottom: 10px;
-}
-
-.section h2 {
-  font-size: 2em;
-  margin: 20px 0;
-  font-weight: 300;
-}
-.section ul {
-  overflow: hidden;
-  list-style: none;
-  margin: 0 auto;
-  display: inline-flex;
-}
-.section ul li {
-  width: 200px;
-  height: 200px;
-  padding: 20px;
-  margin: 10px;
-  border: 3px #fff solid;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  border-radius: 5px;
-}
-.section ul li .achievement {
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  display: block;
-}
-.section ul li .achievement h3 {
-  font-size: 1.1em;
-}
-.section ul li.cdl {
-  background-color: #004aa2;
-  color: #eee;
-}
-.section ul li.thoughtworks {
-  background-color: #f158a1;
-  color: #eee;
-}
-.section ul li.code-club {
-  background-color: #2d9632;
-  color: #eee;
-}
-.section ul li.code-first {
-  background-color: #fff;
-  color: #de2244;
-}
-.section ul li.teen-tech {
-  background-color: #965fab;
-}
-.section ul li.stemnets {
-  background-color: #fff;
-  color: #022261;
-}
-.section ul li.university {
-  color: #005391;
-  background-color: #fff;
-}
-.section ul li.talk-ux {
-  background-color: #49a692;
-  color: #eee;
 }
 
 /* COMPONENTS ---------------------- */
@@ -2498,6 +2380,15 @@ header h3.subtitle {
 
 .buttons {
   margin: 70px 0 20px 0;
+}
+
+/* LISTS ---------------------- */
+ul.no-bullets {
+  list-style: none;
+  margin-left: 50px;
+}
+ul.no-bullets li {
+  margin: 5px 0;
 }
 
 /* FOOTER ---------------------- */
