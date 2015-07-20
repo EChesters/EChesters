@@ -81,6 +81,19 @@ body {
 	}
 }
 
+.content {
+  width: 65%;
+  margin: -1% auto;
+  padding: 20px;
+}
+
+@media only screen and (min-width : 320px)and (max-width : 1024px) {
+    .content {
+      width: 100%;
+      padding: 0;
+    }
+}
+
 #main {
 	background-color: $main-bg;
   overflow-y: scroll;
@@ -116,61 +129,6 @@ h1.page-title {
     }
 }
 
-.posts {
-  text-align: center;
-  margin: 20px auto;
-  width: 95%;
-
-  .post {
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-    @include border-radius(5px);
-    margin: 10px 20px;
-    border: 3px $white solid;
-    @include box-shadow();
-    display: inline-block;
-
-    img {
-      @include dynamic-sizing();
-    }
-
-    .text-post {
-      @include fill-parent();
-
-      p {
-        @include vertical-align(50%);
-        font-size: $font-subtitle-size;
-      }
-
-      &.code-club {
-        background-color: $code-club-green;
-        color: $white;
-      }
-
-      &.codefirst-girls {
-        background-color: $white;
-        color: $codefirst-red;
-      }
-
-      &.accessibility {
-        a {
-          display: block;
-          color: $white;
-          text-decoration: none;
-          @include vertical-align(50%);
-          font-size: $font-subtitle-size;
-
-          &:visited, &:link {
-            text-decoration: none;
-          }
-        }
-        background-color: $accessibility-blue;
-      }
-    }
-  }
-}
-
 /* TEXT ------------------- */
 header {
   h2.title {
@@ -190,78 +148,78 @@ header {
   }
 }
 
-.section {
-  h2 {
-    font-size: 2em;
-    margin: 20px 0;
-    font-weight: 300;
-  }
+// .section {
+//   h2 {
+//     font-size: 2em;
+//     margin: 20px 0;
+//     font-weight: 300;
+//   }
 
-  ul {
-    overflow: hidden;
-    list-style: none;
-    margin: 0 auto;
-    display: inline-flex;
+//   ul {
+//     overflow: hidden;
+//     list-style: none;
+//     margin: 0 auto;
+//     display: inline-flex;
 
-    li {        
-      width: 200px;
-      height: 200px;
-      padding: 20px;
-      margin: 10px;
-        border: 3px $actual-white solid;
-        @include border-radius(5px);
+//     li {        
+//       width: 200px;
+//       height: 200px;
+//       padding: 20px;
+//       margin: 10px;
+//         border: 3px $actual-white solid;
+//         @include border-radius(5px);
 
   
-      .achievement {
-        @include vertical-align(50%);
-        display: block;
+//       .achievement {
+//         @include vertical-align(50%);
+//         display: block;
 
-        h3 {
-          font-size: 1.1em;
-        }
-      }
+//         h3 {
+//           font-size: 1.1em;
+//         }
+//       }
 
-      &.cdl {
-        background-color: #004aa2;
-        color: $white;
-      }
+//       &.cdl {
+//         background-color: #004aa2;
+//         color: $white;
+//       }
 
-      &.thoughtworks {
-        background-color: #f158a1;
-        color: $white;
-      }
+//       &.thoughtworks {
+//         background-color: #f158a1;
+//         color: $white;
+//       }
 
-      &.code-club {
-        background-color: $code-club-green;
-        color: $white;
-      }
+//       &.code-club {
+//         background-color: $code-club-green;
+//         color: $white;
+//       }
 
-      &.code-first {
-        background-color: $actual-white;
-        color: $codefirst-red;       
-      }
+//       &.code-first {
+//         background-color: $actual-white;
+//         color: $codefirst-red;       
+//       }
 
-      &.teen-tech {
-        background-color: #965fab;
-      }
+//       &.teen-tech {
+//         background-color: #965fab;
+//       }
 
-      &.stemnets {
-        background-color: $actual-white;
-        color: #022261;
-      }
+//       &.stemnets {
+//         background-color: $actual-white;
+//         color: #022261;
+//       }
 
-      &.university {
-        color: #005391;
-        background-color: $actual-white;
-      }
+//       &.university {
+//         color: #005391;
+//         background-color: $actual-white;
+//       }
 
-      &.talk-ux {
-        background-color: #49a692;
-        color: $white;
-      }
-    }
-  }
-}
+//       &.talk-ux {
+//         background-color: #49a692;
+//         color: $white;
+//       }
+//     }
+//   }
+// }
 
 /* COMPONENTS ---------------------- */
 .button-container {
@@ -304,6 +262,16 @@ header {
 
 .buttons {
   margin: 70px 0 20px 0;
+}
+
+/* LISTS ---------------------- */
+ul.no-bullets {
+  list-style: none;
+  margin-left: 50px;
+
+  li {
+    margin: 5px 0;
+  }
 }
 
 /* FOOTER ---------------------- */
