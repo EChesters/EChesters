@@ -2399,7 +2399,6 @@ ul.no-bullets li {
   background-color: #183443;
   color: #fff;
   bottom: 0;
-  height: 150px;
   position: relative;
 }
 #footer .footer-sections {
@@ -2407,7 +2406,7 @@ ul.no-bullets li {
   display: block;
   margin: 0 auto;
   width: 70%;
-  height: 150px;
+  overflow: auto;
 }
 #footer .footer-sections #about {
   padding-right: 50px;

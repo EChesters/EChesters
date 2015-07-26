@@ -282,7 +282,6 @@ ul.no-bullets {
   background-color: $footer-bg;
   color:            $actual-white;
   bottom:           0;
-  height:           150px;
   position:         relative;
 
   .footer-sections {
@@ -290,7 +289,7 @@ ul.no-bullets {
     display:        block;
     margin:         0 auto;
     width:          70%;
-    height:         150px;
+    overflow:       auto;
 
     #about {
       padding-right: 50px;
