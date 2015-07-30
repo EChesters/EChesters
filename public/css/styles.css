@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(http://fonts.googleapis.com/css?family=Alegreya+SC|Oxygen);
+@import url(http://fonts.googleapis.com/css?family=Alegreya+SC|Oxygen|Cutive+Mono);
 /* COLOURS ----------- */
 /* FONTS ------------- */
 /* SIZE ------------- */
@@ -2198,8 +2198,7 @@ body {
 .nav-bar {
   width: 100%;
   position: absolute;
-  background-color: #23495d;
-  opacity: 0.6;
+  background-color: #364E4F;
 }
 .nav-bar ul.options li {
   display: inline-block;
@@ -2215,7 +2214,7 @@ body {
 }
 .nav-bar ul.options li a:hover {
   border-bottom: 4px solid #EE6200;
-  color: #23495d;
+  color: #364E4F;
   background-color: #fff;
 }
 
@@ -2343,39 +2342,6 @@ header h3.subtitle {
   text-align: center;
   margin: 0 auto;
   display: inline-block;
-}
-
-.button, a.button {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  border-radius: 5px;
-  text-decoration: none;
-  color: #eee;
-  display: inline-block;
-  margin: 20px 10px;
-  padding: 15px 0;
-  width: 250px;
-  font-size: 1em;
-}
-.button.primary, a.button.primary {
-  border: solid 3px #eee;
-  background-color: rgba(213, 212, 223, 0.1);
-}
-.button.primary:hover, a.button.primary:hover {
-  background-color: #FA6900;
-  border-color: #EE6200;
-}
-.button.primary:active, a.button.primary:active {
-  border-color: #FA6900;
-  -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
-  box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
-  background-color: #EE6200;
-}
-.button.secondary, a.button.secondary {
-  background-color: #2e9adb;
-  border: solid 3px #2787C2;
 }
 
 .buttons {
