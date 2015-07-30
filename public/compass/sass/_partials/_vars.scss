@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Alegreya+SC|Oxygen);
+@import url(http://fonts.googleapis.com/css?family=Alegreya+SC|Oxygen|Cutive+Mono);
 
 /* COLOURS ----------- */
 $white: 				#eee;
@@ -21,9 +21,12 @@ $nav-bar:				#23495d;
 $footer-bg:				#183443;
 $quote-colour:			#425d5c;
 
+$code-bg:				#E4E8EB;
+
 /* FONTS ------------- */
 $title-font:			'Alegreya SC', serif;
 $content-font:			'Oxygen', sans-serif;
+$code-font:				'Cutive Mono';
 $font-button: 			1em;
 $index-title-size: 		2em;
 $font-title-size:		3em;
