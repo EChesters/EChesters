@@ -234,6 +234,9 @@ header {
 /* LISTS ---------------------- */
 ul.no-bullets {
   list-style: none;
+}
+
+ul, ol {
   margin-left: 50px;
 
   li {
@@ -259,7 +262,7 @@ ul.no-bullets {
     overflow:       auto;
 
     #about {
-      padding-right: 50px;
+      padding-left: 50px;
     }
   }
 
@@ -282,6 +285,7 @@ ul.no-bullets {
 
   ul.contacts {
     list-style:     none;
+    margin-left:    0;
 
     li {
       margin:       10px 0;

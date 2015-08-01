@@ -6,6 +6,7 @@
   ----------------------------- 
   1. Typography
   2. Buttons
+  3. Images
 
   */
 
@@ -34,6 +35,7 @@ p {
 }
 
 a {
+  color: $actual-black;
   &:visited {
     text-decoration: none;
     color: $actual-black;
@@ -158,5 +160,18 @@ span.code {
   &.secondary {
     background-color:   $secondary-blue;
     border:             solid 3px $secondary-blue-darker;
+  }
+}
+
+/* IMAGES -------------------------- */
+.images .large {
+  &.portrait {
+    max-height: 500px;
+    width: auto;
+  }
+
+  &.landscape {
+    max-width: 500px;
+    height: auto;
   }
 }

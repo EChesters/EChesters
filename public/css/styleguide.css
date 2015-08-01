@@ -7,6 +7,7 @@
   ----------------------------- 
   1. Typography
   2. Buttons
+  3. Images
 
   */
 /* TYPOGRAPHY ---------------------- */
@@ -29,6 +30,9 @@ p {
   line-height: 1.5em;
 }
 
+a {
+  color: #000;
+}
 a:visited {
   text-decoration: none;
   color: #000;
@@ -148,4 +152,14 @@ span.code {
 .button.secondary, a.button.secondary {
   background-color: #2e9adb;
   border: solid 3px #2787C2;
+}
+
+/* IMAGES -------------------------- */
+.images .large.portrait {
+  max-height: 500px;
+  width: auto;
+}
+.images .large.landscape {
+  max-width: 500px;
+  height: auto;
 }

@@ -2351,9 +2351,12 @@ header h3.subtitle {
 /* LISTS ---------------------- */
 ul.no-bullets {
   list-style: none;
+}
+
+ul, ol {
   margin-left: 50px;
 }
-ul.no-bullets li {
+ul li, ol li {
   margin: 5px 0;
 }
 
@@ -2375,7 +2378,7 @@ ul.no-bullets li {
   overflow: auto;
 }
 #footer .footer-sections #about {
-  padding-right: 50px;
+  padding-left: 50px;
 }
 #footer p, #footer a {
   opacity: 0.7;
@@ -2393,6 +2396,7 @@ ul.no-bullets li {
 }
 #footer ul.contacts {
   list-style: none;
+  margin-left: 0;
 }
 #footer ul.contacts li {
   margin: 10px 0;
