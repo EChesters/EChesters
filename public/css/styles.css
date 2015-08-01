@@ -2349,18 +2349,6 @@ header h3.subtitle {
   margin: 70px 0 20px 0;
 }
 
-/* LISTS ---------------------- */
-ul.no-bullets {
-  list-style: none;
-}
-
-ul, ol {
-  margin-left: 50px;
-}
-ul li, ol li {
-  margin: 5px 0;
-}
-
 /* FOOTER ---------------------- */
 #footer {
   clear: both;
@@ -2379,7 +2367,7 @@ ul li, ol li {
   overflow: auto;
 }
 #footer .footer-sections #about {
-  padding-left: 50px;
+  padding-left: 35px;
 }
 #footer p, #footer a {
   opacity: 0.7;

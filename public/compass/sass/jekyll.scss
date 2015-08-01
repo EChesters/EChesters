@@ -18,7 +18,7 @@ body {
 }
 
 .post-content {
-	padding: 25px 100px;
+	padding: 25px 75px;
 }
 
 .blog-posts {
@@ -32,6 +32,18 @@ body {
 
 #content {
 	padding-top: 44px;
+
+	ul.no-bullets {
+	  list-style: none;
+	}
+
+	ul, ol {
+	  margin-left: 50px;
+
+	  li {
+	    margin: 5px 0;
+	  }
+	}
 }
 
 /* TEXT */
