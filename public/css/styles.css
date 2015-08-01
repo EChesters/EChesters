@@ -2201,6 +2201,7 @@ body {
   background-color: #364E4F;
 }
 .nav-bar ul.options li {
+  margin: 0;
   display: inline-block;
 }
 .nav-bar ul.options li a {

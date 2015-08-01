@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Five ways of improving the UX and security of passwords
-description: 
+description: It seems like security and user experience are always in tension. Logging into my bank seems fraught with nothing but pain points, frustration and curiosity. Why is it one or the other when it comes to security and user experience?
 ---
 It seems like security and user experience are always in tension. Logging into my bank seems fraught with nothing but pain points, frustration and curiosity. Why is it one or the other when it comes to security and user experience? Why, in a world where we have dozens of accounts for everything, have we not found an easier way to stay secure without compromising on usability?
 
