@@ -29,6 +29,7 @@ body {
   height: auto;
   width: auto;
   padding: 40px;
+  padding-top: 20px;
   -moz-box-shadow: 0 0 10px #ABADB3;
   -webkit-box-shadow: 0 0 10px #ABADB3;
   box-shadow: 0 0 10px #ABADB3;

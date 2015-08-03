@@ -12,9 +12,10 @@ body {
 	background-image: url("/images/mountains-clipped.jpg");
 	width: 100%;
 	text-align: center;
-	 @include dynamic-sizing();
-	 padding: 40px;
-	 @include box-shadow();
+	@include dynamic-sizing();
+	padding: 40px;
+	padding-top: 20px;
+	@include box-shadow();
 }
 
 .post-content {

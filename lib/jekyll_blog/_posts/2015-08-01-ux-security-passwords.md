@@ -70,7 +70,7 @@ The use of password managers is a whole other kettle of fish. While I'm not reli
 	<a href="https://twitter.com/BritishGasHelp/status/463619139220021248"><img src="http://lh3.ggpht.com/-n70GcZpf5FM/U3R0EeH5EhI/AAAAAAAAGnk/Seh-_JYM8ww/image1%25255B1%25255D.png?imgmax=800" alt="A tweet saying: Disallowing pasting and therefore password managers is NOT a standard practice. It's unnecessary and dangerous"></a>
 </div>
 
-But onpaste is key part of the journey using a password manager, especially on a phone. If you don't allow paste on your password field on your app then the user has to manually type in the passphrase. On a phone, flicking between screens is awful as well as remembering horrendous passwords. These passwords are horrendous for a reason! 
+But onpaste is a key part of the journey using a password manager, especially on a phone. If you don't allow paste on your password field on your app then the user has to manually type in the passphrase. On a phone, flicking between screens is awful as well as remembering horrendous passwords. These passwords are horrendous for a reason! 
 
 It's amazing how websites like PayPal and T-Mobile choose the UX [decision to disable the use of password managers]. PayPal, to me is a site attached to my finances, where a unique and unmemorable password is crucial. Disabling onpaste is disabling the use of password managers. Utter madness. 
 
