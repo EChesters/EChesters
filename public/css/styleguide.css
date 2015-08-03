@@ -1,0 +1,165 @@
+@import url(http://fonts.googleapis.com/css?family=Alegreya+SC|Oxygen|Cutive+Mono);
+/* COLOURS ----------- */
+/* FONTS ------------- */
+/* SIZE ------------- */
+/* ----------------------------
+   CONTENTS
+  ----------------------------- 
+  1. Typography
+  2. Buttons
+  3. Images
+
+  */
+/* TYPOGRAPHY ---------------------- */
+#content h2 {
+  font-size: 1.45em;
+  margin: 30px 0 10px 0;
+  letter-spacing: 1px;
+  color: #EE6200;
+}
+#content h3 {
+  font-size: 1.3em;
+  margin: 15px 0 5px 0;
+}
+#content h4 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+a {
+  color: #000;
+}
+a:visited {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: #2e9adb;
+}
+
+blockquote p {
+  font-size: 1.5em;
+  margin-left: 8%;
+  color: #425d5c;
+  font-style: italic;
+}
+
+.fa-quote-left {
+  color: #EE6200;
+  padding: 0 5px;
+  position: relative;
+  top: 0.2em;
+  font-size: 1.8em;
+  opacity: 0.7;
+}
+
+#post-content p {
+  margin-bottom: 1.2em;
+}
+
+ol {
+  line-height: 2em;
+  padding-top: 10px;
+  padding-left: 30px;
+}
+ol li {
+  line-height: 1.5em;
+}
+ol ul {
+  padding-left: 60px;
+  padding-bottom: 20px;
+}
+
+.post-description {
+  opacity: 0.8;
+}
+
+pre {
+  overflow: auto;
+  margin: 0 0 1em;
+  padding: 0.5em 1em;
+  font-family: "Cutive Mono";
+  overflow: scroll;
+  max-height: 450px;
+}
+
+pre code,
+pre .line-number {
+  font-family: "Cutive Mono";
+  background-color: #E4E8EB;
+  color: #111;
+  padding: 5px 10px;
+  display: block;
+}
+
+pre .line-number {
+  float: left;
+  margin: 0 1em 0 -1em;
+  border-right: 3px solid #2e9b27;
+  text-align: right;
+}
+
+pre .line-number span {
+  display: block;
+  padding: 0 .5em 0 1em;
+}
+
+pre .cl {
+  display: block;
+  clear: both;
+}
+
+span.code {
+  background-color: #E4E8EB;
+  border-radius: 3px;
+  font-family: "Cutive Mono";
+  padding: 3px 5px;
+}
+
+/* BUTTONS ------------------------- */
+.button, a.button {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #eee;
+  display: inline-block;
+  margin: 20px 10px;
+  padding: 15px 0;
+  width: 250px;
+  font-size: 1em;
+}
+.button.primary, a.button.primary {
+  border: solid 3px #eee;
+  background-color: rgba(213, 212, 223, 0.1);
+}
+.button.primary:hover, a.button.primary:hover {
+  background-color: #FA6900;
+  border-color: #EE6200;
+}
+.button.primary:active, a.button.primary:active {
+  -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  background-color: #EE6200;
+  border-color: #FA6900;
+}
+.button.secondary, a.button.secondary {
+  background-color: #2e9adb;
+  border: solid 3px #2787C2;
+}
+
+/* IMAGES -------------------------- */
+.images .large.portrait {
+  max-height: 500px;
+  width: auto;
+}
+.images .large.landscape {
+  max-width: 500px;
+  height: auto;
+}

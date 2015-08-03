@@ -18,7 +18,7 @@ body {
 }
 
 .post-content {
-	padding: 50px 100px;
+	padding: 25px 75px;
 }
 
 .blog-posts {
@@ -30,13 +30,30 @@ body {
 	}
 }
 
+#content {
+	padding-top: 44px;
+
+	ul.no-bullets {
+	  list-style: none;
+	}
+
+	ul, ol {
+	  margin-left: 50px;
+
+	  li {
+	    margin: 5px 0;
+	  }
+	}
+}
+
 /* TEXT */
 h1.page-title {
 	font-family: $content-font;
 	letter-spacing: 1px;
-	margin: 35px 0 30px 0;
+	margin: 35px auto;
 	color: $actual-white;
 	font-size: $font-title-size;
+	width: 65%;
 }
 
 .post-entry {
@@ -59,81 +76,15 @@ h3.post-title {
 	float: right;
 }
 
-/* TYPOGRAPHY ---------------------- */
-#content {
-	h2 {
-		font-size: 			1.45em;
-		margin: 			30px 0 10px 0;
-		letter-spacing: 	1px;
-		color:				$primary-orange-darker;
-	}
-
-	h3 {
-		font-size: 			1.3em;
-		margin: 			15px 0 5px 0;
-	}
-
-	h4 {
-		font-size: 			1.2em;
-		margin:				10px 0;
-	}
-}
-
-p {
-	line-height: 1.5em;
-}
-
-blockquote { 
-
-	p {
-		font-size: $font-quote-size;
-		margin-left: 8%;
-		color: $quote-colour;
-		font-style: italic;
-	}
-}
-
-	.fa-quote-left {
-		color: $primary-orange-darker;
-		padding: 0 5px;
-		position: relative; 
-		top: 0.2em;
-		font-size: $font-subtitle-size;
-		opacity: 0.7;
-	}
-
-#post-content p {
-	margin-bottom: 1.2em;
-}
-
-ol {
-	line-height: 2em;
-	padding-top: 10px;
-	padding-left: 30px;
-
-	li {
-		line-height: 1.5em;
-	}
-
-	ul {
-		padding-left: 60px;
-		padding-bottom: 20px;
-	}
-}
-
-.post-description {
-	opacity: 0.8;
-}
-
 /* IMAGES */
 .images {
 	margin: 0 auto;
 	text-align: center;
 	width: 100%;
-	padding: 20px 0;
+	padding-bottom: 20px;
 }
 
-img {
+img, a img {
 	max-height: 210px;
 	margin: 5px;
 	@include border-radius(5px);

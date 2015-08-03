@@ -15,10 +15,10 @@ body {
   width: 100%;
   position: absolute;
   background-color: $nav-bar;
-  opacity: 0.6;
 
   ul.options {
     li {
+      margin: 0;
       display: inline-block;
 
       a {
@@ -228,50 +228,8 @@ header {
   display: inline-block;
 }
 
-.button, a.button {
-	@include border-radius(5px);
-	text-decoration: none;
-	color: $white;
-	display: inline-block;
-	margin: 20px 10px;
-  padding: 15px 0;
-  width: 250px;
-	font-size: $font-button;
-
-	&.primary {
-		border: solid 3px $white;
-    background-color: rgba(213, 212, 223, 0.1);
-
-    &:hover {
-      background-color: $primary-orange;
-      border-color: $primary-orange-darker;
-    }
-
-    &:active {
-      border-color: $primary-orange;
-      @include inside-shadow();
-      background-color: $primary-orange-darker;
-    }
-	}
-
-	&.secondary {
-		background-color: $secondary-blue;
-		border:           solid 3px $secondary-blue-darker;
-	}
-}
-
 .buttons {
   margin: 70px 0 20px 0;
-}
-
-/* LISTS ---------------------- */
-ul.no-bullets {
-  list-style: none;
-  margin-left: 50px;
-
-  li {
-    margin: 5px 0;
-  }
 }
 
 /* FOOTER ---------------------- */
@@ -292,7 +250,7 @@ ul.no-bullets {
     overflow:       auto;
 
     #about {
-      padding-right: 50px;
+      padding-left: 35px;
     }
   }
 
@@ -315,6 +273,7 @@ ul.no-bullets {
 
   ul.contacts {
     list-style:     none;
+    margin-left:    0;
 
     li {
       margin:       10px 0;

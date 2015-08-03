@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Alegreya+SC|Oxygen);
+@import url(http://fonts.googleapis.com/css?family=Alegreya+SC|Oxygen|Cutive+Mono);
 /* COLOURS ----------- */
 /* FONTS ------------- */
 /* SIZE ------------- */
@@ -35,7 +35,7 @@ body {
 }
 
 .post-content {
-  padding: 50px 100px;
+  padding: 25px 75px;
 }
 
 .blog-posts {
@@ -46,13 +46,27 @@ body {
   margin: 15px 0;
 }
 
+#content {
+  padding-top: 44px;
+}
+#content ul.no-bullets {
+  list-style: none;
+}
+#content ul, #content ol {
+  margin-left: 50px;
+}
+#content ul li, #content ol li {
+  margin: 5px 0;
+}
+
 /* TEXT */
 h1.page-title {
   font-family: "Oxygen", sans-serif;
   letter-spacing: 1px;
-  margin: 35px 0 30px 0;
+  margin: 35px auto;
   color: #fff;
   font-size: 3em;
+  width: 65%;
 }
 
 .post-entry {
@@ -74,72 +88,15 @@ h3.post-title a {
   float: right;
 }
 
-/* TYPOGRAPHY ---------------------- */
-#content h2 {
-  font-size: 1.45em;
-  margin: 30px 0 10px 0;
-  letter-spacing: 1px;
-  color: #EE6200;
-}
-#content h3 {
-  font-size: 1.3em;
-  margin: 15px 0 5px 0;
-}
-#content h4 {
-  font-size: 1.2em;
-  margin: 10px 0;
-}
-
-p {
-  line-height: 1.5em;
-}
-
-blockquote p {
-  font-size: 1.5em;
-  margin-left: 8%;
-  color: #425d5c;
-  font-style: italic;
-}
-
-.fa-quote-left {
-  color: #EE6200;
-  padding: 0 5px;
-  position: relative;
-  top: 0.2em;
-  font-size: 1.8em;
-  opacity: 0.7;
-}
-
-#post-content p {
-  margin-bottom: 1.2em;
-}
-
-ol {
-  line-height: 2em;
-  padding-top: 10px;
-  padding-left: 30px;
-}
-ol li {
-  line-height: 1.5em;
-}
-ol ul {
-  padding-left: 60px;
-  padding-bottom: 20px;
-}
-
-.post-description {
-  opacity: 0.8;
-}
-
 /* IMAGES */
 .images {
   margin: 0 auto;
   text-align: center;
   width: 100%;
-  padding: 20px 0;
+  padding-bottom: 20px;
 }
 
-img {
+img, a img {
   max-height: 210px;
   margin: 5px;
   -webkit-border-radius: 5px;
