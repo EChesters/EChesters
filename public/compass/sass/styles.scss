@@ -115,6 +115,26 @@ h1.page-title {
   font-size: $font-title-size;
 }
 
+#about-header {
+  text-align: center;
+
+  h2 {
+    color: $primary-orange;
+    font-family: $title-font;
+    margin: 0;
+    display: inline-block;
+    font-size: $font-subtitle-size;
+  }
+
+  h3 {
+    display: inline-block;
+    color: $actual-white;
+    border-left: solid $secondary-blue 3px;
+    padding-left: 10px;
+    margin-left: 5px;
+  }
+}
+
 /* IMAGES -------------------------- */ 
 .avatar-container {
     width: 150px;
@@ -148,78 +168,9 @@ header {
   }
 }
 
-// .section {
-//   h2 {
-//     font-size: 2em;
-//     margin: 20px 0;
-//     font-weight: 300;
-//   }
-
-//   ul {
-//     overflow: hidden;
-//     list-style: none;
-//     margin: 0 auto;
-//     display: inline-flex;
-
-//     li {        
-//       width: 200px;
-//       height: 200px;
-//       padding: 20px;
-//       margin: 10px;
-//         border: 3px $actual-white solid;
-//         @include border-radius(5px);
-
-  
-//       .achievement {
-//         @include vertical-align(50%);
-//         display: block;
-
-//         h3 {
-//           font-size: 1.1em;
-//         }
-//       }
-
-//       &.cdl {
-//         background-color: #004aa2;
-//         color: $white;
-//       }
-
-//       &.thoughtworks {
-//         background-color: #f158a1;
-//         color: $white;
-//       }
-
-//       &.code-club {
-//         background-color: $code-club-green;
-//         color: $white;
-//       }
-
-//       &.code-first {
-//         background-color: $actual-white;
-//         color: $codefirst-red;       
-//       }
-
-//       &.teen-tech {
-//         background-color: #965fab;
-//       }
-
-//       &.stemnets {
-//         background-color: $actual-white;
-//         color: #022261;
-//       }
-
-//       &.university {
-//         color: #005391;
-//         background-color: $actual-white;
-//       }
-
-//       &.talk-ux {
-//         background-color: #49a692;
-//         color: $white;
-//       }
-//     }
-//   }
-// }
+.blue {
+  color: $secondary-blue;
+}
 
 /* COMPONENTS ---------------------- */
 .button-container {
