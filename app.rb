@@ -5,16 +5,16 @@ require 'slim'
 class App < Sinatra::Application
 	@page_title = ""
 
+	get '/' do 
+		redirect '/blog'
+	end
+
 	get '/about' do
 		slim :'pages/index', layout: false;
 	end
 
 	get '/portfolio' do
 		slim :'pages/portfolio'
-	end
-
-	get '/' do 
-		redirect to('/blog')
 	end
 
 	get '/?*' do
