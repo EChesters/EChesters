@@ -14,7 +14,7 @@ class App < Sinatra::Application
 	end
 
 	get '/' do 
-		jekyll_blog(request.path) {404}
+		redirect to('/blog')
 	end
 
 	get '/?*' do
