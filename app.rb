@@ -36,4 +36,5 @@ class App < Sinatra::Application
 			slim :'pages/not-found'
 		end
 	end
+	
 end
