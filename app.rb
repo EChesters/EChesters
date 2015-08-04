@@ -13,6 +13,18 @@ class App < Sinatra::Application
 		slim :'pages/portfolio'
 	end
 
+	get '/' do 
+		jekyll_blog(request.path) {404}
+	end
+
+	get '/?*' do
+		jekyll_blog(request.path) {404}
+	end
+
+	not_found do
+		slim :'pages/not-found'
+	end
+
 	def jekyll_blog(path, &missing_file_block)
 
 		file_path = File.join(File.dirname(__FILE__), 'lib/jekyll_blog/_site', path.gsub('/blog',''))
@@ -31,10 +43,6 @@ class App < Sinatra::Application
 		else
 			slim :'pages/not-found'
 		end
-	end
-
-	get '/?*' do
-		jekyll_blog(request.path) {404}
 	end
 	
 end
