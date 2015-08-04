@@ -13,10 +13,6 @@ class App < Sinatra::Application
 		slim :'pages/portfolio'
 	end
 
-	get '/?*' do
-		jekyll_blog(request.path) {404}
-	end
-
 	def jekyll_blog(path, &missing_file_block)
 
 		file_path = File.join(File.dirname(__FILE__), 'lib/jekyll_blog/_site', path.gsub('/blog',''))
@@ -28,13 +24,17 @@ class App < Sinatra::Application
 			file.close
 
 			if (file_path.include?('.xml') || file_path.include?('.css'))
-                  erb contents, :content_type => 'text/xml'
-            else
+	              erb contents, :content_type => 'text/xml'
+	        else
 				erb contents, :layout_engine => :slim
 			end
 		else
 			slim :'pages/not-found'
 		end
+	end
+
+	get '/?*' do
+		jekyll_blog(request.path) {404}
 	end
 	
 end
