@@ -17,7 +17,7 @@ stdout_path "#{@directory}/logs/unicorn.log"
 # Unicorn socket
 # listen "/tmp/unicorn.[app name].sock"
 listen "/tmp/unicorn.echesters.sock"
-
+listen 8080, :tcp_nopush => true
 # Number of processes
 # worker_processes 4
 worker_processes 2

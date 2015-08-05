@@ -5,8 +5,8 @@ require 'slim'
 class App < Sinatra::Application
 	@page_title = ""
 
-	get '/' do 
-		redirect '/blog'
+	get '/blog' do 
+		redirect '/'
 	end
 
 	get '/about' do
@@ -27,7 +27,7 @@ class App < Sinatra::Application
 
 	def jekyll_blog(path, &missing_file_block)
 
-		file_path = File.join(File.dirname(__FILE__), 'lib/jekyll_blog/_site', path.gsub('/blog',''))
+		file_path = File.join(File.dirname(__FILE__), 'lib/jekyll_blog/_site', path.gsub('/',''))
 		file_path = File.join(file_path, 'index.html') unless file_path =~ /\.[a-z]+$/i
 
 		if File.exist?(file_path)
