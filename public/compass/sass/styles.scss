@@ -79,6 +79,15 @@ body {
       }
     }
 	}
+
+  #sub-headings {
+    width: 100%;
+    text-align: center;
+
+    h2 {
+      color: $actual-white;
+    }
+  }
 }
 
 .content {
@@ -110,6 +119,11 @@ section {
   }
 }
 
+.vertical-middle-container {
+  height: 50vh;
+  @include vertical-align(30%);
+}
+
 h1.page-title {
   text-align: center;
   font-size: $font-title-size;
@@ -134,6 +148,14 @@ h1.page-title {
     padding-left: 10px;
     margin-left: 5px;
   }
+}
+
+#unfound { 
+  width: 100%;
+  text-align: center;
+  background-image: url("/images/mountains.jpg");
+  @include dynamic-sizing();
+  height: 100vh;
 }
 
 /* IMAGES -------------------------- */ 
@@ -182,6 +204,9 @@ header {
 
 .buttons {
   margin: 70px 0 20px 0;
+  width: 100%;
+  // margin: 0 auto;
+  text-align: center;
 }
 
 /* FOOTER ---------------------- */
@@ -207,7 +232,7 @@ header {
   }
 
   p, a {
-    opacity:        0.7;
+    opacity:        0.8;
     font-size:      0.8em;
     color:          $actual-white;
   }

@@ -2269,6 +2269,13 @@ body {
 #header .heading .description-container p {
   margin-bottom: 10px;
 }
+#header #sub-headings {
+  width: 100%;
+  text-align: center;
+}
+#header #sub-headings h2 {
+  color: #fff;
+}
 
 .content {
   width: 65%;
@@ -2297,6 +2304,15 @@ section .description {
   margin-bottom: 5px;
 }
 
+.vertical-middle-container {
+  height: 50vh;
+  position: relative;
+  top: 30%;
+  -webkit-transform: translateY(-30%);
+  -ms-transform: translateY(-30%);
+  transform: translateY(-30%);
+}
+
 h1.page-title {
   text-align: center;
   font-size: 3em;
@@ -2319,6 +2335,18 @@ h1.page-title {
   border-left: solid #2e9adb 3px;
   padding-left: 10px;
   margin-left: 5px;
+}
+
+#unfound {
+  width: 100%;
+  text-align: center;
+  background-image: url("/images/mountains.jpg");
+  max-width: 180%;
+  max-height: 120%;
+  background-size: cover;
+  height: auto;
+  width: auto;
+  height: 100vh;
 }
 
 /* IMAGES -------------------------- */
@@ -2370,6 +2398,8 @@ header h3.subtitle {
 
 .buttons {
   margin: 70px 0 20px 0;
+  width: 100%;
+  text-align: center;
 }
 
 /* FOOTER ---------------------- */
@@ -2393,7 +2423,7 @@ header h3.subtitle {
   padding-left: 35px;
 }
 #footer p, #footer a {
-  opacity: 0.7;
+  opacity: 0.8;
   font-size: 0.8em;
   color: #fff;
 }
