@@ -57,7 +57,7 @@ When asking for passwords, should you confirm a password and require the phrase 
 There’s nothing worse than locking yourself out of your account before being able to use the site. It seems annoying asking twice, but people get around this by copy and paste, and it’s worth it in the long term. It prevents more “forgotten password” journeys before a user has had their account for 5 minutes. Yet if there is a mistake inside either of the password fields, a user can't see the issue. This leads to a form submission with mismatching passwords and both fields needing to be redone. There is nothing more frustrating.
 
 ### Unmask Password
-Password masking and showing one letter at a time as you type is becoming more common. On devices like phones where it's tricky to type, this. The feature may not be something that seems obvious to offer, yet on devices where it's tricky to type, it eliminates asking for passwords twice. The ability to view your password, allows your user to double check their password if they think they entered an incorrect phrase.
+Password unmasking and showing one letter at a time as you type is becoming more common. On devices like phones where it's tricky to type, this. The feature may not be something that seems obvious to offer, yet on devices where it's tricky to type, it eliminates asking for passwords twice. The ability to view password fields, allows your user to double check their password if they think they entered an incorrect phrase.
 
 *Most of the time your users are typing in passwords in private.*
 
