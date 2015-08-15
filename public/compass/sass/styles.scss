@@ -158,6 +158,24 @@ h1.page-title {
   height: 100vh;
 }
 
+.code-and-icon {
+  display: block;
+  overflow: auto;
+
+  pre {
+    width: 85%;
+    display: inline-block;
+    float: left;
+  }
+
+  i {
+    width: 5%;
+    display: inline-block;
+    // float: right;
+    @include vertical-align(-75%);
+  }
+}
+
 /* IMAGES -------------------------- */ 
 .avatar-container {
     width: 150px;
@@ -263,4 +281,13 @@ header {
     letter-spacing:     2px;
     margin:             5px 0;
   }
+}
+
+/* COLOURS */
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
 }

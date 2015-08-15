@@ -20,6 +20,7 @@
 #content h3 {
   font-size: 1.3em;
   margin: 15px 0 5px 0;
+  color: #2787C2;
 }
 #content h4 {
   font-size: 1.2em;
@@ -63,7 +64,6 @@ blockquote p {
 
 ol {
   line-height: 2em;
-  padding-top: 10px;
   padding-left: 30px;
 }
 ol li {
@@ -155,11 +155,30 @@ span.code {
 }
 
 /* IMAGES -------------------------- */
-.images .large.portrait {
+.images img {
+  max-width: 48%;
+  display: inline-block;
+}
+.images img.large.portrait {
   max-height: 500px;
   width: auto;
 }
-.images .large.landscape {
-  max-width: 500px;
+.images img.large.landscape {
+  max-width: 600px;
+  max-height: 400px;
   height: auto;
+}
+
+/* TABLES -------------------------- */
+table {
+  margin-bottom: 20px;
+  border: solid 1px #D8D9E3;
+}
+table tr th, table tr td {
+  padding: 10px;
+  font-size: 90%;
+}
+table thead {
+  background-color: #EE6200;
+  color: #eee;
 }

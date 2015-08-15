@@ -13,15 +13,16 @@
 /* TYPOGRAPHY ---------------------- */
 #content {
   h2 {
-    font-size:      1.45em;
-    margin:       30px 0 10px 0;
+    font-size:        1.45em;
+    margin:           30px 0 10px 0;
     letter-spacing:   1px;
-    color:        $primary-orange-darker;
+    color:            $primary-orange-darker;
   }
 
   h3 {
     font-size:      1.3em;
-    margin:       15px 0 5px 0;
+    margin:         15px 0 5px 0;
+    color:          $secondary-blue-darker;
   }
 
   h4 {
@@ -71,7 +72,6 @@ blockquote {
 
 ol {
   line-height: 2em;
-  padding-top: 10px;
   padding-left: 30px;
 
   li {
@@ -164,14 +164,40 @@ span.code {
 }
 
 /* IMAGES -------------------------- */
-.images .large {
-  &.portrait {
-    max-height: 500px;
-    width: auto;
+
+.images {
+  img {
+    max-width: 48%;
+    display: inline-block;
   }
 
-  &.landscape {
-    max-width: 500px;
-    height: auto;
+  img.large {
+    &.portrait {
+      max-height: 500px;
+      width: auto;
+    }
+
+    &.landscape {
+      max-width: 600px;
+      max-height: 400px;
+      height: auto;
+    }
+  }
+}
+
+/* TABLES -------------------------- */
+
+table {
+  margin-bottom: 20px;
+  border: solid 1px #D8D9E3;
+
+  tr th, tr td {
+    padding: 10px;
+    font-size: 90%;
+  }
+
+  thead {
+    background-color: $primary-orange-darker;
+    color: $white;
   }
 }

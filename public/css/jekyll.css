@@ -98,7 +98,8 @@ h3.post-title a {
 }
 
 img, a img {
-  max-height: 210px;
+  max-height: 250px;
+  max-width: 80%;
   margin: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
