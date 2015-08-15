@@ -34,6 +34,17 @@ If you've ever come across captchas, you've come across [reCAPTCHAs]. ReCAPTCHAs
 
 Despite being smart in the background, it still causes the same problems as the original CAPTCHA. It breaks up the user flow and leads to a lot of frustration. The accessibility issues also still stand, despite there being an accessibility button. Users with a cognitive impairment are not helped just because an audio alternative is available. 
 
+### The new reCAPTCHA
+Google actually realised the problem with CAPTCHAs and [redesigned a new ReCAPTCHA concept]. Bots are becoming increasingly better at solving CAPTCHAs, which lead to more complicated text. This meant that it was getting more difficult for users to solve. The new reCAPTCHA now analyses a user's entire engagement with the page, to determine if the user is legit. 
+
+It's great to know that there is an accessible version for visually impaired users. Yet, sadly when trying to use it via keyboard only it was a little trickier. It took a few attempts to actually tab onto the checkbox. When I had to then select images from the grid relating to the given word, it was impossible to select anything.
+
+<div class="images">
+	<img src="/images/posts/security-verification/new-recaptcha-2.png" class="large portrait" alt="A new reCAPTCHA form showing distorted text read in from a door">
+</div>
+
+This doesn't solve the fact that we are still stopping users in their tracks and increasing their task load. However it is half way there to simplifying the issue. 
+
 ### Mathematical CAPTCHA
 Even for a developed country, the [UK ranks low when it comes to numeracy skills amongst adults]. So it makes you wonder why CAPTCHA forms are now involving math equations. Cognitive impairments then go on to amplify the problem, rendering the experience inaccessible. Sure, they're "simple" sums a user could easily type into Google, but then that causes a drop off in your user journey. There's also a risk of making your users feel dense. 
 
@@ -69,6 +80,8 @@ Out of all the CAPTCHAs that we’ve been through, my personal favourite has to 
 </div>
 
 This is great because the CAPTCHA form is only shown if the form is filled out in Guinness world record times. It’s removing the responsibility from the user until it believes it to be necessary. Unfortunately this doesn’t solve the accessibility problems as with every other CAPTCHA form. But if you’re going down the route of using a CAPTCHA form, this is the best one. It removes the responsibility from the user and doesn’t cause issues until it has to.
+
+The difference between Ghost CAPTCHA and the latest reCAPTCHA is that this one hides everything from the user until necessary. Whereas Google's reCAPTCHA still requires the user to select a check box. Also when trying out both, Google's reCAPTCHA was unsure I was a real user a lot more than when using Ghost CAPTCHA. 
 
 ## Gamification
 Games are a great UX in their own right. Gamification in UX is a great way to disguise tasks that need doing, which in this instance is verification. Why not turn verification into a game? [PlayThru is a playful alternative to authorisation] offering a game instead of distorted text. 
@@ -206,3 +219,4 @@ But these measures should only be taken if  your site needs it. Before adding an
 [minimal impact on UX]:https://www.edq.com/blog/real-time-email-verification-with-minimal-impact-on-ux/ 
 [open source tools offering the same]:https://opensourceenterprise.wordpress.com/2012/10/09/email-address-verification-on-mailbox-proof-of-concept/ 
 [PlayThru is a playful alternative to authorisation]:http://blog.areyouahuman.com/help/english.html
+[redesigned a new ReCAPTCHA concept]:https://www.google.com/recaptcha/intro/index.html#
