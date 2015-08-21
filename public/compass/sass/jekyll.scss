@@ -9,7 +9,7 @@ body {
 }
 
 .blog-header {
-	background-image: url("/images/mountains-clipped.jpg");
+	background-image: url("/images/banner.jpg");
 	width: 100%;
 	text-align: center;
 	@include dynamic-sizing();
@@ -32,7 +32,7 @@ body {
 }
 
 #content {
-	padding-top: 44px;
+	padding-top: 40px;
 
 	ul.no-bullets {
 	  list-style: none;
@@ -66,7 +66,6 @@ h3.post-title {
 	font-family: $content-font;
 
 	a {
-		color: $primary-orange-darker;
 		font-size: 20px;
 		letter-spacing: 1px;
 	}

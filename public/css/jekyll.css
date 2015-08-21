@@ -20,7 +20,7 @@ body {
 }
 
 .blog-header {
-  background-image: url("/images/mountains-clipped.jpg");
+  background-image: url("/images/banner.jpg");
   width: 100%;
   text-align: center;
   max-width: 180%;
@@ -48,7 +48,7 @@ body {
 }
 
 #content {
-  padding-top: 44px;
+  padding-top: 40px;
 }
 #content ul.no-bullets {
   list-style: none;
@@ -79,7 +79,6 @@ h3.post-title {
   font-family: "Oxygen", sans-serif;
 }
 h3.post-title a {
-  color: #EE6200;
   font-size: 20px;
   letter-spacing: 1px;
 }

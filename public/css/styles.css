@@ -2198,7 +2198,7 @@ body {
 .nav-bar {
   width: 100%;
   position: absolute;
-  background-color: #364E4F;
+  background-color: #3b2817;
 }
 .nav-bar ul.options li {
   margin: 0;
@@ -2206,7 +2206,7 @@ body {
 }
 .nav-bar ul.options li a {
   display: block;
-  padding: 12px 40px;
+  padding: 10px 40px;
   color: #eee;
   border-bottom: 4px solid transparent;
 }
@@ -2214,13 +2214,13 @@ body {
   text-decoration: none;
 }
 .nav-bar ul.options li a:hover {
-  border-bottom: 4px solid #EE6200;
-  color: #364E4F;
+  border-bottom: 4px solid #2787C2;
+  color: #3b2817;
   background-color: #fff;
 }
 
 #header {
-  background-image: url("/images/mountains.jpg");
+  background-image: url("/images/background.jpg");
   max-width: 180%;
   max-height: 120%;
   background-size: cover;
@@ -2244,9 +2244,8 @@ body {
   -webkit-transform: translateY(100%);
   -ms-transform: translateY(100%);
   transform: translateY(100%);
-  color: #EE6200;
-  font-size: 2em;
-  font-weight: 800;
+  color: #E15232;
+  font-size: 2.1em;
   font-family: "Alegreya SC", serif;
   letter-spacing: 5px;
 }
@@ -2277,14 +2276,18 @@ body {
   color: #fff;
 }
 
-.content {
-  width: 65%;
+.content, .blog-content {
+  width: 75%;
   margin: -1% auto;
   padding: 20px;
 }
 
+.blog-content {
+  width: 80%;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
-  .content {
+  .content, .blog-content {
     width: 100%;
     padding: 0;
   }
@@ -2340,7 +2343,7 @@ h1.page-title {
 #unfound {
   width: 100%;
   text-align: center;
-  background-image: url("/images/mountains.jpg");
+  background-image: url("/images/background.jpg");
   max-width: 180%;
   max-height: 120%;
   background-size: cover;
@@ -2394,7 +2397,7 @@ header h2.title {
   font-size: 3em;
   font-weight: 500;
   font-family: "Alegreya SC", serif;
-  color: #EE6200;
+  color: #E15232;
 }
 header h3.subtitle {
   font-size: 1.8em;
@@ -2426,7 +2429,7 @@ header h3.subtitle {
   clear: both;
   width: 100%;
   display: block;
-  background-color: #183443;
+  background-color: #160607;
   color: #fff;
   bottom: 0;
   position: relative;

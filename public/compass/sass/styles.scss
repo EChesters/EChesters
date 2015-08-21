@@ -23,7 +23,7 @@ body {
 
       a {
         display: block;
-        padding: 12px 40px;
+        padding: 10px 40px;
         color: $white;
         border-bottom: 4px solid transparent;
 
@@ -32,7 +32,7 @@ body {
         }
 
         &:hover {
-          border-bottom: 4px solid $primary-orange-darker;
+          border-bottom: 4px solid $secondary-blue-darker;
           color: $nav-bar;
           background-color: $actual-white;
         }
@@ -42,7 +42,7 @@ body {
 }
 
 #header {
-  background-image: url("/images/mountains.jpg");
+  background-image: url("/images/background.jpg");
   @include dynamic-sizing();
   height: 100vh;
 
@@ -56,7 +56,6 @@ body {
 			@include vertical-align(-100%);
 			color: $primary-orange-darker;
 			font-size: $index-title-size;
-      font-weight: $weight-heavy;
       font-family: $title-font;
       letter-spacing: 5px;
 		}
@@ -91,9 +90,14 @@ body {
 }
 
 .content {
-  width: 65%;
+  width: 75%;
   margin: -1% auto;
   padding: 20px;
+}
+
+.blog-content {
+  @extend .content;
+  width: 80%;
 }
 
 @media only screen and (min-width : 320px)and (max-width : 1024px) {
@@ -153,7 +157,7 @@ h1.page-title {
 #unfound { 
   width: 100%;
   text-align: center;
-  background-image: url("/images/mountains.jpg");
+  background-image: url("/images/background.jpg");
   @include dynamic-sizing();
   height: 100vh;
 }
