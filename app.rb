@@ -17,6 +17,10 @@ class App < Sinatra::Application
 		slim :'pages/portfolio'
 	end
 
+	get '/codinglondon' do
+		slim :'pages/codingldn', layout: false;
+	end
+
 	get '/?*' do
 		jekyll_blog(request.path) {404}
 	end
