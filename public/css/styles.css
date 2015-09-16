@@ -2276,6 +2276,19 @@ body {
   color: #fff;
 }
 
+#content {
+  padding-top: 40px;
+}
+#content ul.no-bullets {
+  list-style: none;
+}
+#content ul, #content ol {
+  margin-left: 50px;
+}
+#content ul li, #content ol li {
+  margin: 5px 0;
+}
+
 .content, .blog-content {
   width: 75%;
   margin: -1% auto;

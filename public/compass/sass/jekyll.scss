@@ -31,22 +31,6 @@ body {
 	}
 }
 
-#content {
-	padding-top: 40px;
-
-	ul.no-bullets {
-	  list-style: none;
-	}
-
-	ul, ol {
-	  margin-left: 50px;
-
-	  li {
-	    margin: 5px 0;
-	  }
-	}
-}
-
 /* TEXT */
 h1.page-title {
 	font-family: $content-font;
@@ -82,6 +66,8 @@ h3.post-title {
 	text-align: center;
 	width: 100%;
 	padding-bottom: 20px;
+	overflow: auto;
+
 }
 
 img, a img {

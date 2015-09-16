@@ -23,10 +23,12 @@ footer {
 }
 
 .right {
+  display: inline-block;
 	float: right;
 }
 
 .left {
+  display: inline-block;
 	float: left;
 }
 
@@ -55,6 +57,18 @@ footer {
 	width: 80%;
 }
 
+.grid-2-5 {
+  width: 45%;
+}
+
+.grid-1-1 {
+  width: 100%;
+}
+
+.grid--centre {
+  margin: 0 auto;
+}
+
 /* iPad and smaller---- */
 @media only screen and (max-width : 1024px) {
   header#header {
@@ -81,4 +95,18 @@ footer {
       }
     }
   }
+}
+
+.images {
+  img {
+    max-width: 75% !important;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.margin-vertical {
+  margin: 20px 0 !important;
 }

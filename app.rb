@@ -21,6 +21,18 @@ class App < Sinatra::Application
 		slim :'pages/codingldn', layout: false;
 	end
 
+	get '/thoughtworks' do
+		slim :'pages/thoughtworks'
+	end
+
+	get '/feeltheworld' do 
+		slim :'pages/feeltheworld'
+	end
+
+	get '/whfnp' do 
+		slim :'pages/whfnp'
+	end
+
 	get '/?*' do
 		jekyll_blog(request.path) {404}
 	end

@@ -89,6 +89,22 @@ body {
   }
 }
 
+#content {
+  padding-top: 40px;
+
+  ul.no-bullets {
+    list-style: none;
+  }
+
+  ul, ol {
+    margin-left: 50px;
+
+    li {
+      margin: 5px 0;
+    }
+  }
+}
+
 .content {
   width: 75%;
   margin: -1% auto;
