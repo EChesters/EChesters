@@ -1,21 +1,24 @@
 doctype html
 html locale="en" xml:lang="en" lang="en"
   head
-    link href="css/reset.css" rel="stylesheet" type="text/css"
-    link href="css/layout.css" rel="stylesheet" type="text/css"
-    link href="css/styles.css" rel="stylesheet" type="text/css" 
-    link href="css/styleguide.css" rel="stylesheet" type="text/css"
-    link href="css/jekyll.css" rel="stylesheet" type="text/css"
+    / link href="css/reset.css" rel="stylesheet" type="text/css"
+    / link href="css/layout.css" rel="stylesheet" type="text/css"
+    / link href="css/styles.css" rel="stylesheet" type="text/css" 
+    / link href="css/styleguide.css" rel="stylesheet" type="text/css"
+    / link href="css/jekyll.css" rel="stylesheet" type="text/css"
+    link href="compass/stylesheets/styles.css" rel="stylesheet"
     link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"   
     link rel="icon" type="image/ico" href="images/logo.ico"
 
   body
-    nav
-        == slim :'components/_nav-bar'
+    == slim :'components/_nav-bar'
+
     #content
-    	== yield
+      == yield
 
     #footer
         == slim :'components/_footer'
 
     script src="/js/analytics.js"
+    script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"
+    script src="/js/bootstrap.min.js"
