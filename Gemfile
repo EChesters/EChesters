@@ -7,6 +7,7 @@ gem 'slim'
 gem 'compass'
 gem 'sass'
 gem 'font-awesome-sass'
+gem 'bootstrap-sass'
 
 gem 'jekyll'
 gem 'rdiscount'
