@@ -3,11 +3,11 @@
  */
 
 /* Links */
-a,
-a:focus,
-a:hover {
-  color: #fff;
-}
+// a,
+// a:focus,
+// a:hover {
+//   color: #fff;
+// }
 
 /* Custom default button */
 .btn-default,
@@ -16,7 +16,7 @@ a:hover {
   color: $btn-default-color;
   text-shadow: none; /* Prevent inheritence from `body` */
   background-color: $btn-default-bg;
-  border: 1px solid $btn-default-border;
+  border: 2px solid $btn-default-border;
 }
 
 

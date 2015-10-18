@@ -1,10 +1,12 @@
 @charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Alegreya+SC|Oxygen|Cutive+Mono);
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import url(http://fonts.googleapis.com/css?family=Alegreya+SC|Oxygen|Cutive+Mono);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -1414,7 +1416,7 @@ a {
   text-decoration: none;
 }
 a:hover, a:focus {
-  color: #001a00;
+  color: #ff0000;
   text-decoration: underline;
 }
 a:focus {
@@ -3697,34 +3699,34 @@ a.btn.disabled, fieldset[disabled] a.btn {
 .btn-default {
   color: #fff;
   background-color: rgba(255, 255, 255, 0.2);
-  border-color: #ccc;
+  border-color: #fff;
 }
 .btn-default:focus, .btn-default.focus {
   color: #fff;
   background-color: rgba(230, 230, 230, 0.2);
-  border-color: #8c8c8c;
+  border-color: #bfbfbf;
 }
 .btn-default:hover {
   color: #fff;
   background-color: rgba(230, 230, 230, 0.2);
-  border-color: #adadad;
+  border-color: #e0e0e0;
 }
 .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
   color: #fff;
   background-color: rgba(230, 230, 230, 0.2);
-  border-color: #adadad;
+  border-color: #e0e0e0;
 }
 .btn-default:active:hover, .btn-default:active:focus, .btn-default:active.focus, .btn-default.active:hover, .btn-default.active:focus, .btn-default.active.focus, .open > .btn-default.dropdown-toggle:hover, .open > .btn-default.dropdown-toggle:focus, .open > .btn-default.dropdown-toggle.focus {
   color: #fff;
   background-color: rgba(212, 212, 212, 0.2);
-  border-color: #8c8c8c;
+  border-color: #bfbfbf;
 }
 .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
   background-image: none;
 }
 .btn-default.disabled, .btn-default.disabled:hover, .btn-default.disabled:focus, .btn-default.disabled.focus, .btn-default.disabled:active, .btn-default.disabled.active, .btn-default[disabled], .btn-default[disabled]:hover, .btn-default[disabled]:focus, .btn-default[disabled].focus, .btn-default[disabled]:active, .btn-default[disabled].active, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default:hover, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default.focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default.active {
   background-color: rgba(255, 255, 255, 0.2);
-  border-color: #ccc;
+  border-color: #fff;
 }
 .btn-default .badge {
   color: rgba(255, 255, 255, 0.2);
@@ -3930,7 +3932,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   border-color: transparent;
 }
 .btn-link:hover, .btn-link:focus {
-  color: #001a00;
+  color: #ff0000;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -5224,7 +5226,7 @@ tbody.collapse.in {
 .pagination > li > span:hover,
 .pagination > li > span:focus {
   z-index: 3;
-  color: #001a00;
+  color: #ff0000;
   background-color: #eeeeee;
   border-color: #ddd;
 }
@@ -6300,12 +6302,6 @@ button.close {
  * Globals
  */
 /* Links */
-a,
-a:focus,
-a:hover {
-  color: #fff;
-}
-
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
@@ -6314,7 +6310,7 @@ a:hover {
   text-shadow: none;
   /* Prevent inheritence from `body` */
   background-color: rgba(255, 255, 255, 0.2);
-  border: 1px solid #ccc;
+  border: 2px solid #fff;
 }
 
 /*
@@ -6463,6 +6459,28 @@ body.cover {
     width: 700px;
   }
 }
+.blog-header {
+  background-image: url("/images/banner.jpg");
+  width: 100%;
+  text-align: center;
+  background-size: cover;
+  padding: 40px;
+  padding-top: 20px;
+  -webkit-box-shadow: 0 0 10px #ABADB3;
+  box-shadow: 0 0 10px #ABADB3;
+}
+
+#about-header {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+#about-header h2, #about-header h3 {
+  color: #fff;
+  font-family: "Alegreya SC", serif;
+}
+#about-header .page-title {
+  color: #ff0000;
+}
+
 .modal-open {
   overflow: hidden;
 }

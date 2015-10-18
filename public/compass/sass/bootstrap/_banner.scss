@@ -1,0 +1,22 @@
+.blog-header {
+  background-image: url("/images/banner.jpg");
+  width: 100%;
+  text-align: center;
+  background-size: cover;
+  padding: 40px;
+  padding-top: 20px;
+  @include box-shadow($banner-shadow);
+}
+
+#about-header {
+  text-shadow: 0 1px 3px rgba(0,0,0,.3);
+
+  h2, h3 {
+    color: $white;
+    font-family: $font-family-serif;
+  }
+
+  .page-title {
+    color: $brand-danger;
+  }
+}
