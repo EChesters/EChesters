@@ -15,11 +15,11 @@
 // $gray-light:             lighten($gray-base, 46.7%) // #777
 // $gray-lighter:           lighten($gray-base, 93.5%) // #eee
 
-// $brand-primary:         darken(#428bca, 6.5%) // #337ab7
+$brand-primary:        		#006700;
 // $brand-success:         #5cb85c
 // $brand-info:            #5bc0de
 // $brand-warning:         #f0ad4e
-// $brand-danger:          #d9534f
+$brand-danger:          	#ff0000;
 
 //== Scaffolding
 //
@@ -43,7 +43,6 @@
 
 $font-family-sans-serif:  				'Oxygen', sans-serif;
 $font-family-serif:       				'Alegreya SC', serif;
-//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   				'Cutive Mono', monospace;
 // $font-family-base:        				$font-family-sans-serif
 
@@ -68,6 +67,9 @@ $font-family-monospace:   				'Cutive Mono', monospace;
 // $headings-font-weight:    500
 // $headings-line-height:    1.1
 // $headings-color:          inherit
+
+//== Colours
+$white: 								#fff;
 
 //== Iconography
 //
@@ -104,7 +106,7 @@ $font-family-monospace:   				'Cutive Mono', monospace;
 // $line-height-small:         1.5
 
 // $border-radius-base:        4px
-// $border-radius-large:       6px
+$border-radius-large:       	25px;
 // $border-radius-small:       3px
 
 //** Global color for active items (e.g., navs or dropdowns).
@@ -141,11 +143,11 @@ $font-family-monospace:   				'Cutive Mono', monospace;
 //
 //## For each of Bootstrap's buttons, define text, background and border color.
 
-// $btn-font-weight:                normal
+$btn-font-weight:                	100;
 
-// $btn-default-color:              #333
-// $btn-default-bg:                 #fff
-// $btn-default-border:             #ccc
+$btn-default-color:              	#fff;
+$btn-default-bg:                 	rgba(255, 255, 255, 0.2);
+$btn-default-border:             	#ccc;
 
 // $btn-primary-color:              #fff
 // $btn-primary-bg:                 $brand-primary
@@ -171,7 +173,7 @@ $font-family-monospace:   				'Cutive Mono', monospace;
 
 // Allows for customizing button radius independently from global border radius
 // $btn-border-radius-base:         $border-radius-base
-// $btn-border-radius-large:        $border-radius-large
+$btn-border-radius-large:        	$border-radius-large;
 // $btn-border-radius-small:        $border-radius-small
 
 //== Forms
@@ -363,7 +365,7 @@ $navbar-default-bg:                			#1C2130;
 // Navbar links
 $navbar-default-link-color:                	#eeeeee;
 $navbar-default-link-hover-color:          	#E5DDCB;
-$navbar-default-link-hover-bg:             	#CC2A41;
+$navbar-default-link-hover-bg:             	#006700;
 // $navbar-default-link-active-color:         #555
 // $navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%)
 // $navbar-default-link-disabled-color:       #ccc
@@ -771,22 +773,6 @@ $navbar-default-link-hover-bg:             	#CC2A41;
 // $breadcrumb-active-color:       $gray-light
 //** Textual separator for between breadcrumb elements
 // $breadcrumb-separator:          "/"
-
-//== Carousel
-//
-//##
-
-// $carousel-text-shadow:                        0 1px 2px rgba(0,0,0,.6)
-
-// $carousel-control-color:                      #fff
-// $carousel-control-width:                      15%
-// $carousel-control-opacity:                    .5
-// $carousel-control-font-size:                  20px
-
-// $carousel-indicator-active-bg:                #fff
-// $carousel-indicator-border-color:             #fff
-
-// $carousel-caption-color:                      #fff
 
 //== Close
 //

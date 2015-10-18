@@ -13,7 +13,7 @@
 @import "bootstrap/print";
 @import "bootstrap/glyphicons";
 
-// Core CSS
+// Core CSS 
 @import "bootstrap/scaffolding";
 @import "bootstrap/type";
 @import "bootstrap/code";
@@ -37,19 +37,18 @@
 @import "bootstrap/jumbotron";
 @import "bootstrap/thumbnails";
 @import "bootstrap/alerts";
-@import "bootstrap/progress-bars";
 @import "bootstrap/media";
 @import "bootstrap/list-group";
 @import "bootstrap/panels";
 @import "bootstrap/responsive-embed";
 @import "bootstrap/wells";
 @import "bootstrap/close";
+@import "bootstrap/_cover";
 
 // Components w/ JavaScript
 @import "bootstrap/modals";
 @import "bootstrap/tooltip";
 @import "bootstrap/popovers";
-@import "bootstrap/carousel";
 
 // Utility classes
 @import "bootstrap/utilities";
