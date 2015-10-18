@@ -17,7 +17,8 @@
 // $gray-light:             lighten($gray-base, 46.7%) // #777
 // $gray-lighter:           lighten($gray-base, 93.5%) // #eee
 
-$brand-primary:        		#006700;
+$brand-primary:        		#280b1a;
+$brand-secondary: 			#852456;
 // $brand-success:         #5cb85c
 // $brand-info:            #5bc0de
 // $brand-warning:         #f0ad4e
@@ -35,7 +36,7 @@ $brand-danger:          	#ff0000;
 //** Global textual link color.
 $link-color:            $brand-primary;
 //** Link hover color set via `darken()` function.
-$link-hover-color:      $brand-danger;
+$link-hover-color:      $brand-secondary;
 //** Link hover decoration.
 // $link-hover-decoration: underline
 
@@ -147,13 +148,13 @@ $border-radius-large:       	25px;
 
 $btn-font-weight:                	100;
 
-$btn-default-color:              	#fff;
-$btn-default-bg:                 	rgba(255, 255, 255, 0.2);
-$btn-default-border:             	#fff;
+$btn-default-color:              	$white;
+$btn-default-bg:                 	rgba(255, 255, 255, .2);
+$btn-default-border:             	$white;
 
-// $btn-primary-color:              #fff
-// $btn-primary-bg:                 $brand-primary
-// $btn-primary-border:             darken($btn-primary-bg, 5%)
+$btn-primary-color:              	#280b1a;
+$btn-primary-bg:                 	rgba(57, 78, 107, .5);
+$btn-primary-border:             	#280b1a;
 
 // $btn-success-color:              #fff
 // $btn-success-bg:                 $brand-success

@@ -13,14 +13,14 @@ Verification [blogs like this CAPTCHA one] mentions how we’re burdening legit 
 [CAPTCHAs] stop every user in their tracks. Yet for those who need accessible alternatives, they're an even bigger obstacle. Users relying on braille displays, there are no audio or visual ways of answering the form. A more inclusive UX needs to offer an alternative method. Yet the moment you add alt tags or anything a screenreader can access, you've made the process easier for a bot.
 
 <div class="images">
-	<img src="/images/posts/security-verification/original-captcha.png" alt="The first version of CAPTCHA forms, with random text in a box">
+	<img class="rounded landscape" src="/images/posts/security-verification/original-captcha.png" alt="The first version of CAPTCHA forms, with random text in a box">
 </div>
 
 But are you hurting your user experience in the process? By using a third party captcha form we have no control over what the CAPTCHAs look like. The chances are you've even come across ones that aren't readable at all, like this one on hotmail.
 
 <div class="images">
 	<figure>
-		<img src="/images/posts/security-verification/hotmail-captcha.png" alt="CAPTCHA text on hotmail.com where you can't tell if the last letter is a P or R">
+		<img class="rounded landscape" src="/images/posts/security-verification/hotmail-captcha.png" alt="CAPTCHA text on hotmail.com where you can't tell if the last letter is a P or R">
 		<figcaption>Is that last letter a P or R?</figcaption>
 	</figure>
 </div>
@@ -29,7 +29,7 @@ But are you hurting your user experience in the process? By using a third party 
 If you've ever come across captchas, you've come across [reCAPTCHAs]. ReCAPTCHAs are a clever way of not only protecting sites from bots, but also digitise books. The text you "translate" is [helping decode books scanned], that computers can’t understand. So not only are you keeping those pesky bots at bay, you are also helping the Internet with translations.
 
 <div class="images">
-	<img src="/images/posts/security-verification/recaptcha.png" alt="A ReCAPTCHA form showing distorted text read in from somewhere like a book">
+	<img class="rounded landscape" src="/images/posts/security-verification/recaptcha.png" alt="A ReCAPTCHA form showing distorted text read in from somewhere like a book">
 </div>
 
 Despite being smart in the background, it still causes the same problems as the original CAPTCHA. It breaks up the user flow and leads to a lot of frustration. The accessibility issues also still stand, despite there being an accessibility button. Users with a cognitive impairment are not helped just because an audio alternative is available. 
@@ -40,7 +40,7 @@ Google actually realised the problem with CAPTCHAs and [redesigned a new ReCAPTC
 It's great to know that there is an accessible version for visually impaired users. Yet, sadly when trying to use it via keyboard only it was a little trickier. It took a few attempts to actually tab onto the checkbox. When I had to then select images from the grid relating to the given word, it was impossible to select anything.
 
 <div class="images">
-	<img src="/images/posts/security-verification/new-recaptcha-2.png" class="large portrait" alt="A new reCAPTCHA form showing distorted text read in from a door">
+	<img src="/images/posts/security-verification/new-recaptcha-2.png" class="rounded portrait" alt="A new reCAPTCHA form showing distorted text read in from a door">
 </div>
 
 This doesn't solve the fact that we are still stopping users in their tracks and increasing their task load. However it is half way there to simplifying the issue. 
@@ -49,7 +49,7 @@ This doesn't solve the fact that we are still stopping users in their tracks and
 Even for a developed country, the [UK ranks low when it comes to numeracy skills amongst adults]. So it makes you wonder why CAPTCHA forms are now involving math equations. Cognitive impairments then go on to amplify the problem, rendering the experience inaccessible. Sure, they're "simple" sums a user could easily type into Google, but then that causes a drop off in your user journey. There's also a risk of making your users feel dense. 
 
 <div class="images">
-	<img src="/images/posts/security-verification/math-captcha.png" alt="math CAPTCHA showing 1 times 6">
+	<img class="rounded landscape" src="/images/posts/security-verification/math-captcha.png" alt="math CAPTCHA showing 1 times 6">
 </div>
 
 *[There are no stupid users, only stupid interfaces.]*
@@ -57,7 +57,7 @@ Even for a developed country, the [UK ranks low when it comes to numeracy skills
 Some sites like [Quantum Random Bit Generator], go as far as including these beasts of an equation:
 
 <div class="images">
-	<img src="/images/posts/security-verification/quantum-math-captcha.png" alt="A math CAPTCHA of a crazy equation using cos, pi and algebra">
+	<img class="rounded landscape" src="/images/posts/security-verification/quantum-math-captcha.png" alt="A math CAPTCHA of a crazy equation using cos, pi and algebra">
 </div>
 
 I understand it's not your average Joe Bloggs website, but is that *really* necessary? In small print the site then goes on to say if you refresh you'll (probably) get an easier question. I refreshed a few times and none of the questions seemed to be simpler. Instead they got bigger, included more mathematical symbols and put me even more off. I would love to know the reasoning behind this UX design.
@@ -75,8 +75,8 @@ Fair enough, the site does claim that it’s not a perfect solution. To me it’
 Out of all the CAPTCHAs that we’ve been through, my personal favourite has to be [Ghost CAPTCHA]. Ghost CAPTCHA will only force a user to decode text if they  have behaved in an abnormal manner. The plug-in monitors users’ behaviours through mouse movement, clicks and the time they complete the form.
 
 <div class="images">
-	<img src="/images/posts/security-verification/ghost-captcha-2.png" alt="shows a form with Ghost CAPTCHA but before a CAPTCHA form has been triggered">
-	<img src="/images/posts/security-verification/ghost-captcha.png" alt="shows the CAPTCHA being shown on a form, because the form has been filled in too quickly or the user has filled in the honey pot">
+	<img class="rounded two left" src="/images/posts/security-verification/ghost-captcha-2.png" alt="shows a form with Ghost CAPTCHA but before a CAPTCHA form has been triggered">
+	<img class="rounded two right" src="/images/posts/security-verification/ghost-captcha.png" alt="shows the CAPTCHA being shown on a form, because the form has been filled in too quickly or the user has filled in the honey pot">
 </div>
 
 This is great because the CAPTCHA form is only shown if the form is filled out in Guinness world record times. It’s removing the responsibility from the user until it believes it to be necessary. Unfortunately this doesn’t solve the accessibility problems as with every other CAPTCHA form. But if you’re going down the route of using a CAPTCHA form, this is the best one. It removes the responsibility from the user and doesn’t cause issues until it has to.
@@ -87,7 +87,7 @@ The difference between Ghost CAPTCHA and the latest reCAPTCHA is that this one h
 Games are a great UX in their own right. Gamification in UX is a great way to disguise tasks that need doing, which in this instance is verification. Why not turn verification into a game? [PlayThru is a playful alternative to authorisation] offering a game instead of distorted text. 
 
 <div class="images">
-	<img src="/images/posts/security-verification/playthru.png" alt="sample of the game playthru offers instead of CAPTCHAs, like build a face">
+	<img class="rounded portrait" src="/images/posts/security-verification/playthru.png" alt="sample of the game playthru offers instead of CAPTCHAs, like build a face">
 </div>
 
 Luckily for our users who use screen-readers, there is also an audio version of the games. But anyone on a braille display is going to struggle.  The game is friendly to users from different cultural backgrounds. Games like 'build a face' complete with moustache and mouth don’t *necessarily* need text for users to pick up on what to do. It is unfortunate though that it looks like you can't translate the text. Those who depend on keyboard only methods are also restricted by PlayThru, which is also something worth considering. 
@@ -117,7 +117,7 @@ Now the problem comes in when a user tries to logon and they’re faced with a r
 I’m sure we've all seen security questions before. Usually you associate them as an additional security layer when you've forgotten account credentials. They are arguably just as important and sensitive as passwords. If a user has forgotten their login credentials these are usually a first point of call of verification. But sites like United Utilities also uses security questions as part of the login. 
 
 <div class="images">
-	<img src="/images/posts/security-verification/united-utilities.png" alt="Logging into United Utilities asks for a security question when logging in." class="large landscape">
+	<img class="rounded landscape" src="/images/posts/security-verification/united-utilities.png" alt="Logging into United Utilities asks for a security question when logging in." class="large landscape">
 </div>
 
 *What’s worse is that this information is not even masked.*
@@ -174,7 +174,7 @@ Pre-verified sign-in allows your users to register to your website using an exis
 Unfortunately this means that you have to analyse which accounts your users use most and integrate those first. But if you go down the route like Flickr, your user might hit a brick wall. If users don’t have an account with the third parties you’re offering to integrate with, they can't continue. Why a website would only offer one option is beyond me, and Yahoo nonetheless. They even have [a page justifying their poor UX decisions]. They say it’s “one login to rule them all”, yet I have to create a Yahoo account, to create a Flickr account. This completely defeats the point. They also suggest linking your photos from Facebook and sharing them on a wider scale. If I wanted that, I would be posting them to Flickr, not Facebook. To me, this is a total turn off when signing up to a service.
 
 <div class="images">
-	<img src="/images/posts/security-verification/flickr.png" class="large landscape" alt="Flickr demanding a login with a Yahoo account">
+	<img src="/images/posts/security-verification/flickr.png" class="rounded landscape" alt="Flickr demanding a login with a Yahoo account">
 </div>
 
 From a user’s perspective, they have one master account to rule them all. No verification step per new service they sign up to. One password to remember. That’s all great but the app permissions that an integrating app demands is ridiculous. If you use Google to sign into everything, that’s a lot of private data you’re allowing apps to access. Try and keep the permissions to a minimum, so as not to scare off your users. If you offer your users to join by using their Facebook account, they shouldn't have to hand over permissions, like posting on their behalf. It also shouldn't mean that they automatically endorse your brand and advertise it.

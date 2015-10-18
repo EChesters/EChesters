@@ -1,3 +1,5 @@
+$cover-text-color: #fff;
+
 /*
  * Globals
  */
@@ -23,18 +25,16 @@
 /*
  * Base structure
  */
-
-html,
 body.cover {
-  height: 100%;
-  // background-color: #333;
+  height: 100vh;
   background: url("/images/background.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 body.cover {
-  color: #fff;
+  color: $cover-text-color;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  text-shadow: 0px 0px 24px rgba(40, 11, 26, .6);
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -79,22 +79,21 @@ body.cover {
   padding-right: 0;
   padding-left: 0;
   font-size: 16px;
-  font-weight: bold;
-  color: #fff; /* IE8 proofing */
-  color: rgba(255,255,255,.75);
+  font-weight: normal;
+  color: $cover-text-color;
   border-bottom: 2px solid transparent;
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
-  border-bottom-color: #a9a9a9;
+  border-bottom-color: #5393bf;
   border-bottom-color: rgba(255,255,255,.25);
 }
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-  color: #fff;
-  border-bottom-color: #fff;
+  color: $cover-text-color;
+  border-bottom-color: $cover-text-color;
 }
 
 @media (min-width: 768px) {
@@ -117,6 +116,13 @@ body.cover {
 .cover .btn-lg {
   padding: 15px 30px;
   font-weight: $btn-font-weight;
+
+  &:hover {
+    color: $btn-primary-color;
+    text-decoration: underline;
+    border-color: $btn-primary-color;
+    background-color: rgba(255, 255, 255, .4);
+  }
 }
 
 
