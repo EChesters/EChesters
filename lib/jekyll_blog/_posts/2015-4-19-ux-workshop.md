@@ -45,6 +45,6 @@ Every teaching situation has been so different so far and this workshop was no e
 I also learnt that as part of this structure people needed time to actually plan an app idea. This made the day so much more productive because it then became an idea that was feasible to take forward. Either way despite a few mishaps and it being a first time workshop for a dev, it went really well! Twitter was full of feedback, we got the work done, and we even have a mini-competition, courtesy of Carla Parr. Project permitted of being sent to London, we have been asked to run the course again for CodeFirst:Girls!
 
 <div class="images">
-     <img src="/images/posts/ux_1.jpg">
-     <img src="/images/posts/ux_2.jpg">
+     <img class="two left same-height rounded" src="/images/posts/ux_1.jpg">
+     <img class="two right same-height rounded" src="/images/posts/ux_2.jpg">
 </div>

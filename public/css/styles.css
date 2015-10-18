@@ -6511,6 +6511,42 @@ body.cover {
   color: #ff0000;
 }
 
+img {
+  margin: 20px 0;
+}
+img.rounded {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+img.landscape {
+  width: 80%;
+}
+img.portrait {
+  height: 400px;
+}
+
+.images {
+  text-align: center;
+  width: 100%;
+  display: block;
+  overflow: auto;
+}
+.images img.two {
+  display: inline-block;
+  width: 49%;
+}
+.images img.two.left {
+  float: left;
+}
+.images img.two.right {
+  float: right;
+}
+.images img.two.same-height {
+  height: 250px;
+}
+
 .modal-open {
   overflow: hidden;
 }

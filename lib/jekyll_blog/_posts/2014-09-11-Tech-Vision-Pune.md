@@ -9,8 +9,8 @@ I am a recent graduate at ThoughtWorks, and have not long got back from India! D
 When I walked into the school, they were currently studying the election process of India, with books from previous lessons of economics and accountancy. All that filled the room was the click click click of the braille sticks and the voice of one woman, Meera Badve. Meera Badve set up 'Niwant Andh Mukta Vikasalaya', a school for visually blind people in her own home. Badva was also recently recognised in Tata's 'Desh Ka Namak Khaya Hai' [Those loyal to this country].
 
 <div class="images">
-	<img src="/images/posts/TV-2.jpg" alt="Students in class studying Indian history, writing with braille pads">
-	<img src="/images/posts/TV-5.jpg" alt="TechVision founder winning an award, stood next to Priyanka Chopra">
+	<img class="two left same-height rounded" src="/images/posts/TV-2.jpg" alt="Students in class studying Indian history, writing with braille pads">
+	<img class="two right same-height rounded" src="/images/posts/TV-5.jpg" alt="TechVision founder winning an award, stood next to Priyanka Chopra">
 </div>
 
 The diversity of characters were amazing, each with their own stories to tell.
@@ -18,7 +18,7 @@ The diversity of characters were amazing, each with their own stories to tell.
 The gentleman on the right is Shivaji Londhe. Shivaji has a passion for languages and works online as a translator. As well as speaking around 4 Indian native languages, Shivaji Londhe, an online translatorhe taught himself German. His motivation came from being blind, and decided to embrace the online community where it didn't matter at all, since you don't see the person you talk to anyway.
 
 <div class="images">
-	<img src="/images/posts/TV-4.jpg" alt="Shivaji Londhe stood in the room he calls his office">
+	<img class="portrait rounded" src="/images/posts/TV-4.jpg" alt="Shivaji Londhe stood in the room he calls his office">
 </div>
 
 The next person I met was Samina Shaikh, constructing the chocolate boxes that they sell at TechVision. Unbelievable Samina has a Masters degree in Indian classical dance. She studied by watching videos and people very up close to repeat the moves. After we were shown around TechVision's home, Samina was even kind enough to show us one of her dances. 
@@ -26,7 +26,7 @@ The next person I met was Samina Shaikh, constructing the chocolate boxes that t
 After speaking to everyone at TechVision they showed us how they made their chocolates in order to support themselves and the jobs that each people were assigned to. Here the students really gain valuable work experience in a range of different skills and can move from one part of the process to the next. They also showed us how a braille printer works and their extensive collection of braille books that they had printed. We were then taken around their computer rooms which was fully equipped with accessible tools like JAWS (a Windows only screen-reader).
 
 <div class="images">
-	<img src="/images/posts/TV-6.jpg" alt="Samina Shaikh constructing chocolate gift boxes">
+	<img class="portrait rounded" src="/images/posts/TV-6.jpg" alt="Samina Shaikh constructing chocolate gift boxes">
 </div>
 
 Listening to story after story and watching how visually impaired people use the Internet shows just how independent they can be and just how much they want to be. Listening to the frustrations that they go through, even because of the simplest of things like HTML in the wrong order that doesn't make sense is awful to listen to. These things that are good practice and what we should be striving to do as any half decent developer.

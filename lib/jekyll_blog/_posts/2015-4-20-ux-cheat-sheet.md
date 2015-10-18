@@ -29,7 +29,7 @@ Templates can change depending on your needs. Include/Exclude any info you need 
 
 <div class="images">
 	<figure>
-	<img src="http://fakecrow.com/wp-content/uploads/2014/04/FakeCrow_Persona_Template2.jpg" alt="Persona template">
+	<img class="landscape rounded" src="http://fakecrow.com/wp-content/uploads/2014/04/FakeCrow_Persona_Template2.jpg" alt="Persona template">
 	<figcaption>Persona template taken from: <a href="http://fakecrow.com/free-persona-template/">fakecrow.com</a></figcaption>
 	</figure>
 </div>
@@ -53,7 +53,7 @@ system.
 
 #### Example of a user journey timeline
 <div class="images">
-<img src="http://scottbp.com/assets/newlook2.png" alt="">
+<img class="landscape rounded" src="http://scottbp.com/assets/newlook2.png" alt="">
 </div>
 
 ## Prototypes
@@ -81,7 +81,7 @@ between teams - designers, developers and business.
 
 #### Example of a mobile paper prototype:
 <div class="images">
-<img src="http://mindofmyown.org.uk/wp-content/uploads/2013/03/paperprototyping-300x198.jpg" alt="Example of a mobile paper prototype for Blackberry">
+<img class="rounded" src="http://mindofmyown.org.uk/wp-content/uploads/2013/03/paperprototyping-300x198.jpg" alt="Example of a mobile paper prototype for Blackberry">
 </div>
 
 ## User Testing
@@ -114,7 +114,7 @@ product. (Although always keep your target audience in mind)
 
 #### Example of user testing
 <div class="images">
-<img src="http://clairemicklin.com/wordpress/wp-content/uploads/2012/03/UserTesting3.jpg" alt="Woman recording a man user testing an app on a tablet.">
+<img class="rounded portrait" src="http://clairemicklin.com/wordpress/wp-content/uploads/2012/03/UserTesting3.jpg" alt="Woman recording a man user testing an app on a tablet.">
 </div>
 Be prepared with questionnaires to get what you need from a user, and often film the
 session.
