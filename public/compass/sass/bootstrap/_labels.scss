@@ -64,3 +64,14 @@ a.label {
 .label-danger {
   @include label-variant($label-danger-bg);
 }
+
+.post-time {
+  color:    $gray-light;
+  float: right;
+  margin-bottom: 20px;
+}
+
+.post-description {
+  width: 85%;
+  margin-bottom: 50px;
+}

@@ -40,6 +40,23 @@
   @include make-row;
 }
 
+.col {
+  display: block;
+  clear: both;
+
+  &.left {
+    float: left;
+  }
+
+  &.right {
+    float: right;
+  }
+
+  &.central {
+    float: none;
+    margin: 0 auto;
+  }
+}
 
 // Columns
 //
