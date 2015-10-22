@@ -6347,13 +6347,9 @@ button.close {
  * Base structure
  */
 body.cover {
-  height: 100vh;
   background: url("/images/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-body.cover {
   color: #fff;
   text-align: center;
   text-shadow: 0px 0px 24px rgba(40, 11, 26, 0.6);
