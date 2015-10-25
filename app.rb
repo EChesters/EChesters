@@ -33,6 +33,10 @@ class App < Sinatra::Application
 		slim :'pages/whfnp'
 	end
 
+	get'/aworldatschool' do
+		slim :'pages/awas'
+	end
+
 	get '/?*' do
 		jekyll_blog(request.path) {404}
 	end
