@@ -132,3 +132,25 @@ button.list-group-item {
 ul.blog-posts {
   list-style: none;
 }
+
+#list-objs {
+  width: 400px;
+  ol {
+    font-style: italic;
+    // font-size: $obj-list-number-size;
+
+      li {
+        p {
+          padding: 8px;
+          font-size: $obj-list-li-size;
+          border-left: solid 2px $brand-primary;
+          margin: 0;
+        }
+
+        em {
+          font-style: normal;
+          display: block;
+        }
+      }
+  }
+}

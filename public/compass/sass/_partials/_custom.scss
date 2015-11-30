@@ -6,4 +6,19 @@ img {
 		height: 200px;
 		border: $white solid 3px;
 	}
+
+	&.portfolio {
+		height: 125px;
+		text-align: right;
+	}
+}
+
+.left {
+	display: inline-block;
+	float: left;
+}
+
+.right {
+	display: inline-block;
+	float: right;
 }

@@ -1,0 +1,25 @@
+/*
+Errno::ENOENT: No such file or directory @ rb_sysopen - sass
+
+Backtrace:
+/Users/EChesters/Programming/Ruby/echesters-blog/vendor/bundle/ruby/2.2.0/gems/sass-3.4.10/lib/sass/plugin/compiler.rb:482:in `read'
+/Users/EChesters/Programming/Ruby/echesters-blog/vendor/bundle/ruby/2.2.0/gems/sass-3.4.10/lib/sass/plugin/compiler.rb:482:in `update_stylesheet'
+/Users/EChesters/Programming/Ruby/echesters-blog/vendor/bundle/ruby/2.2.0/gems/sass-3.4.10/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/EChesters/Programming/Ruby/echesters-blog/vendor/bundle/ruby/2.2.0/gems/sass-3.4.10/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/EChesters/Programming/Ruby/echesters-blog/vendor/bundle/ruby/2.2.0/gems/sass-3.4.10/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/EChesters/Programming/Ruby/echesters-blog/vendor/bundle/ruby/2.2.0/gems/sass-3.4.10/lib/sass/plugin/compiler.rb:293:in `watch'
+/Users/EChesters/Programming/Ruby/echesters-blog/vendor/bundle/ruby/2.2.0/gems/sass-3.4.10/lib/sass/plugin.rb:108:in `method_missing'
+/Users/EChesters/Programming/Ruby/echesters-blog/vendor/bundle/ruby/2.2.0/gems/sass-3.4.10/lib/sass/exec/sass_scss.rb:370:in `watch_or_update'
+/Users/EChesters/Programming/Ruby/echesters-blog/vendor/bundle/ruby/2.2.0/gems/sass-3.4.10/lib/sass/exec/sass_scss.rb:50:in `process_result'
+/Users/EChesters/Programming/Ruby/echesters-blog/vendor/bundle/ruby/2.2.0/gems/sass-3.4.10/lib/sass/exec/base.rb:52:in `parse'
+/Users/EChesters/Programming/Ruby/echesters-blog/vendor/bundle/ruby/2.2.0/gems/sass-3.4.10/lib/sass/exec/base.rb:19:in `parse!'
+/Users/EChesters/Programming/Ruby/echesters-blog/vendor/bundle/ruby/2.2.0/gems/sass-3.4.10/bin/sass:13:in `<top (required)>'
+/Users/EChesters/.rvm/gems/ruby-2.2.2@echesters-blog/bin/sass:23:in `load'
+/Users/EChesters/.rvm/gems/ruby-2.2.2@echesters-blog/bin/sass:23:in `<main>'
+/Users/EChesters/.rvm/gems/ruby-2.2.2@echesters-blog/bin/ruby_executable_hooks:15:in `eval'
+/Users/EChesters/.rvm/gems/ruby-2.2.2@echesters-blog/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - sass"; }

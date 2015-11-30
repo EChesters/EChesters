@@ -29,7 +29,7 @@ class App < Sinatra::Application
 		slim :'pages/feeltheworld'
 	end
 
-	get '/whfnp' do 
+	get '/womenhack' do 
 		slim :'pages/whfnp'
 	end
 

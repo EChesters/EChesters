@@ -26,13 +26,17 @@
  * Base structure
  */
 body.cover {
-  // height: 100vh;
+  height: 100vh;
   background: url("/images/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: $white;
   text-align: center;
   text-shadow: 0px 0px 24px rgba(40, 11, 26, .6);
+
+  h1 {
+    color: $brand-secondary;
+  }
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -78,7 +82,7 @@ body.cover {
   padding-left: 0;
   font-size: 16px;
   font-weight: normal;
-  color: $brand-primary;
+  color: $black;
   border-bottom: 2px solid transparent;
 }
 .masthead-nav > li > a:hover,
@@ -97,7 +101,7 @@ body.cover {
 @media (min-width: 768px) {
   .masthead-brand {
     float: left;
-    color: $brand-primary;
+    color: $black;
   }
   .masthead-nav {
     float: right;

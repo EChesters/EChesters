@@ -1,54 +1,44 @@
-link href="css/portfolio.css" rel="stylesheet" type="text/css"
+header.portfolio-header.thoughtworks
+  .header-text
+	 h2 ThoughtWorks
+	 p.tagline From development to UX, my 2 (and a half) month intern project involving accessibility on the ThoughtWorks.com website. 
 
-header class="blog-header"
-  h1 class="page-title" ThoughtWorks.com
+.container
+  .clearfix.col-md-8.col.central
+  	.rowmarketing
+  		#objectives
+  			h3 Objectives
+        ul
+          li Improve accessibility in the user experience of the site.
+          li Raise awareness and knowledge share of research.
+          li Work with the stakeholders of the website to highlight issues.
 
-.content
-	#project.port-section.text-center
-		h2.subtitle ThoughtWorks.com is the website for the global software consultancy.
-	#objectives.port-section.zebra
-		h2 Objectives
-		ul
-			li Improve accessibility in the user experience of the site.
-			li Raise awareness and knowledge share of research.
-			li Work with the stakeholders of the website to highlight issues.
-	#methodologies.port-section
-		h2 Methodologies
-		h3 User Testing and Research
-		p I conducted a lot of user testing, specifically targeting uses with disabilities. 
-		p I worked with <a href="http://www.techvision.net.in/">Tech Vision</a>, not only on a feedback basis but through knowledge sharing to learn understanding. 
-		p During my training in India, I was invited to TechVision's school. Here I was shown how screen readers are used 
+  		#methods
+  			h3 Methodologies
+        h4 User Testing and Research
+        p I conducted a lot of user testing, specifically targeting uses with disabilities. I worked with <a href="http://www.techvision.net.in/">Tech Vision</a>, not only on a feedback basis but through knowledge sharing to learn understanding. 
+        p During my training in India, I was invited to TechVision's school. Here I was given a tour or their school. I was invited to sit in one of their classes, seeing how their students wrote in braille as well as their extensive braille library and printer. 
 
+        .row
+          .col-md-6
+            img.landscape src="images/posts/TV-3.jpg" alt="Aerial view of TechVision main school room"
+          .col-md-6
+            img.landscape src="images/posts/TV-2.jpg" alt="Class learning economics with braille writers"
 
-		h3 Knowlege Sharing
-		p During lunchtimes I woud often run lunch and learns about my research. With a diverse office, I was able to gather a lot of research from multiple ethnic, academic and social backgrounds. As my colleagues were also our user base, I opened the floor up to debate on how we should go about different design and development aspects of our own website.
-		.images.grid-1-1.margin-vertical
-			.img-container.left.grid-1-2
-				img.grid-4-5 src="images/posts/TV-3.jpg" alt="Aerial view of TechVision main school room"
-			.img-container.right.grid-1-2
-				img.grid-4-5 src="images/posts/TV-2.jpg" alt="Class learning economics with braille writers"
+        h4 Knowlege Sharing
+        p During lunchtimes I woud often run lunch and learns about my research. With a diverse office, I was able to gather a lot of research from multiple ethnic, academic and social backgrounds. As my colleagues were also our user base, I opened the floor up to debate on how we should go about different design and development aspects of our own website.
 
-		p At the end of my time on the project I presented our results to all of our European offices. This also included a government client site, located in Glasgow. The presentation included the short awareness campaign of Look No Hands, and a guide to testing, designing and implementing accessibility.
+        h4 Continuous Monitoring
+        p As I have a developer background, through pairing in my agile team I setup Pa11y, an automated accessibility testing tool. We built a Puppet manifest to allow the tool to provision itself and integrated it as part of our build process. 
+        p This was a massive gain, because the whole team were recognising accssibility isn't just a one time concern and won valuable space on our build monitors.
+        p Pa11y is great for visualising the number of accessibility errors and warnings and allows you to keep track of how many there are. Progress is clearly shown and gives the team something to work towards. 
 
-		.images.grid-1-1.margin-vertical
-			.img-container.left.grid-1-2
-				img.grid-4-5 src="images/client-site-1.jpg" alt="The presentation showing an accessibility promotional video before the slideshow"
-			.img-container.right.grid-1-2
-				img.grid-4-5 src="images/client-site-2.jpg" alt="Colleagues taking part in the Look No Hands campaign"
+  		#process
+  			h3 Consulting
+        p As part of this project I consulted for the web team, from persuading our team where our focus should be and how to go about it.
 
-		#development.port-section.zebra
-			h2 Development
-			p Due to my development background I was able to use Puppet to provision an instance of Pa11y and incorporate it on our build monitor.
-			p Using Pa11y, we were able to monitor our accessibility on a continuous basis. I used the tool to generate visualisations on our errors and warnings. 
-
-			.images.grid-1-1.margin-vertical
-				.img-container.left.grid-1-2
-					img.grid-4-5 src="images/portfolio/PA11Y_1.png" alt="The presentation showing an accessibility promotional video before the slideshow"
-				.img-container.right.grid-1-2
-					img.grid-4-5 src="images/portfolio/PA11Y_2.png" alt="Colleagues taking part in the Look No Hands campaign"
-
-		#results.port-section
-			h2 Results
-			p As my project objective was research based, the project was still deemed a success as I saw a general improved attitude and awareness of accessibility as a whole.
-			p Personally, I became the go-to person for accessibility. A topic I'm passionate about.
-			p I was able to include cultural research and extend the meaning to those with cultural backgrounds. <a href="http://echesters.co.uk/cultural-accessibility">This is now research I'm still pursuing</a>.
+  		#results
+  			h3 Results
+        p Attitude and awareness of accessibility improved as a whole, not just on the team but in the Manchester office.
+        p Personally, I became the go-to person for accessibility. A topic I'm passionate about.
+        p I was able to include cultural research and extend the meaning to those with cultural backgrounds. <a href="http://echesters.co.uk/cultural-accessibility">This is now research I am still pursuing</a>.

@@ -43,6 +43,7 @@
 .col {
   display: block;
   clear: both;
+  overflow: auto;
 
   &.left {
     float: left;
