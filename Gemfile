@@ -10,6 +10,7 @@ gem 'font-awesome-sass'
 gem 'bootstrap-sass'
 
 gem 'jekyll'
+gem 'jekyll-paginate'
 gem 'rdiscount'
 
 gem 'unicorn'
