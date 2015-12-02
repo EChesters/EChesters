@@ -20,8 +20,9 @@ ssh ${USER}@${HOST} bash << EOF
 	pid_file='echesters/pids/unicorn.pid'
 	if [ -f "$pid_file" ]
 		then
-			echo "Killing pid $(cat pid_file)"
-			cat pid_file | kill
+			pid=`cat $pid_file`
+			echo "Killing pid: $pid"
+			kill $pid
 		else
 			echo "No pid found, trying to kill all unicorn instances"
 			ps aux | grep unicorn | awk '{print $2}' | xargs kill
