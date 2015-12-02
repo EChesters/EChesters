@@ -48,9 +48,7 @@ class App < Sinatra::Application
 	end
 
 	def jekyll_blog(path, &missing_file_block)
-
 		file_path = File.join(File.dirname(__FILE__), 'lib/jekyll_blog/_site', path.gsub('/',''))
-		file_path = File.join(file_path, 'index.html') unless file_path =~ /\.[a-z]+$/i
 
 		logger.info "attempting to read #{file_path}"
 
