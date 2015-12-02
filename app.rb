@@ -38,7 +38,9 @@ class App < Sinatra::Application
 	end
 
 	get '/?*' do
-		jekyll_blog(request.path) {404}
+		jekyll_blog(request.path) do
+			404
+		end
 	end
 
 	not_found do
@@ -50,18 +52,20 @@ class App < Sinatra::Application
 		file_path = File.join(File.dirname(__FILE__), 'lib/jekyll_blog/_site', path.gsub('/',''))
 		file_path = File.join(file_path, 'index.html') unless file_path =~ /\.[a-z]+$/i
 
+		logger.info "attempting to read #{file_path}"
+
 		if File.exist?(file_path)
 			file = File.open(file_path, "rb")
 			contents = file.read
 			file.close
 
 			if (file_path.include?('.xml') || file_path.include?('.css'))
-	              erb contents, :content_type => 'text/xml'
+                erb contents, :content_type => 'text/xml'
 	        else
-				erb contents, :layout_engine => :slim
+		 		erb contents, :layout_engine => :slim
 			end
 		else
-			slim :'pages/not-found'
+			missing_file_block.call
 		end
 	end
 	
