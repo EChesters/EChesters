@@ -21,6 +21,8 @@ ssh ${USER}@${HOST} bash << EOF
 	if [ -f "$pid_file" ]
 		then
 			cat pid_file | kill
+		else
+			ps aux | grep unicorn | awk '{print $2}' | xargs kill
 	fi
 	
 	rm -rf echesters
