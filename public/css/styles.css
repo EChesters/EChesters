@@ -1,12 +1,12 @@
 @charset "UTF-8";
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+@import url(https://fonts.googleapis.com/css?family=Hind:400,300|Miniver);
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+@import url(https://fonts.googleapis.com/css?family=Hind:400,300|Miniver);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -1395,7 +1395,7 @@ html {
 }
 
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Hind", sans-serif;
   font-size: 15px;
   line-height: 1.42857;
   color: #333333;
@@ -6542,6 +6542,9 @@ body.cover h1 {
   font-size: 39px;
   color: #FF7E01;
 }
+.blog-header .page-title, .portfolio-header .page-title {
+  font-family: "Miniver", cursive;
+}
 
 #about-header {
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
@@ -6633,7 +6636,7 @@ img.portrait {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Raleway", sans-serif;
+  font-family: "Hind", sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;

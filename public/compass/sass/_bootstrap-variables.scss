@@ -1,6 +1,6 @@
 // Override Bootstrap variables here (defaults from bootstrap-sass v3.3.5):
 
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+@import url(https://fonts.googleapis.com/css?family=Hind:400,300|Miniver);
 
 //
 // Variables
@@ -45,7 +45,8 @@ $link-hover-color:      $brand-secondary;
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:  				'Raleway', sans-serif;
+$font-family-sans-serif:  				'Hind', sans-serif;
+$title-font:							'Miniver', cursive;
 // $font-family-serif:       				'Alegreya SC', serif;
 $font-family-monospace:   				'Cutive Mono', monospace;
 // $font-family-base:        				$font-family-sans-serif
