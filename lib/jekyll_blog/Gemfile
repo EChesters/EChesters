@@ -1,9 +1,0 @@
-source 'https://rubygems.org'
-
-gem 'jekyll'
-gem 'hitimes', '~> 1.2.2'
-gem 'rdiscount'
-
-group :jekyll_plugins do
-	gem 'jekyll-slim'
-end
