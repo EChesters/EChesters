@@ -1,25 +1,29 @@
+@import '_partials/_mixins';
+
 .blog-header {
-  background: $black;
-  border-bottom: solid 1px black;
+  background: url('/images/post-header.jpg');
+  border-bottom: solid 1px #CCCCCC;
   width: 100%;
   background-size: cover;
-  padding: 40px;
-  padding-top: 20px;
-  @include box-shadow($banner-shadow);
+  // padding: 40px;
+  // padding-top: 20px;
+  @include box-shadow();
   overflow: auto;
+  height: 250px;
 
   h2, h3 {
+    font-size: .6em;
     display: inline-block;
   }
 
-  h2 {
-    color: $brand-secondary;
-  }
+  // h2 {
+  //   color: $brand-secondary;
+  // }
 
   h3 {
     font-weight: $light-font-weight;
     font-style: italic;
-    color: $brand-tertiary;
+    // color: $brand-tertiary;
   }
 
   h1 {
@@ -29,6 +33,7 @@
 
   .page-title {
     font-family: $title-font;
+    @include vertical-align(50%);
   }
 }
 

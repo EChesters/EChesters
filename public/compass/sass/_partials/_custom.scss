@@ -22,3 +22,8 @@ img {
 	display: inline-block;
 	float: right;
 }
+
+
+.centre-vertical {
+  @include vertical-align(-50%);
+}
