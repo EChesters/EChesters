@@ -25,6 +25,10 @@ body {
     font-kerning: normal;
 }
 
+.pure-g {
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+}
+
 
 
 /**
