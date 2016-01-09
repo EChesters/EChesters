@@ -240,3 +240,22 @@
         }
     }
 }
+
+/**
+ * Positions
+ */
+.position {
+    display: block;
+
+    &.left {
+        float: left;
+    }
+
+    &.right {
+        float: right;
+    }
+
+    &.central {
+        margin: 0 auto;
+    }
+}
