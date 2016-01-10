@@ -13,14 +13,14 @@ Verification [blogs like this CAPTCHA one] mentions how we’re burdening legit 
 [CAPTCHAs] stop every user in their tracks. Yet for those who need accessible alternatives, they're an even bigger obstacle. Users relying on braille displays, there are no audio or visual ways of answering the form. A more inclusive UX needs to offer an alternative method. Yet the moment you add alt tags or anything a screenreader can access, you've made the process easier for a bot.
 
 <div class="images">
-	<img class="rounded landscape" src="/images/posts/security-verification/original-captcha.png" alt="The first version of CAPTCHA forms, with random text in a box">
+	<img class="rounded landscape small" src="/images/posts/security-verification/original-captcha.png" alt="The first version of CAPTCHA forms, with random text in a box">
 </div>
 
 But are you hurting your user experience in the process? By using a third party captcha form we have no control over what the CAPTCHAs look like. The chances are you've even come across ones that aren't readable at all, like this one on hotmail.
 
 <div class="images">
 	<figure>
-		<img class="rounded landscape" src="/images/posts/security-verification/hotmail-captcha.png" alt="CAPTCHA text on hotmail.com where you can't tell if the last letter is a P or R">
+		<img class="rounded landscape small" src="/images/posts/security-verification/hotmail-captcha.png" alt="CAPTCHA text on hotmail.com where you can't tell if the last letter is a P or R">
 		<figcaption>Is that last letter a P or R?</figcaption>
 	</figure>
 </div>
@@ -29,7 +29,7 @@ But are you hurting your user experience in the process? By using a third party 
 If you've ever come across captchas, you've come across [reCAPTCHAs]. ReCAPTCHAs are a clever way of not only protecting sites from bots, but also digitise books. The text you "translate" is [helping decode books scanned], that computers can’t understand. So not only are you keeping those pesky bots at bay, you are also helping the Internet with translations.
 
 <div class="images">
-	<img class="rounded landscape" src="/images/posts/security-verification/recaptcha.png" alt="A ReCAPTCHA form showing distorted text read in from somewhere like a book">
+	<img class="rounded landscape small" src="/images/posts/security-verification/recaptcha.png" alt="A ReCAPTCHA form showing distorted text read in from somewhere like a book">
 </div>
 
 Despite being smart in the background, it still causes the same problems as the original CAPTCHA. It breaks up the user flow and leads to a lot of frustration. The accessibility issues also still stand, despite there being an accessibility button. Users with a cognitive impairment are not helped just because an audio alternative is available. 
@@ -49,7 +49,7 @@ This doesn't solve the fact that we are still stopping users in their tracks and
 Even for a developed country, the [UK ranks low when it comes to numeracy skills amongst adults]. So it makes you wonder why CAPTCHA forms are now involving math equations. Cognitive impairments then go on to amplify the problem, rendering the experience inaccessible. Sure, they're "simple" sums a user could easily type into Google, but then that causes a drop off in your user journey. There's also a risk of making your users feel dense. 
 
 <div class="images">
-	<img class="rounded landscape" src="/images/posts/security-verification/math-captcha.png" alt="math CAPTCHA showing 1 times 6">
+	<img class="rounded landscape small" src="/images/posts/security-verification/math-captcha.png" alt="math CAPTCHA showing 1 times 6">
 </div>
 
 *[There are no stupid users, only stupid interfaces.]*
@@ -57,7 +57,7 @@ Even for a developed country, the [UK ranks low when it comes to numeracy skills
 Some sites like [Quantum Random Bit Generator], go as far as including these beasts of an equation:
 
 <div class="images">
-	<img class="rounded landscape" src="/images/posts/security-verification/quantum-math-captcha.png" alt="A math CAPTCHA of a crazy equation using cos, pi and algebra">
+	<img class="rounded landscape small" src="/images/posts/security-verification/quantum-math-captcha.png" alt="A math CAPTCHA of a crazy equation using cos, pi and algebra">
 </div>
 
 I understand it's not your average Joe Bloggs website, but is that *really* necessary? In small print the site then goes on to say if you refresh you'll (probably) get an easier question. I refreshed a few times and none of the questions seemed to be simpler. Instead they got bigger, included more mathematical symbols and put me even more off. I would love to know the reasoning behind this UX design.
@@ -117,7 +117,7 @@ Now the problem comes in when a user tries to logon and they’re faced with a r
 I’m sure we've all seen security questions before. Usually you associate them as an additional security layer when you've forgotten account credentials. They are arguably just as important and sensitive as passwords. If a user has forgotten their login credentials these are usually a first point of call of verification. But sites like United Utilities also uses security questions as part of the login. 
 
 <div class="images">
-	<img class="rounded landscape" src="/images/posts/security-verification/united-utilities.png" alt="Logging into United Utilities asks for a security question when logging in." class="large landscape">
+	<img class="rounded landscape medium" src="/images/posts/security-verification/united-utilities.png" alt="Logging into United Utilities asks for a security question when logging in.">
 </div>
 
 *What’s worse is that this information is not even masked.*
@@ -164,8 +164,8 @@ rather than
 Logically, it makes more sense to hide it in the HTML, but we also hide it from screen-readers. This means a visually impaired user is not left confused by this mystery field being read out to them. If you take a look at Twitter’s login form, you can see how it’s done:
 
 <div class="images">
-	<img src="/images/posts/security-verification/twitter-one.png" alt="Code showing hidden in HTML input fields on Twitter" class="large landscape">
-	<img src="/images/posts/security-verification/twitter-two.png" alt="Showing the hidden fields on Twitter sign up form" class="large landscape">
+	<img src="/images/posts/security-verification/twitter-one.png" alt="Code showing hidden in HTML input fields on Twitter" class="two medium">
+	<img src="/images/posts/security-verification/twitter-two.png" alt="Showing the hidden fields on Twitter sign up form" class="two medium">
 </div>
 
 ## Pre-Verified Sign-In
@@ -174,7 +174,7 @@ Pre-verified sign-in allows your users to register to your website using an exis
 Unfortunately this means that you have to analyse which accounts your users use most and integrate those first. But if you go down the route like Flickr, your user might hit a brick wall. If users don’t have an account with the third parties you’re offering to integrate with, they can't continue. Why a website would only offer one option is beyond me, and Yahoo nonetheless. They even have [a page justifying their poor UX decisions]. They say it’s “one login to rule them all”, yet I have to create a Yahoo account, to create a Flickr account. This completely defeats the point. They also suggest linking your photos from Facebook and sharing them on a wider scale. If I wanted that, I would be posting them to Flickr, not Facebook. To me, this is a total turn off when signing up to a service.
 
 <div class="images">
-	<img src="/images/posts/security-verification/flickr.png" class="rounded landscape" alt="Flickr demanding a login with a Yahoo account">
+	<img src="/images/posts/security-verification/flickr.png" class="rounded landscape small" alt="Flickr demanding a login with a Yahoo account">
 </div>
 
 From a user’s perspective, they have one master account to rule them all. No verification step per new service they sign up to. One password to remember. That’s all great but the app permissions that an integrating app demands is ridiculous. If you use Google to sign into everything, that’s a lot of private data you’re allowing apps to access. Try and keep the permissions to a minimum, so as not to scare off your users. If you offer your users to join by using their Facebook account, they shouldn't have to hand over permissions, like posting on their behalf. It also shouldn't mean that they automatically endorse your brand and advertise it.
