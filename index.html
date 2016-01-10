@@ -7,13 +7,13 @@ layout: default
 <div class="pure-u-1">
 <div class="home">
   <div class="pure-u-15-24 pure-u-sm-1 position central">
-  <ul class="blog-post">
+  <ul class="blog-posts">
     {% for post in site.posts %}
         <li>
-          <a href="{{  post.url }}">
-            <h3 class="post-title">{{ post.title }}</h3>
-            <p class="post-time">{{ post.date | date: "%B %e, %Y" }}</p>
+          <a href="{{  post.url }}" class="post-title">
+            <h3>{{ post.title }}</h3>
           </a>
+          <p class="post-time">{{ post.date | date: "%B %e, %Y" }}</p>
           <p class="post-description">{{ post.description }}</p>
         </li>
       {% endfor %}
