@@ -12,7 +12,7 @@ Passwords are a security measure that to some extent is out of your hands. You c
 
 You can calculate the complexity of a password with this simplified formula:
 
-**number_of_available_characters \^ length**
+<code>number_of_available_characters ^ length</code>
 
 Based on this formula, increasing the length has much more impact than adding numbers or punctuation. For example if I was to brute force a password of **5** characters, there would be **4182119424** possibilities. Yet if I was to brute force a password with **7**, there would be **29509034655744** amount of possibilities. That's only a 2 character difference!
 
@@ -34,7 +34,7 @@ I find the biggest problem with password rules is the inconsistency between webs
 Try and find a popular website which requires the same level of security that you need and use the same rules. If users find your rules to be too much they will find a way to make the situation suit themselves, as this comic demonstrates.
 
 <div class="images">
-<img class="large portrait" src="/images/posts/secure-passwords.jpg" alt="A comic showing a man going through tough security procedures, scanning his finger prints, going through multiple vaults and safes to then shout his password out of the window to another man">
+<img class="portrait" src="/images/posts/secure-passwords.jpg" alt="A comic showing a man going through tough security procedures, scanning his finger prints, going through multiple vaults and safes to then shout his password out of the window to another man">
 </div>
 
 The language around password rules also sucks. The average person is unaware of the security risks an insecure password can cause. More than likely they don’t know what makes a password stronger. As far as they're concerned they haven't done something wrong. It's likely they've reentered their password that has been accepted on a different site.
@@ -51,7 +51,9 @@ Death to password strength indicators. They are so judgmental, and they’re nev
 If you go down the route of having password rules then any password matching those criteria, as far as the user is concerned is secure. No part of my experience adhering to the rules given to me by the application should then judge me for my choices. Essentially you got what you asked for. Technically "Hello2U!" meets strong password rules criteria, but as it contains a dictionary word it's easy to predict. While the password "H3ll02U!" may look stronger, [Leet Speak] is a common and predictable fallback, which is also easy to brute force.
 
 ## Passwords on Forms
+
 ### Password Confirmation
+
 When asking for passwords, should you confirm a password and require the phrase to be entered twice? From personal experience, yes and this also goes for emails. I have created accounts to then not realize my information was incorrect, until I haven't received my verification emails. Due to my mistake I couldn't log in and had to start the process all over again. It's easy to make mistakes and they should be caught as early as possible throughout the process. Typos are so common, why not account for them?
 
 There’s nothing worse than locking yourself out of your account before being able to use the site. It seems annoying asking twice, but people get around this by copy and paste, and it’s worth it in the long term. It prevents more “forgotten password” journeys before a user has had their account for 5 minutes. Yet if there is a mistake inside either of the password fields, a user can't see the issue. This leads to a form submission with mismatching passwords and both fields needing to be redone. There is nothing more frustrating.

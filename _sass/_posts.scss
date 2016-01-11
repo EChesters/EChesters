@@ -57,6 +57,11 @@ ul.blog-posts {
 		float: right;
 		padding-left: 10px;
 		text-transform: uppercase;
-		// @include vertical-align(400%);
+		margin-right: -20px;
 	}
+}
+
+/* POST LAYOUT */
+.post-content {
+	margin: 50px auto;
 }

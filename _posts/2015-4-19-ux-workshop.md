@@ -21,23 +21,24 @@ Alongside Hannah Fitzgerald-Kearns, we designed a UX workshop structure that we 
     - Why are personas part of UX?
     - How do we create personas - what's the level of detail that we need?
     - How does someone's characteristics or tendencies affect our app and design?
-2. EMPATHY MAPPING
+2. EMPATHY MAPPING:
     - How do we build a connection with this person that we've created?
     - What situations are our persona going to be in when they want our app?
     - What issues are they facing? Looking after children; juggling a basket and shopping at the same time?
-3. USER JOURNEYS
+3. USER JOURNEYS:
      - What's going to make our persona open our app?
      - What goals are they wanting to achieve?
      - How many steps and which steps does someone take to achieve a goal?
-4. PROTOTYPE
+4. PROTOTYPE:
      - What are the different ways we can do prototypes?
      - What detail do we include in our paper prototypes?
      - Why are they useful and what do we want out of doing a prototype?
-5. USER TESTING - Questionnaires and Tasks
+5. USER TESTING:
+     - Questionnaires and Tasks
      - What do we want out of user testing? What do we achieve from speaking to users?
      - What questions do we ask users?
      - How do we go about conducting user testing with set tasks?
-6. PRESENTATIONS
+6. PRESENTATIONS:
      - What have we learnt today from the workshop and how do we take this forward when designing our applications?
     
 ## What did I learn from it?
@@ -45,6 +46,6 @@ Every teaching situation has been so different so far and this workshop was no e
 I also learnt that as part of this structure people needed time to actually plan an app idea. This made the day so much more productive because it then became an idea that was feasible to take forward. Either way despite a few mishaps and it being a first time workshop for a dev, it went really well! Twitter was full of feedback, we got the work done, and we even have a mini-competition, courtesy of Carla Parr. Project permitted of being sent to London, we have been asked to run the course again for CodeFirst:Girls!
 
 <div class="images">
-     <img class="two left same-height rounded" src="/images/posts/ux_1.jpg">
-     <img class="two right same-height rounded" src="/images/posts/ux_2.jpg">
+     <img class="two left same-height rounded pure-img" src="/images/posts/ux_1.jpg">
+     <img class="two right same-height rounded pure-img" src="/images/posts/ux_2.jpg">
 </div>

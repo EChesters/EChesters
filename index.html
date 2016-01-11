@@ -6,14 +6,14 @@ layout: default
 </div>
 <div class="pure-u-1">
 <div class="home">
-  <div class="pure-u-15-24 pure-u-sm-1 position central">
+  <div class="pure-u-sm-15-24 pure-u-md-15-24 pure-u-1 position central">
   <ul class="blog-posts">
     {% for post in site.posts %}
         <li>
-          <a href="{{  post.url }}" class="post-title">
+          <a href="{{ post.url }}" class="post-title">
             <h3>{{ post.title }}</h3>
           </a>
-          <p class="post-time">{{ post.date | date: "%B %e, %Y" }}</p>
+          <p class="post-time pure-u-1">{{ post.date | date: "%B %e, %Y" }}</p>
           <p class="post-description">{{ post.description }}</p>
         </li>
       {% endfor %}
