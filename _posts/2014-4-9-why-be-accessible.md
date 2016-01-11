@@ -10,7 +10,7 @@ Society is making advances all the time, especially when it comes to technology.
 
 > Accessibility is important, but somewhere along the way it got an undeserved reputation for being ugly, costly, and driven only by technical-compliance requirements.
 
-> Derek Featherstone, Accessibility as a Design Tool
+<div class="author"><p>Derek Featherstone, Accessibility as a Design Tool</p></div>
 
 I could not agree more with this statement. I’ve only recently started looking into accessibility and early on in my research did I find out this statement and the whole attitude towards accessibility. But the more you look into this area the higher the benefit is at the end, and for more users than you might initially think. Accessibility = Usability. Not even just usability, but all it takes is good standards. For example, screen readers use your HTML structure to read what the page is about; so having a title tag in the middle of a paragraph logically/structurally makes no sense; never mind accessible.
 
