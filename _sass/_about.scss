@@ -13,6 +13,10 @@
 		margin: 0 auto;
 		display: block;
 		@include vertical-align(-70%);
+
+		@media screen and (max-width: 1024px) {
+			@include vertical-align(-10%);
+		}
 	}
 
 	h1, h2 {
@@ -44,6 +48,10 @@
 		&:hover {
 			background-color: rgba(255, 255, 255, 0.3);
 			text-underline: underline;
+		}
+
+		@media screen and (max-width: 1024px) {
+			width: 75%;
 		}
 	}
 
